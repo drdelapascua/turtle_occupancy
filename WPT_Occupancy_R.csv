@@ -1,392 +1,392 @@
-location,surveypoint,date,start,end,observers,airtemp,avgwind,maxwind,clouds,watertemp,salinity,tide,habitat,bankveg,bankcover,basking,flowstatus,number
-Arnold,AR1P,6/29/2020,10:50,11:06,"Melissa, Sidney",87.5,6,10.9,Clear,25.2,10.1,NA,Borrow Ditch,"AG, SAPA",90,exposed bank,7,0
-Arnold,AR1P,6/30/2020,11:32,11:47,"Melissa, Sidney",89.2,1.6,2.7,Clear,30.7,4.1,NA,Borrow Ditch,"AG, SAPA",90,exposed bank,7,1
-Arnold,AR1P,7/1/2020,9:21,9:36,"Melissa, Sidney",82.5,5.8,8.8,Clear,24.1,11.7,NA,Borrow Ditch,"AG, SAPA",90,exposed bank,7,1
-Arnold,AR1P,8/10/2020,8:42,8:57,Sidney,68.5,6.2,8.6,Clear,21.3,7.1,NA,Borrow Ditch,"PHAU, SAPA, ATPR",90,exposed bank,14,0
-Arnold,AR1P,8/11/2020,10:20,10:35,Melissa,73.2,8.4,11.8,Clear,21.7,8.4,NA,Borrow Ditch,"ATPR, RASA, GRST",90,exposed bank,12,0
-Arnold,AR1P,8/12/2020,12:16,12:31,Sidney,83.7,5.8,7.7,Clear,25,8.1,NA,Borrow Ditch,"RASA, SAPA, DISP",90,exposed bank,14,0
-Arnold,AR1S,6/29/2020,10:50,11:06,"Melissa, Sidney",87.5,6,10.9,Clear,21.5,4,LOOKUP,Minor Slough,"SCAC, CASE",100,banks,16,0
-Arnold,AR1S,6/30/2020,11:32,11:47,"Melissa, Sidney",89.2,1.6,2.7,Clear,22.4,10.8,LOOKUP,Minor Slough,"SCAC, CASE",100,banks,16,0
-Arnold,AR1S,7/1/2020,9:21,9:36,"Melissa, Sidney",82.5,5.8,8.8,Clear,21.7,4,LOOKUP,Minor Slough,"SCAC, CASE",100,banks,11,0
-Arnold,AR1S,8/10/2020,8:42,8:57,Melissa,68.5,6.2,8.6,Clear,21.8,6.9,LOOKUP,Minor Slough,"SCAC, SCAM, CASE",100,banks,14,0
-Arnold,AR1S,8/11/2020,10:20,10:35,Sidney,73.2,8.4,11.8,Clear,21.6,6.1,LOOKUP,Minor Slough,"SCAC, CASE",100,banks,17,0
-Arnold,AR1S,8/12/2020,12:16,12:31,Melissa,83.7,5.8,7.7,Clear,22.1,6.9,LOOKUP,Minor Slough,"SCAC, CASE",100,banks,17,0
-Arnold,AR2,6/29/2020,11:17,11:32,"Melissa, Sidney",84.7,4,6.2,Clear,25.2,10.1,NA,Borrow Ditch,"SCAC, ATPR",90,exposed bank,7,0
-Arnold,AR2,6/30/2020,11:08,11:23,"Melissa, Sidney",90.9,1.9,3.2,Clear,30.7,4.1,NA,Borrow Ditch,"SCAC, ATPR",90,exposed bank,7,0
-Arnold,AR2,7/1/2020,8:57,9:12,"Melissa, Sidney",69.5,4.9,8.5,Clear,22.2,3.8,NA,Borrow Ditch,"SCAC, ATPR",90,exposed bank,7,0
-Arnold,AR2,8/10/2020,9:07,9:22,Sidney,70.9,4.6,8,Clear,21.3,7.1,NA,Borrow Ditch,"SCAC, SAPA, RASA, ATPR",90,exposed bank,13,0
-Arnold,AR2,8/11/2020,10:41,10:56,Melissa,74,4.4,9.7,Clear,21.7,8.4,NA,Borrow Ditch,"SCAC, SAPA, RASA, ATPR",90,exposed bank,10,0
-Arnold,AR2,8/12/2020,11:57,12:12,Sidney,77.8,4.6,7.2,Clear,25,8.1,NA,Borrow Ditch,"SCAC, SAPA, RASA, ATPR",90,exposed bank,14,0
-Blacklock,BL1,6/29/2020,11:17,11:32,"Melissa, Sidney",84.7,4,6.2,Clear,21.4,4,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,16,0
-Blacklock,BL1,6/30/2020,11:08,11:23,"Melissa, Sidney",90.9,1.9,3.2,Clear,21.9,3.9,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,16,0
-Blacklock,BL1,7/1/2020,8:57,9:12,"Melissa, Sidney",69.5,4.9,8.5,Clear,21.4,4,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,16,0
-Blacklock,BL1,8/10/2020,9:07,9:22,Melissa,70.9,4.6,8,Clear,22.3,6.9,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,13,0
-Blacklock,BL1,8/11/2020,10:41,10:56,Sidney,74,4.4,9.7,Clear,21,7.1,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,15,0
-Blacklock,BL1,8/12/2020,11:57,12:13,Melissa,77.8,4.6,7.2,Clear,21.8,6.9,LOOKUP,Tidal,"PHAU, blackberry",100,downed tule,15,0
-Bradmoor Island,BM1,6/29/2020,12:28,12:44,"Melissa, Sidney",86.2,2.8,5.4,Clear,21.9,4,NA,Pond,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM1,6/30/2020,10:26,10:41,"Melissa, Sidney",91.5,1.6,2.7,Clear,21.7,4.1,NA,Pond,"SCAC, PHAU",100,none,15,1
-Bradmoor Island,BM1,7/1/2020,10:52,11:07,"Melissa, Sidney",85.8,2.1,4.2,Clear,24.1,4.2,NA,Pond,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM1,8/10/2020,10:37,10:53,"Melissa, Sidney",83.5,3.4,7.6,Clear,22,7.3,NA,Pond,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM1,8/11/2020,11:36,11:51,"Melissa, Sidney",70,10,13.2,Clear,21.8,7.3,NA,Pond,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM1,8/12/2020,10:14,10:29,"Melissa, Sidney",71.3,3.4,6.6,Clear,19.7,7.1,NA,Pond,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM2,6/29/2020,13:02,13:17,"Melissa, Sidney",86.5,0.6,7.2,Clear,22.6,3.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,16,4
-Bradmoor Island,BM2,6/30/2020,9:58,10:13,"Melissa, Sidney",86.8,3.3,4,Clear,20.4,4,NA,Borrow Ditch,"SCAC, PHAU",100,none,16,8
-Bradmoor Island,BM2,7/1/2020,10:25,10:40,"Melissa, Sidney",88.5,3.8,5.8,Clear,22.2,3.8,NA,Borrow Ditch,"SCAC, PHAU",100,none,16,4
-Bradmoor Island,BM2,8/10/2020,10:12,10:27,"Melissa, Sidney",83.6,5.8,9.3,Clear,22.5,6.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,13,1
-Bradmoor Island,BM2,8/11/2020,12:04,12:19,"Melissa, Sidney",73.8,9.2,11.4,Clear,21.8,6.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,13,4
-Bradmoor Island,BM2,8/12/2020,10:40,10:55,"Melissa, Sidney",70.2,5.4,7.6,Clear,21,6.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,13,6
-Bradmoor Island,BM3,6/29/2020,13:41,14:56,"Melissa, Sidney",90.2,3.9,6,Clear,22.9,3.7,NA,Borrow Ditch,"PHAU, DISP, Typha, Radish",100,none,14,1
-Bradmoor Island,BM3,6/30/2020,9:33,9:49,"Melissa, Sidney",88,0.7,1.2,Clear,19.7,3.7,NA,Borrow Ditch,"PHAU, DISP, Typha, Radish",100,none,14,1
-Bradmoor Island,BM3,7/1/2020,10:01,10:16,"Melissa, Sidney",71.7,3.8,6.6,Clear,19.9,3.7,NA,Borrow Ditch,"PHAU, DISP, Typha, Radish",100,none,14,1
-Bradmoor Island,BM3,8/10/2020,9:43,9:58,"Melissa, Sidney",79.2,6,10,Clear,19.8,6.8,NA,Borrow Ditch,"PHAU, Typha, DISP, BOMA",100,none,15,0
-Bradmoor Island,BM3,8/11/2020,12:27,12:42,"Melissa, Sidney",80.3,6.5,10.1,Clear,21.1,6.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM3,8/12/2020,11:03,11:18,"Melissa, Sidney",74.1,4.2,6.1,Clear,19.8,6.6,NA,Borrow Ditch,"SCAC, PHAU",100,none,15,0
-Bradmoor Island,BM4,6/29/2020,14:07,14:22,"Melissa, Sidney",93,5.4,8.9,Clear,24.1,3.8,NA,Borrow Ditch,"DISP, Typha, SCAC",100,none,16,0
-Bradmoor Island,BM4,6/30/2020,9:09,9:24,"Melissa, Sidney",88.8,1,1.4,Clear,22,3.8,NA,Borrow Ditch,"DISP, Typha, SCAC",100,none,16,3
-Bradmoor Island,BM4,7/1/2020,11:24,11:39,"Melissa, Sidney",85.8,3.2,4.7,Clear,23.6,4,NA,Borrow Ditch,"SCAC, PHAU",100,none,16,1
-Bradmoor Island,BM4,8/10/2020,11:28,11:43,"Melissa, Sidney",79.1,6.6,10,Clear,23.9,6.9,NA,Borrow Ditch,"SCAC, PHAU",100,none,11,2
-Bradmoor Island,BM4,8/11/2020,11:14,11:29,"Melissa, Sidney",70.3,10.3,15.4,Clear,21.9,7,NA,Borrow Ditch,"SCAC, PHAU",100,none,11,1
-Bradmoor Island,BM4,8/12/2020,11:24,11:39,"Melissa, Sidney",73.4,5.1,7.7,Clear,21.7,7.1,NA,Borrow Ditch,"SCAC, PHAU",100,none,11,0
-Cutoff Slough,CO1,7/6/2020,13:19,13:34,Melissa,82,13.7,16.9,Clear,22.3,5.3,LOOKUP,Minor Slough,"SCAC, PHAU",100,banks,15,0
-Cutoff Slough,CO1,7/7/2020,14:36,14:51,"Melissa, Sidney",90.2,4.4,6.9,Clear,22.6,5.5,LOOKUP,Minor Slough,"SCAC, PHAU",100,banks,18,0
-Cutoff Slough,CO1,7/8/2020,13:24,13:39,"Melissa, Sidney",84.9,8,10.6,Clear,22.9,5.3,Flood,Minor Slough,"SCAC, PHAU",100,banks,11,0
-Cutoff Slough,CO2,7/6/2020,12:45,13:00,Melissa,85.5,8,9.9,Clear,22.5,5.2,LOOKUP,Minor Slough,SCAC,100,"tule rafts, exposed banks",11,0
-Cutoff Slough,CO2,7/7/2020,9:59,10:14,Sidney,74.3,3.8,5.5,Clear,22.1,5.5,LOOKUP,Minor Slough,SCAC,100,"tule rafts, exposed banks",12,0
-Cutoff Slough,CO2,7/8/2020,15:21,15:35,Melissa,91.3,4.6,8,Clear,23,5.3,LOOKUP,Minor Slough,SCAC,100,"tule rafts, exposed banks",18,0
-Crescent Unit,CR1,6/25/2020,9:08,9:23,"Melissa, Sidney",75.5,5.9,7.7,Clear,19.8,18.7,NA,Pond,SAPA,90,none,14,0
-Crescent Unit,CR1,6/26/2020,14:13,14:28,"Melissa, Sidney",93.5,7.2,11.4,Clear,26,19.5,NA,Pond,SAPA,90,none,14,0
-Crescent Unit,CR2A,6/24/2020,14:55,15:10,"Melissa, Sidney",88,4.2,6.5,Clear,25.3,4.4,NA,Borrow Ditch,"FRSA, DISP",90,none,14,0
-Crescent Unit,CR2A,6/25/2020,8:40,8:55,"Melissa, Sidney",87,4.2,7.6,Clear,22.6,4.6,NA,Borrow Ditch,SCAC,90,"algae, floating tules",14,1
-Crescent Unit,CR2A,6/26/2020,13:49,14:06,"Melissa, Sidney",92.3,5.6,7.8,Clear,24.7,4.5,NA,Borrow Ditch,SCAC,90,"algae, floating tules",14,1
-Crescent Unit,CR2A,8/3/2020,14:58,15:13,"Melissa, Sidney",92.8,12,14.9,Clear,25,8.4,NA,Borrow Ditch,"DISP, BOMA, FRSA",100,downed tules,14,0
-Crescent Unit,CR2A,8/4/2020,12:38,12:52,"Melissa, Sidney",81,6.4,8.3,Clear,24.5,8.9,NA,Borrow Ditch,"DISP, BOMA, FRSA",100,downed tules,14,0
-Crescent Unit,CR2A,8/5/2020,8:23,8:38,"Melissa, Sidney",63.5,9.7,11.6,Overcast,20.3,8.4,NA,Borrow Ditch,"DISP, BOMA, FRSA",100,downed tules,14,0
-Crescent Unit,CR2B,6/24/2020,14:55,15:10,"Melissa, Sidney",88,4.2,6.5,Clear,24.5,4.2,NA,Pond,"FRSA, DISP",90,none,14,0
-Crescent Unit,CR2B,6/25/2020,8:40,8:55,"Melissa, Sidney",87,4.2,7.6,Clear,22.6,4.6,NA,Pond,SCAC,90,"algae, floating tules",14,0
-Crescent Unit,CR2B,6/26/2020,13:49,14:06,"Melissa, Sidney",92.3,5.6,7.8,Clear,24.7,4.5,NA,Pond,SCAC,90,"algae, floating tules",14,0
-Crescent Unit,CR3A,6/24/2020,15:19,15:34,"Melissa, Sidney",93,8.5,11.9,Clear,26.9,6.3,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,0
-Crescent Unit,CR3A,6/25/2020,8:15,8:30,"Melissa, Sidney",71,1.5,2.4,Clear,22,4.5,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,1
-Crescent Unit,CR3A,6/26/2020,13:23,13:38,"Melissa, Sidney",93.1,3.9,5.8,Clear,25.7,5.1,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,0
-Crescent Unit,CR3A,8/3/2020,14:36,14:51,"Melissa, Sidney",96.2,4.1,7.4,Clear,25.1,8,NA,Borrow Ditch,"FRSA, DISP, Fennel",100,none,13,0
-Crescent Unit,CR3A,8/4/2020,12:58,13:13,"Melissa, Sidney",85.5,7.2,8.8,Clear,22,8.1,NA,Borrow Ditch,"FRSA, DISP, Fennel",100,none,13,0
-Crescent Unit,CR3A,8/5/2020,8:43,8:59,"Melissa, Sidney",64.3,4.1,6.8,Overcast,19,8.5,NA,Borrow Ditch,"FRSA, DISP, Fennel",100,none,13,0
-Crescent Unit,CR3B,6/24/2020,15:19,15:34,"Melissa, Sidney",93,8.5,11.9,Clear,25.1,4.3,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,0
-Crescent Unit,CR3B,6/25/2020,8:15,8:30,"Melissa, Sidney",71,1.5,2.4,Clear,22,4.5,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,0
-Crescent Unit,CR3B,6/26/2020,13:23,13:38,"Melissa, Sidney",93.1,3.9,5.8,Clear,25.7,5.1,NA,Borrow Ditch,"FRSA, SCAM",90,One board,14,0
-Dutton's Pond,DP1,6/24/2020,8:48,9:03,"Melissa, Sidney",62.7,17.5,14.4,Partly Cloudy,19.4,3.1,NA,Pond,"SCAC, Primrose",90,Algae,18,0
-Dutton's Pond,DP1,6/25/2020,14:03,14:18,"Melissa, Sidney",88,9.8,13.6,Clear,24.4,3.4,NA,Pond,"SCAC, Primrose",90,Algae,18,0
-Dutton's Pond,DP1,6/26/2020,12:40,12:55,"Melsisa, Sidney",80.3,14.8,17.4,Clear,22.6,3.3,NA,Pond,"SCAC, Primrose",90,Algae,18,1
-Dutton's Pond,DP1,7/28/2020,15:16,15:31,"Melissa, Sidney",79.3,14.4,17.7,Clear,22.4,5.3,NA,Pond,SCAC,90,algae,16,4
-Dutton's Pond,DP1,7/29/2020,8:21,8:37,"Melissa, Sidney",61.2,12,13.5,Clear,18.8,5.2,NA,Pond,SCAC,90,algae,16,7
-Dutton's Pond,DP1,7/30/2020,10:39,10:55,"Melissa, Sidney",67.3,8.3,12.4,Clear,19.9,5.2,NA,Pond,SCAC,95,algae,16,26
-Dutton's Pond,DP2,6/24/2020,9:21,9:36,"Melissa, Sidney",69.2,3.2,7.2,Clear,22,3.8,NA,Borrow Ditch,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
-Dutton's Pond,DP2,6/25/2020,13:34,13:49,"Melissa, Sidney",88,5.8,8.8,Clear,24,4,NA,Borrow Ditch,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
-Dutton's Pond,DP2,6/26/2020,12:16,12:31,"Melissa, Sidney",83.7,6.4,9.7,Clear,23,4.3,NA,Borrow Ditch,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
-Denverton,DV1,6/29/2020,17:52,18:09,Melissa,85,5,8.8,Clear,25.8,3.5,NA,Borrow Ditch,"SCAC, Typha",80,mud bank,10,4
-Denverton,DV1,6/30/2020,7:52,8:07,Melissa,75.2,4.9,6,Clear,21.4,3.5,NA,Borrow Ditch,"SCAC, Typha",80,mud bank,10,3
-Denverton,DV1,7/1/2020,7:53,8:08,Sidney,71.2,4.3,5.8,Clear,21.6,3.5,NA,Pond,"SCAC, Typha",80,mud bank,10,0
-Denverton,DV2,6/29/2020,18:37,18:52,Melissa,86.4,6.8,11.7,Clear,25.2,5.1,NA,Pond,"COCO, SCAC, SAPA, DISP",90,none,14,1
-Denverton,DV2,6/30/2020,7:20,7:35,Sidney,69,3.2,4.8,Clear,18.1,5.1,NA,Pond,"SCAC, DISP, COCO",40,"mud bank, dead emergent tule",9,4
-Denverton,DV2,7/1/2020,7:28,7:44,"Melissa, Sidney",66.3,4.1,8.1,Clear,19.3,4.6,NA,Pond,"SCAC, DISP, COCO",40,"mud bank, dead emergent tule",9,4
-Denverton,DV3,6/29/2020,19:21,19:36,Melissa,79.6,10.4,12.4,Clear,24.4,10.3,NA,Pond,"SAPA, POMO, COCO",80,exposed bank,13,0
-Denverton,DV3,6/30/2020,6:56,7:11,"Melissa, Sidney",67,3.2,5.1,Clear,18.4,10.2,NA,Pond,"SAPA, POMO, COCO",80,exposed bank,13,0
-Denverton,DV3,7/1/2020,7:06,7:21,"Melissa, Sidney",61.9,7.4,9.7,Clear,19.5,10.5,NA,Pond,"SAPA, POMO, COCO",80,exposed bank,14,0
-Denverton,DVS1,6/29/2020,18:11,18:27,Melissa,85,9.6,12.8,Clear,25.7,3.4,LOOKUP,Minor Slough,"SCAC, PHAU, Typha",100,none,15,1
-Denverton,DVS1,6/30/2020,7:50,8:05,Sidney,75.2,4.9,6,Clear,21.6,3.5,LOOKUP,Minor Slough,"SCAC, DISP",100,logs,13,0
-Denverton,DVS1,7/1/2020,7:53,8:08,"Melissa, Sidney",71.2,4.3,5.8,Clear,22,3.5,LOOKUP,Major Slough,"SCAC, DISP",100,exposed mud bank,10,1
-Denverton,DVS2,6/29/2020,18:54,19:09,Melissa,86.4,7.2,9.8,Clear,24.4,3.6,LOOKUP,Major Slough,"SCAC, PHAU",100,none,16,1
-Denverton,DVS2,6/30/2020,7:20,7:35,Melissa,69,3.2,4.8,Clear,20.9,3.6,LOOKUP,Minor Slough,"SCAC, PHAU",100,none,16,5
-Denverton,DVS2,7/1/2020,7:29,7:44,Sidney,66.3,4.1,8.1,Clear,21.1,3.8,LOOKUP,Major Slough,"SCAC, PHAU",100,none,9,7
-Denverton,DVS3,6/30/2020,8:26,8:41,Melissa,73.9,4.6,5.6,Clear,21.7,4,LOOKUP,Major Slough,SCAC,100,none,14,2
-Denverton,DVS3,7/1/2020,8:24,8:39,"Melissa, Sidney",70.8,1.5,4.7,Clear,19,4.3,LOOKUP,Major Slough,SCAC,100,none,14,3
-Fleetside,FS1,7/28/2020,8:46,9:01,"Melissa, Sidney",60.2,7.4,13.9,Partly Cloudy,18.2,14.1,NA,Pond,"Typha, PHAU, LELA, DISP",100,SAV,16,0
-Fleetside,FS1,7/29/2020,13:06,13:21,"Melissa, Sidney",76.9,9.4,13.8,Clear,20.5,14.5,NA,Pond,"Typha, PHAU, LELA, DISP",100,SAV,16,0
-Fleetside,FS1,7/30/2020,13:36,13:51,"Melissa, Sidney",76.9,7.7,10.2,Clear,21.5,14.7,NA,Pond,"Typha, PHAU, LELA, DISP",100,SAV,16,0
-Fleetside,FS2,7/28/2020,9:13,9:28,"Melissa, Sidney",61.4,8.9,14.2,Partly Cloudy,18.6,14.7,NA,Pond,"Typha, PHAU",98,SAV,16,0
-Fleetside,FS2,7/29/2020,12:44,12:59,"Melissa, Sidney",78.6,7.5,10.5,Clear,19.5,14.7,NA,Pond,"Typha, PHAU",98,SAV,16,0
-Fleetside,FS2,7/30/2020,14:42,14:57,"Melissa, Sidney",80.8,5.7,10.2,Clear,21.1,14.9,NA,Pond,"Typha, PHAU",98,SAV,16,0
-Fleetside,FS3,7/28/2020,9:43,9:58,"Melissa, Sidney",62.4,16.5,20.6,Partly Cloudy,16.9,14,NA,Pond,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
-Fleetside,FS3,7/29/2020,12:12,12:27,"Melissa, Sidney",71.6,11.3,14.3,Clear,19.4,14.3,NA,Pond,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
-Fleetside,FS3,7/30/2020,14:11,14:26,"Melissa, Sidney",76.4,12.7,14.4,Clear,21.5,14.1,NA,Pond,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
-Fleetside,FS4,7/28/2020,10:51,11:06,"Melissa, Sidney",60.2,6.2,10.2,Partly Cloudy,19.4,11.6,NA,Pond,"PHAU, LELA, DISP",80,exposed banks,16,0
-Fleetside,FS4,7/29/2020,13:44,13:59,"Melissa, Sidney",89.1,5.1,8.2,Clear,21.9,11.4,NA,Pond,"PHAU, LELA, DISP",80,exposed banks,16,0
-Fleetside,FS4,7/30/2020,13:06,13:21,"Melissa, Sidney",78.4,8.4,13,Clear,20.8,10.9,NA,Pond,"PHAU, LELA, DISP",80,exposed banks,16,0
-Fleetside,FS5,7/28/2020,11:14,11:29,"Melissa, Sidney",69.5,8,11,Partly Cloudy,20.2,11.4,NA,Pond,"typha, LELA, PHAU",90,,15,0
-Fleetside,FS5,7/29/2020,14:05,14:20,"Melissa, Sidney",85.7,3.2,5.1,Clear,23,11.2,NA,Pond,"typha, LELA, PHAU",90,,15,1
-Fleetside,FS5,7/30/2020,12:37,12:52,"Melissa, Sidney",74.8,10,12.8,Clear,21.3,10.7,NA,Pond,"typha, LELA, PHAU",90,,15,0
-Fleetside,FS6,7/28/2020,11:36,11:51,"Melissa, Sidney",80.7,6.4,8.4,Clear,19.4,13.3,NA,Borrow Ditch,"PHAU, DISP, ATPR",80,algae,16,0
-Fleetside,FS6,7/29/2020,14:29,14:44,"Melissa, Sidney",86.7,6.6,10.2,Clear,19.9,13.1,NA,Borrow Ditch,"PHAU, DISP, ATPR",80,algae,16,0
-Fleetside,FS6,7/30/2020,12:13,12:28,"Melissa, Sidney",69.9,8.6,12.7,Clear,20.1,11,NA,Borrow Ditch,"PHAU, DISP, ATPR",80,algae,16,0
-Fleetside,FS7,7/28/2020,11:58,12:13,"Melissa, Sidney",76.5,6.8,11,Clear,19.9,13.9,NA,Pond,"Typha, SCAC, PHAU",80,,16,0
-Fleetside,FS7,7/29/2020,14:50,15:05,"Melissa, Sidney",89.4,5.7,8.7,Clear,20.1,14.2,NA,Pond,"Typha, SCAC, PHAU",80,,16,0
-Fleetside,FS7,7/30/2020,11:51,12:06,"Melissa, Sidney",71.3,7.6,10.5,Clear,20,14.4,NA,Pond,"Typha, SCAC, PHAU",80,,16,0
-Grizzly Ditch,GD1,7/22/2020,14:23,14:38,Melissa,78.4,8.4,12.4,Clear,22.5,2.6,NA,Major Ditch,"SCAC, Fennel, Typha, LELA",95,none,16,41
-Grizzly Ditch,GD1,7/23/2020,9:39,9:54,Melissa,66.4,7.7,8.9,Clear,20.1,2.6,NA,Major Ditch,"SCAC, Fennel, Typha, LELA",95,none,16,17
-Grizzly Ditch,GD1,7/24/2020,13:10,13:25,Melissa,81.5,8.2,12.3,Clear,23.2,2.7,NA,Major Ditch,"SCAC, Fennel, Typha, LELA",95,Algae,16,42
-Grizzly Ditch,GD2,7/22/2020,14:46,15:01,Melissa,78.5,10.4,13.5,Clear,22.4,5.4,NA,Major Ditch,SCAC,100,none,14,0
-Grizzly Ditch,GD2,7/23/2020,11:07,11:22,Melissa,71.2,6.8,8.1,Clear,22.4,5.4,NA,Major Ditch,SCAC,100,none,14,0
-Grizzly Ditch,GD2,7/24/2020,12:49,13:04,Melissa,81,5.1,7.7,Clear,21.7,5.4,NA,Major Ditch,SCAC,100,none,14,0
-Grizzly Ditch,GD3,7/22/2020,15:12,15:27,Melissa,76.8,10.4,12.8,Clear,25.1,5.4,NA,Major Ditch,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,5
-Grizzly Ditch,GD3,7/23/2020,9:15,9:30,Melissa,66.6,6.1,9,Clear,17.9,5.4,NA,Major Ditch,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,0
-Grizzly Ditch,GD3,7/24/2020,12:25,12:41,Melissa,77.7,7.7,10.1,Clear,22.6,5.5,NA,Major Ditch,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,5
-Grizzly Ditch,GD4,7/22/2020,15:35,15:50,Melissa,77.9,7.9,13.2,Clear,24,5.2,NA,Major Ditch,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
-Grizzly Ditch,GD4,7/23/2020,8:53,9:09,Melissa,63.1,7.7,14.3,Clear,19.1,5.4,NA,Major Ditch,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
-Grizzly Ditch,GD4,7/24/2020,12:03,12:18,Melissa,80,7.7,9.1,Clear,22.5,5.2,NA,Major Ditch,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
-Grizzly Ditch,GD5,7/22/2020,15:55,16:10,Melissa,74.8,13.2,19.7,Clear,23.2,5.2,NA,Major Ditch,"Typha, SCAC, BAPI, LELA",95,none,14,0
-Grizzly Ditch,GD5,7/23/2020,8:31,8:46,Melissa,69.8,8.1,10.7,Clear,20.1,5.2,NA,Major Ditch,"Typha, SCAC, BAPI, LELA",95,none,14,0
-Grizzly Ditch,GD5,7/24/2020,11:40,11:55,Melissa,78.7,9.9,12.3,Clear,22.4,5.4,NA,Major Ditch,"Typha, SCAC, BAPI, LELA",95,none,14,0
-Grizzly Ranch,GR1D,6/29/2020,8:18,8:33,"Melissa, Sidney",74.5,3,5.4,Clear,19.1,4.8,NA,Borrow Ditch,"SCAC, DISP",100,none,15,0
-Grizzly Ranch,GR1D,6/30/2020,13:37,13:52,"Melissa, Sidney",91.3,5.5,9.4,Clear,22.8,4.9,NA,Borrow Ditch,"SCAC, DISP",100,none,15,0
-Grizzly Ranch,GR1D,7/1/2020,12:28,12:43,"Melissa, Sidney",85.2,2.9,5.2,Clear,23,4.9,NA,Borrow Ditch,"SCAC, DISP",100,none,15,1
-Grizzly Ranch,GR1P,6/29/2020,8:18,8:33,"Melissa, Sidney",74.5,3,5.4,Clear,19.3,4.4,NA,Pond,DISP,100,algae,15,0
-Grizzly Ranch,GR1P,6/30/2020,13:37,13:52,"Melissa, Sidney",91.3,5.5,9.4,Clear,27.2,4.5,NA,Pond,DISP,100,algae,15,0
-Grizzly Ranch,GR1P,7/1/2020,12:28,12:43,"Melissa, Sidney",85.2,2.9,5.2,Clear,27.1,4.1,NA,Pond,DISP,100,algae,15,3
-Grizzly Ranch,GR2,6/29/2020,8:44,8:59,"Melissa, Sidney",78,1.2,2.4,Clear,20.3,7.8,NA,Borrow Ditch,"SCAC, DISP, Ice Plant",100,none,11,5
-Grizzly Ranch,GR2,6/30/2020,12:39,12:55,"Melissa, Sidney",99,0.9,1.1,Clear,22.3,8.1,NA,Borrow Ditch,"SCAC, DISP, Ice Plant",100,none,11,3
-Grizzly Ranch,GR2,7/1/2020,13:28,13:43,"Melissa, Sidney",88.6,0.6,5.4,Clear,24.7,8.1,NA,Borrow Ditch,"SCAC, DISP, Ice Plant",100,none,11,3
-Grizzly Ranch,GR3,6/29/2020,9:37,9:53,"Melissa, Sidney",83,5.1,6.3,Clear,21.4,4.6,NA,Borrow Ditch,"Typha, SCAC",100,none,16,4
-Grizzly Ranch,GR3,6/30/2020,13:08,13:23,"Melissa, Sidney",93.8,2.4,4.1,Clear,24,4.6,NA,Borrow Ditch,"Typha, SCAC",100,none,16,1
-Grizzly Ranch,GR3,7/1/2020,12:56,13:12,"Melissa, Sidney",88.3,2.4,4.2,Clear,22.8,4.7,NA,Borrow Ditch,"Typha, SCAC",100,none,16,3
-Howard's Slough,HOS1,7/12/2020,9:33,9:48,Sidney,75.8,4.9,8.7,Clear,22.1,21.3,NA,Major Ditch,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,5,0
-Howard's Slough,HOS1,7/13/2020,11:54,12:09,Melissa,80.2,9.3,12.4,Clear,27,21.8,NA,Major Ditch,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,2,0
-Howard's Slough,HOS1,7/14/2020,11:36,11:51,Sidney,74.3,6.6,8.8,Clear,27,22.5,NA,Borrow Ditch,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,4,0
-Hill Slough,HS1,8/3/2020,11:52,12:07,"Melissa, Sidney",91.9,3,6.6,Clear,26.5,6.1,LOOKUP,Minor Slough,"Typha, SCAC",100,exposed banks,9,3
-Hill Slough,HS1,8/4/2020,9:04,9:19,"Melissa, Sidney",67.6,4,6.8,Clear,21.3,5.7,LOOKUP,Minor Slough,"Typha, SCAC",100,exposed banks,13,0
-Hill Slough,HS1,8/5/2020,11:22,11:37,"Melissa, Sidney",76.7,7.3,10.4,Partly Cloudy,24.3,5.1,Ebb,Minor Slough,"Typha, SCAC",100,exposed banks,13,2
-Hill Slough,HS2,8/3/2020,12:22,12:37,"Melissa, Sidney",91,2.6,3.4,Clear,30.3,5.3,LOOKUP,Minor Slough,,100,exposed banks,9,0
-Hill Slough,HS2,8/4/2020,8:40,8:55,"Melissa, Sidney",67.6,5.4,8.1,Clear,20.9,6.4,LOOKUP,Minor Slough,,100,exposed banks,11,0
-Hill Slough,HS2,8/5/2020,10:52,11:08,"Melissa, Sidney",68.5,5.2,8.9,Partly Cloudy,22.8,5.5,Ebb,Minor Slough,,100,exposed banks,10,1
-Hill Slough,HS3,8/10/2020,12:23,12:38,"Melissa, Sidney",81.4,9.5,12.5,Clear,23.1,6.4,LOOKUP,Minor Slough,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,0
-Hill Slough,HS3,8/11/2020,14:55,15:10,"Melissa, Sidney",82.7,11.9,16.5,Clear,22.8,6.2,LOOKUP,Minor Slough,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,1
-Hill Slough,HS3,8/12/2020,13:08,13:23,"Melissa, Sidney",91.4,7.8,9.6,Clear,21.7,6.4,LOOKUP,Minor Slough,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,0
-Hill Slough,HS4A,8/10/2020,12:51,13:11,Melissa,83.7,9.2,12.4,Clear,22.5,6.4,LOOKUP,Tidal,"PHAU, Typha",100,platform,12,4
-Hill Slough,HS4A,8/11/2020,14:26,14:41,Sidney,77,11.2,14,Clear,22.4,6.3,LOOKUP,Tidal,"BOMA, PHAU, Typha, fennel",95,platform,12,8
-Hill Slough,HS4A,8/12/2020,13:57,14:12,Melissa,94.8,5.4,6.2,Clear,23.1,6.4,LOOKUP,Tidal,"PHAU, Typha",100,Platform,16,2
-Hill Slough,HS4B,8/10/2020,12:49,13:04,Sidney,83.7,9.2,12.4,Clear,22.5,6.4,LOOKUP,Tidal,"PHAU, BOMA",100,"downe tule, algae, tule root wad",12,19
-Hill Slough,HS4B,8/11/2020,14:26,14:41,Melissa,77,11.2,14,Clear,22.4,6.3,LOOKUP,Tidal,"PHAU, BOMA",100,"downe tule, algae, tule root wad",12,13
-Hill Slough,HS4B,8/12/2020,13:57,14:12,Sidney,94.8,5.4,6.2,Clear,23.1,6.4,LOOKUP,Tidal,PHAU,100,"exposed bank, algae",15,26
-Hill Slough,HS5,8/10/2020,13:38,13:52,"Melissa, Sidney",84,7.3,10.6,Clear,23.6,5.4,NA,Borrow Ditch,"Typha, DISP",100,none,14,5
-Hill Slough,HS5,8/11/2020,14:05,14:20,"Melissa, Sidney",76.2,9.1,11,Clear,22.5,6.6,NA,Borrow Ditch,"Typha, DISP",100,none,14,4
-Hill Slough,HS5,8/12/2020,13:35,13:49,"Melissa, Sidney",85.6,4.3,7.2,Clear,22.7,6.8,NA,Borrow Ditch,"Typha, DISP",100,none,14,7
-Hill Slough,HS6,8/10/2020,14:05,14:20,"Melissa, Sidney",88.3,5,6.9,Clear,21,4.1,NA,Borrow Ditch,"Typha, SCAC, RASA, LELA",100,none,13,0
-Hill Slough,HS6,8/11/2020,13:41,12:56,"Melissa, Sidney",77,7.4,10.7,Clear,20.9,6.4,NA,Borrow Ditch,"Typha, SCAC, RASA, LELA",100,none,13,2
-Hill Slough,HS6,8/14/2020,7:40,7:55,Melissa,75.7,0,0,Partly Cloudy,22,6.4,NA,Borrow Ditch,"Typha, SCAC, RASA, LELA",100,none,13,1
-Hill Slough,HS7,8/10/2020,14:26,14:41,"Melissa, Sidney",85,8,12.3,Clear,23.9,6.3,NA,Borrow Ditch,"SCAM, PHAU",,fallen SCAM,,0
-Hill Slough,HS7,8/11/2020,13:21,13:36,"Melissa, Sidney",76.5,8.6,10.9,Clear,21.9,6.1,NA,Borrow Ditch,"SCAM, PHAU",,fallen SCAM,,1
-Hill Slough,HS7,8/14/2020,7:21,7:36,Melissa,74.5,0.7,1.2,Partly Cloudy,22,6.4,NA,Borrow Ditch,"SCAM, PHAU",,fallen SCAM,,2
-Island Slough,IS1,8/3/2020,8:35,8:49,Sidney,79.3,3.3,4.3,Clear,22.4,8,NA,Borrow Ditch,"BOMA, DISP, blackberry",100,downed tule,16,1
-Island Slough,IS1,8/4/2020,11:21,11:36,Sidney,91.7,2.6,5,Clear,24.6,6,NA,Borrow Ditch,"BOMA, DISP, raddish",100,floating tule,15,7
-Island Slough,IS1,8/5/2020,12:08,12:23,Sidney,69,7.1,9.4,Partly Cloudy,22.1,6.8,NA,Borrow Ditch,"BOMA, DISP",100,downed tule,17,8
-Island Slough,IS2,8/3/2020,8:35,8:51,"Melissa, Sidney",79.3,3.3,4.3,Clear,19.3,8.3,NA,Pond,"SAPA, DISP, PHAU",100,none,13,0
-Island Slough,IS2,8/4/2020,11:21,11:36,Melissa,91.7,2.6,5,Clear,23.4,8.2,NA,Pond,"SAPA, DISP, PHAU",100,none,13,0
-Island Slough,IS2,8/5/2020,12:09,12:24,Melissa,69,7.1,9.4,Clear,23,7,NA,Pond,"SAPA, DISP, PHAU",100,none,13,0
-Island Slough,IS3,8/3/2020,9:07,9:22,"Melissa, Sidney",80.8,4.5,7.1,Clear,21.9,8,NA,Borrow Ditch,"DISP, ATPR, SAPA, SCAC",,none,12,2
-Island Slough,IS3,8/4/2020,11:47,12:02,"Melissa, Sidney",84.2,5,8,Clear,23.1,7.9,NA,Borrow Ditch,"DISP, ATPR, SAPA, SCAC",,none,12,0
-Island Slough,IS3,8/5/2020,12:45,13:00,Melissa,75,8.3,11.5,Clear,22,6.6,NA,Borrow Ditch,"DISP, ATPR, SAPA, SCAC",,none,12,0
-Island Slough,IS4,8/3/2020,9:32,9:48,Melissa,83.3,3.5,4.6,Clear,20.5,8.2,NA,Borrow Ditch,"ATPR, DISP, SAPA",100,pipe,11,0
-Island Slough,IS4,8/4/2020,10:53,11:08,Sidney,82.6,6.5,10.9,Clear,21.2,8.1,NA,Borrow Ditch,"ATPR, DISP, SAPA",100,pipe,11,0
-Island Slough,IS4,8/5/2020,13:11,13:26,"Melissa, Sidney",75.6,8.5,12.5,Clear,21.6,6.8,NA,Borrow Ditch,"ATPR, DISP, SAPA",100,pipe,11,0
-Island Slough,IS5,8/3/2020,9:32,9:47,Sidney,83.3,3.5,4.6,Clear,20.5,8.1,NA,Borrow Ditch,"DISP, Raddish",100,downed tule,16,0
-Island Slough,IS5,8/4/2020,10:53,11:08,Melissa,82.6,6.5,10.9,Clear,22.8,7.7,NA,Borrow Ditch,"DISP, Raddish",100,downed tule,16,0
-Island Slough,IS5,8/5/2020,13:11,13:26,Sidney,75.6,8.5,12.5,Clear,22.6,6.6,NA,Borrow Ditch,"DISP, Raddish",100,downed tule,16,2
-Island Slough,IS6A,8/3/2020,10:10,10:25,"Melissa, Sidney",87.8,3.2,4.1,Clear,20.6,11.4,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,3
-Island Slough,IS6A,8/4/2020,10:08,10:23,"Melissa, Sidney",79.4,2.5,3.3,Clear,19.9,8.3,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,13
-Island Slough,IS6A,8/5/2020,13:59,14:14,"Melissa, Sidney",77.5,7.4,11.3,Clear,21.8,9.1,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,10
-Island Slough,IS6B,8/3/2020,10:10,10:25,"Melissa, Sidney",87.8,3.2,4.1,Clear,17.7,20.3,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,0
-Island Slough,IS6B,8/4/2020,10:08,10:23,"Melissa, Sidney",79.4,2.5,3.3,Clear,16.8,15.9,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,0
-Island Slough,IS6B,8/5/2020,13:59,14:14,"Melissa, Sidney",77.5,7.4,11.3,Clear,20.9,15.9,NA,Pond,"Typha, PHAU, ATPR, DISP",100,algae,10,0
-Island Slough,IS7,8/3/2020,10:37,10:52,"Melissa, Sidney",94.1,2.5,3.4,Clear,22.2,10,NA,Borrow Ditch,"PHAU, DISP, SAPA, SCAC",100,none,15,0
-Island Slough,IS7,8/4/2020,10:31,10:46,"Melissa, Sidney",86.5,0.6,0.9,Clear,21.4,9.2,NA,Borrow Ditch,"PHAU, DISP, SAPA, SCAC",100,none,15,0
-Island Slough,IS7,8/5/2020,13:38,13:53,"Melissa, Sidney",76.1,12.6,16.1,Clear,24.5,7.9,NA,Borrow Ditch,"PHAU, DISP, SAPA, SCAC",100,none,15,0
-Island Slough,IS8,8/3/2020,11:01,11:16,"Melissa, Sidney",92.9,1.1,1.7,Clear,25.5,7.7,NA,Borrow Ditch,"Typha, DISP, ATPR, Blackberry",95,none,10,4
-Island Slough,IS8,8/4/2020,9:46,10:02,"Melissa, Sidney",73.4,3.6,6.1,Clear,21.1,6.3,NA,Borrow Ditch,"Typha, DISP, ATPR, Blackberry",95,none,10,2
-Island Slough,IS8,8/5/2020,14:19,14:34,"Melissa, Sidney",77,7.6,11.5,Clear,24.3,6.2,NA,Borrow Ditch,"Typha, DISP, ATPR, Blackberry",95,none,10,4
-Joice Island,JI1,7/6/2020,8:46,9:01,Sidney,74.2,6,9.4,Clear,18,8.5,NA,Borrow Ditch,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
-Joice Island,JI1,7/7/2020,13:51,14:06,Melissa,90.8,4.8,7.1,Clear,28.4,8.9,NA,Borrow Ditch,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
-Joice Island,JI1,7/8/2020,9:37,9:52,Sidney,81.6,1.8,2.8,Clear,21.1,9,NA,Borrow Ditch,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
-Joice Island,JI2,7/6/2020,9:52,10:07,Sidney,70.4,5.6,7.9,Clear,20.6,9.7,NA,Borrow Ditch,"PHAU, BOMA, SAPA, SASO",100,downed tule,9,0
-Joice Island,JI2,7/7/2020,12:34,12:49,"Melissa, Sidney",87.3,0.9,1.4,Clear,25.1,10.3,NA,Borrow Ditch,"SAPA, BOMA, PHAU",100,downed tule,9,0
-Joice Island,JI2,7/8/2020,8:32,8:47,Sidney,80.9,2,3.7,Clear,20.4,9.9,NA,Borrow Ditch,"PHAU, BOMA, SAPA",100,downed tule,9,0
-Joice Island,JI3,7/6/2020,10:24,10:39,"Melissa, Sidney",73.6,11.1,7.6,Clear,22.1,9.7,NA,Borrow Ditch,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
-Joice Island,JI3,7/7/2020,12:12,12:27,"Melissa, Sidney",80.9,3.9,4.7,Clear,25.8,10.2,NA,Borrow Ditch,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
-Joice Island,JI3,7/8/2020,10:04,10:19,"Melissa, Sidney",78.4,4.2,6.4,Clear,24.2,9.1,NA,Borrow Ditch,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
-Joice Island,JI4,7/6/2020,10:49,11:04,Sidney,73.2,10,12.6,Clear,21.8,9.5,NA,Borrow Ditch,"PHAU, SAPA",95,none,13,0
-Joice Island,JI4,7/7/2020,11:48,12:03,"Melissa, Sidney",88.3,1.4,3.8,Clear,24.1,9.8,NA,Borrow Ditch,"PHAU, SAPA",95,none,13,0
-Joice Island,JI4,7/8/2020,10:25,10:40,Sidney,77.6,5.5,6.7,Clear,31.2,10.1,NA,Borrow Ditch,"PHAU, SAPA",95,none,13,0
-Joice Island,JI5,7/6/2020,11:16,11:31,Melissa,80.3,6.4,11.2,Clear,26.2,8.1,NA,Borrow Ditch,"SAPA, PHAU",100,mud banks,7,0
-Joice Island,JI5,7/7/2020,11:22,11:37,Sidney,88.3,1.4,3.8,Clear,27.4,8.5,NA,Borrow Ditch,"SAPA, PHAU",100,mud banks,7,0
-Joice Island,JI5,7/8/2020,14:09,14:24,Melissa,96.2,5.5,8.9,Clear,35.9,8.3,NA,Borrow Ditch,"SAPA, PHAU",100,mud banks,7,0
-Joice Island,JI6,7/6/2020,12:16,12:31,"Melissa, Sidney",83.1,6.3,9,Clear,25.8,7.1,NA,Borrow Ditch,"Typha, DISP, PHAU",90,none,12,0
-Joice Island,JI6,7/7/2020,10:28,10:43,Sidney,84.3,1.6,3.4,Clear,23.3,7.1,NA,Borrow Ditch,"Typha, DISP, PHAU",90,none,12,0
-Joice Island,JI6,7/8/2020,14:57,15:12,Melissa,93.2,4,7.5,Clear,24.7,6,NA,Borrow Ditch,"Typha, DISP, PHAU",90,none,12,0
-Joice Island,JI7,7/6/2020,12:44,1:00,Sidney,85.5,8,9.9,Clear,24.4,7.3,NA,Borrow Ditch,Typha,100,downed tule,12,4
-Joice Island,JI7,7/7/2020,10:00,10:15,Melissa,74.3,3.8,5.5,Clear,19.9,7.1,NA,Borrow Ditch,Typha,100,tule root wad,15,4
-Joice Island,JI7,7/8/2020,15:21,15:36,Sidney,91.3,4.6,8,Clear,29.9,7.7,NA,Borrow Ditch,Typha,100,none,12,4
-Kings Cut,KC1,6/24/2020,14:27,14:42,"Melissa, Sidney",89,4.7,7,Clear,29.2,12.3,NA,Major Ditch,Typha,100,none,14,0
-Kings Cut,KC1,6/25/2020,9:08,9:23,"Melissa, Sidney",75.5,5.9,7.7,Clear,22.8,13.8,NA,Major Ditch,Typha,100,none,14,0
-Kings Cut,KC1,6/26/2020,14:13,14:28,"Melissa, Sidney",93.5,7.2,11.4,Clear,20.2,4.1,NA,Major Ditch,Typha,100,none,14,0
-Kings Cut,KC1,8/3/2020,15:20,15:35,"Melissa, Sidney",93.4,9.8,12.8,Clear,29.7,15.3,NA,Major Ditch,Typha,100,downed tules,12,0
-Kings Cut,KC1,8/4/2020,12:17,12:32,"Melissa, Sidney",88.4,6.7,8.9,Clear,25,14,NA,Major Ditch,Typha,100,downed tules,12,0
-Kings Cut,KC1,8/5/2020,8:02,8:17,"Melissa, Sidney",63.6,4.4,8.1,Overcast,19.2,16.4,NA,Major Ditch,Typha,100,downed tules,12,0
-Laughing Mallard,LM1D,7/6/2020,14:04,14:19,Sidney,84.8,7,10.3,Clear,25.8,9.2,NA,Borrow Ditch,"PHAU, SAPA, BOMA, Typha, LELA",100,none,16,0
-Laughing Mallard,LM1D,7/7/2020,8:35,8:50,Melissa,71.9,1.2,2.5,Clear,20.9,8.6,NA,Borrow Ditch,"PHAU, SAPA, BOMA, Typha, LELA",100,none,16,0
-Laughing Mallard,LM1D,7/8/2020,12:42,12:57,Sidney,91,0.8,8.6,Clear,26,10,NA,Borrow Ditch,"SAPA, BOMA, Typha",100,downed tule,17,0
-Laughing Mallard,LM1D,8/3/2020,13:24,13:38,Sidney,91.5,1.6,2.1,Clear,24.5,14.5,NA,Borrow Ditch,"BOMA, PHAU, SAPA, Typha, DISP, Fennel",100,downed tule,17,0
-Laughing Mallard,LM1D,8/4/2020,14:07,14:22,Sidney,90.5,2.7,8.1,Clear,27.3,15,NA,Borrow Ditch,"BOMA, FRSA, fennel, Typha, PHAU, DISP",100,downed tules,16,0
-Laughing Mallard,LM1D,8/5/2020,9:30,9:45,Sidney,67.8,4.4,6,Overcast,21.9,15.6,NA,Borrow Ditch,"SAPA, Typha, BOMA, PHAU, FRSA, DISP",100,downed tule,16,0
-Laughing Mallard,LM2D,7/6/2020,14:32,14:47,Melissa,85.3,10.6,15.2,Clear,26.3,6.9,NA,Borrow Ditch,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
-Laughing Mallard,LM2D,7/7/2020,9:08,9:23,Sidney,75.7,1.8,3,Clear,18.2,7.1,NA,Borrow Ditch,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
-Laughing Mallard,LM2D,7/8/2020,12:16,12:31,Melissa,82.5,6.7,8.6,Clear,26.1,7.2,NA,Borrow Ditch,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
-Laughing Mallard,LM2D,8/3/2020,13:47,14:02,Melissa,96.8,4.4,8.5,Clear,24,13.4,NA,Borrow Ditch,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
-Laughing Mallard,LM2D,8/4/2020,13:44,13:59,Sidney,85,8.8,11.8,Clear,21,13,NA,Borrow Ditch,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
-Laughing Mallard,LM2D,8/5/2020,9:54,10:08,Melissa,65.7,3.9,5.7,Partly Cloudy,17.9,11.1,NA,Borrow Ditch,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
-Laughing Mallard,LM2P,7/6/2020,14:32,14:47,Sidney,85.3,10.2,15.2,Clear,27.5,7,NA,Pond,SAPA,100,grass islands,18,0
-Laughing Mallard,LM2P,7/7/2020,9:08,9:23,Melissa,75.7,1.8,3,Clear,17.4,7.1,NA,Pond,SAPA,100,grass islands,18,0
-Laughing Mallard,LM2P,7/8/2020,12:17,12:32,Sidney,82.5,6.7,8.6,Clear,27.8,7.3,NA,Pond,SAPA,100,grass islands,18,0
-Laughing Mallard,LM2P,8/3/2020,13:48,14:03,Sidney,96.8,4.4,8.5,Clear,34.8,12.7,NA,Pond,SAPA,100,islands,13,0
-Laughing Mallard,LM2P,8/4/2020,13:43,13:58,Melissa,85,8.8,11.8,Clear,33.2,7.6,NA,Pond,SAPA,100,islands,13,0
-Laughing Mallard,LM2P,8/5/2020,9:55,10:10,Sidney,65.7,3.9,5.7,Overcast,19.5,13.3,NA,Pond,SAPA,100,islands,13,0
-Laughing Mallard,LM3D,7/6/2020,14:58,15:13,Sidney,82.8,10.7,14.9,Clear,26.9,6,NA,Borrow Ditch,"Typha, DISP, BOMA, LELA",100,none,14,0
-Laughing Mallard,LM3D,7/7/2020,8:08,8:23,Melissa,66.4,4.2,5.9,Clear,18.7,7.1,NA,Borrow Ditch,"Typha, DISP, BOMA, LELA",100,none,14,0
-Laughing Mallard,LM3D,7/8/2020,11:53,12:08,Sidney,83.9,3.3,5.4,Clear,25,7.3,NA,Borrow Ditch,"Typha, DISP",100,none,15,0
-Laughing Mallard,LM3D,8/3/2020,14:11,14:26,Sidney,96.7,1.2,8.5,Clear,28,8.5,NA,Borrow Ditch,"Typha, fennel, DISP, FRSA",100,none,12,0
-Laughing Mallard,LM3D,8/4/2020,13:22,13:37,Melissa,88.4,6.6,9.7,Clear,26.4,8.7,NA,Borrow Ditch,"Typha, fennel, DISP, FRSA",100,none,12,0
-Laughing Mallard,LM3D,8/5/2020,9:07,9:22,Sidney,63.8,5.5,9,Overcast,19.1,9,NA,Borrow Ditch,"Typha, fennel, DISP, FRSA",100,none,12,0
-Laughing Mallard,LM3P,7/6/2020,14:58,15:13,Melissa,82.8,10.7,14.9,Clear,27,7.2,NA,Pond,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
-Laughing Mallard,LM3P,7/7/2020,8:08,8:23,Sidney,66.4,4.2,5.9,Clear,16.7,7.2,NA,Pond,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
-Laughing Mallard,LM3P,7/8/2020,11:52,12:07,Melissa,83.9,3.3,5.4,Clear,25.1,7.3,NA,Pond,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
-Laughing Mallard,LM3P,8/3/2020,14:10,14:25,Melissa,96.7,1.2,8.5,Clear,31.2,11.8,NA,Pond,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
-Laughing Mallard,LM3P,8/4/2020,13:22,13:37,Sidney,88.4,6.6,9.7,Clear,30.1,9.4,NA,Pond,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
-Laughing Mallard,LM3P,8/5/2020,9:06,9:21,Melissa,63.8,5.5,9,Overcast,17.6,12.3,NA,Pond,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
-Morrow Island Distribution System,MIDS1,7/13/2020,14:45,15:00,"Melissa, Sidney",83.6,4.5,6.4,Clear,26.3,9.4,NA,Major Ditch,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
-Morrow Island Distribution System,MIDS1,7/14/2020,8:53,9:08,"Melissa, Sidney",71.4,1.5,3.8,Clear,19.6,10,NA,Major Ditch,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
-Morrow Island Distribution System,MIDS1,7/15/2020,9:47,10:02,Melissa,68.8,5.6,10.7,Clear,19.7,9.7,NA,Major Ditch,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
-Morrow Island Distribution System,MIDS2,7/13/2020,14:21,14:37,"Melissa, Sidney",81.4,9.8,12.7,Clear,26.7,10.1,NA,Major Ditch,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
-Morrow Island Distribution System,MIDS2,7/14/2020,9:15,9:30,"Melissa, Sidney",70.6,6.8,9.5,Clear,20.2,10.4,NA,Major Ditch,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
-Morrow Island Distribution System,MIDS2,7/15/2020,10:17,10:32,Melissa,69.4,9.4,13.3,Clear,19.7,10.6,NA,Major Ditch,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
-Morrow Island Distribution System,MIDS3,7/13/2020,13:54,14:09,Melissa,82.8,8.6,11.7,Clear,25.6,8.7,NA,Major Ditch,"PHAU, Raddish, SCAC, GRST, DISP",95,"algae, tule mat",9,13
-Morrow Island Distribution System,MIDS3,7/14/2020,9:37,9:52,Sidney,71.4,7.9,11.5,Clear,21.5,9.2,NA,Major Ditch,"PHAU, Raddish, SCAC, GRST, DISP",95,"downed tule, algae",9,12
-Morrow Island Distribution System,MIDS3,7/15/2020,10:56,11:12,Melissa,73.8,8.5,13.5,Clear,21.4,9.9,NA,Major Ditch,"PHAU, Raddish, SCAC, GRST, DISP",95,"downed tule, algae",9,10
-Morrow Island Distribution System,MIDS4,7/13/2020,13:30,13:45,"Melissa, Sidney",83.6,9.5,11.6,Clear,25.4,9.6,NA,Major Ditch,"LELA, DISP, SCAC, GRST",75,none,8,0
-Morrow Island Distribution System,MIDS4,7/14/2020,10:00,10:15,"Melissa, Sidney",71.9,8.7,11.4,Clear,20.7,9.4,NA,Major Ditch,"LELA, DISP, SCAC, GRST",75,none,8,0
-Morrow Island Distribution System,MIDS4,7/15/2020,11:22,11:37,Melissa,72.9,8.8,12.2,Clear,20.9,9.4,NA,Major Ditch,"LELA, DISP, SCAC, GRST",75,none,8,0
-Montezuma Slough,MS1,6/24/2020,12:35,12:50,"Melissa, Sidney",83.6,6.7,11,Clear,22.4,4.29,LOOKUP,Major Slough,PHAU,90,none,9,0
-Montezuma Slough,MS1,6/25/2020,10:49,11:04,"Melissa, Sidney",85,9.7,14.9,Clear,22.5,3.99,LOOKUP,Major Slough,"SCAC, PHAU",100,tree branch,16,0
-Montezuma Slough,MS1,6/26/2020,9:21,9:36,"Melissa, Sidney",70.4,9.8,14,Clear,22.6,3.68,LOOKUP,Major Slough,"SCAC, PHAU",100,tree branch,16,0
-Montezuma Slough,MS1,7/6/2020,8:44,8:59,Melissa,74.2,6,9.4,Clear,22.1,8,LOOKUP,Major Slough,"SCAC, PHAU",100,tree branch,16,0
-Montezuma Slough,MS1,7/7/2020,13:50,14:05,Sidney,90.8,4.8,7.1,Clear,23.9,6.7,LOOKUP,Major Slough,"SCAC, PHAU",100,tree branch,16,0
-Montezuma Slough,MS1,7/8/2020,9:35,9:50,Melissa,81.6,1.8,2.8,Clear,22.4,6.7,LOOKUP,Major Slough,"SCAC, PHAU",100,tree branch,16,0
-Montezuma Slough,MS2,7/6/2020,12:16,12:31,Sidney,83.1,6.3,9,Clear,23.9,6.9,Flood,Major Slough,"BOMA, PHAU",40,exposed bank,13,0
-Montezuma Slough,MS2,7/7/2020,10:28,10:43,Melissa,84.3,1.6,3.4,Clear,20.9,7.3,LOOKUP,Major Slough,"PHAU, SCAC, Typha",,mud bank,13,0
-Montezuma Slough,MS2,7/8/2020,14:57,15:12,Sidney,93.2,4,7.5,Clear,23.5,5.8,Flood,Major Slough,"BOMA, PHAU, DISP",100,none,18,0
-Pond 7,P7,6/24/2020,12:00,12:15,"Melissa, Sidney",78.2,6.8,10.4,Clear,22,3.3,NA,Pond,,,none,16,0
-Pond 7,P7,6/25/2020,11:16,11:32,"Melissa, Sidney",85.1,8.8,10.8,Clear,23,3.4,NA,Pond,,,none,16,0
-Pond 7,P7,6/26/2020,9:55,10:10,"Melissa, Sidney",74,8.6,12.6,Clear,19.3,3.5,NA,Pond,,,none,16,0
-Pond 8,P81,6/24/2020,11:24,11:39,"Melissa, Sidney",76,6,9.3,Clear,20.9,11.7,NA,Borrow Ditch,SAPA,70,Exposed bank,16,0
-Pond 8,P81,6/25/2020,11:43,11:58,Melissa,85,9.4,12.8,Clear,22.8,3.4,NA,Borrow Ditch,SAPA,70,Exposed bank,16,1
-Pond 8,P81,6/26/2020,10:21,10:36,"Melissa, Sidney",74,9.6,14.6,Clear,20.7,3.5,NA,Borrow Ditch,SAPA,70,Exposed bank,16,0
-Pond 8,P82,6/24/2020,11:58,12:15,"Melissa, Sidney",78.2,6.8,10.4,Clear,21.1,8.2,NA,Pond,"PHAU, BOMA",100,none,18,0
-Pond 8,P82,6/25/2020,11:16,11:32,"Melissa, Sidney",85.1,8.8,10.8,Clear,23,8.5,NA,Pond,"PHAU, BOMA",100,none,18,0
-Pond 8,P82,6/26/2020,9:55,10:10,"Melissa, Sidney",74,8.6,12.6,Clear,20,8.4,NA,Pond,"PHAU, BOMA",100,none,18,0
-Pond 8,P82,7/28/2020,13:50,14:05,Sidney,80.7,10.3,12.3,Clear,21.3,8.1,NA,Borrow Ditch,"SAPA, BOMA, PHAU",100,"pipe, SASO",14,0
-Pond 8,P82,7/29/2020,9:54,10:09,Sidney,65.3,8.1,12.5,Clear,17.7,8.6,NA,Borrow Ditch,"SAPA, PHAU, BOMA",100,"SASO, exposed bank",14,0
-Pond 8,P82,7/30/2020,9:09,9:25,"Melissa, Sidney",63.4,9,11.9,Partly Cloudy,17.1,9.4,NA,Pond,"SAPA, SCAC, PHAU",100,SASO,14,0
-Poleline Ditch,PD1,6/24/2020,9:50,10:05,"Melissa, Sidney",72,1.7,4.1,Clear,18.4,3.3,NA,Major Ditch,"DISP, Eucalyptus",75,Logs,6,0
-Poleline Ditch,PD1,6/25/2020,13:03,13:18,"Melissa, Sidney",85,4.5,7.7,Clear,24.1,3.9,NA,Major Ditch,"AG, Eucalyptus",100,branches,6,4
-Poleline Ditch,PD1,6/26/2020,11:49,12:04,"Melissa, Sidney",83.2,0.7,1.2,Clear,22.7,3.9,NA,Major Ditch,"AG, Eucalyptus",100,branches,6,5
-Poleline Ditch,PD1,7/28/2020,14:53,15:08,"Melissa, Sidney",82.9,2.4,4.5,Clear,20.2,6,NA,Major Ditch,ATPR,85,logs,8,5
-Poleline Ditch,PD1,7/29/2020,8:46,9:01,"Melissa, Sidney",64.1,3.1,7.5,Clear,18.2,6.1,NA,Major Ditch,ATPR,85,logs,8,2
-Poleline Ditch,PD1,7/30/2020,10:16,10:32,"Melissa, Sidney",66.4,1.5,3.1,Clear,19.1,6,NA,Major Ditch,ATPR,85,logs,8,1
-Poleline Ditch,PD2,6/24/2020,10:17,10:32,"Melissa, Sidney",71.5,5.3,8.5,Clear,20.7,4,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,0
-Poleline Ditch,PD2,6/25/2020,12:38,12:53,"Melissa, Sidney",87.8,3.2,6.9,Clear,27.5,3.9,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,1
-Poleline Ditch,PD2,6/26/2020,11:22,11:37,"Melissa, Sidney",81,6.4,9.7,Clear,22.4,4.2,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,1
-Poleline Ditch,PD2,7/28/2020,14:32,14:47,"Melissa, Sidney",82.1,6.2,11.8,Clear,25,5.5,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,4
-Poleline Ditch,PD2,7/29/2020,9:06,9:21,"Melissa, Sidney",67.7,9.1,13.3,Clear,17,5.2,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,2
-Poleline Ditch,PD2,7/30/2020,9:55,10:10,"Melissa, Sidney",67.2,5.5,9.9,Clear,17.4,5.3,NA,Major Ditch,"ATPR, LELA, DISP, PHAU",100,none,9,4
-Poleline Ditch,PD3,6/24/2020,10:42,10:57,"Melissa, Sidney",74.9,5.2,11.8,Clear,21.2,3,NA,Major Ditch,"DISP, LELA",100,Log,7,2
-Poleline Ditch,PD3,6/25/2020,12:16,12:31,"Melissa, Sidney",85,9.7,11.9,Clear,24.6,3.9,NA,Major Ditch,"DISP, LELA",90,SASO,16,0
-Poleline Ditch,PD3,6/26/2020,10:56,11:11,"Melissa, Sidney",76.2,10,11.9,Clear,22.5,3.9,NA,Major Ditch,"DISP, LELA",90,SASO,14,3
-Poleline Ditch,PD3,7/28/2020,14:13,14:28,"Melissa, Sidney",82.3,9.5,12.1,Clear,24.9,6.2,NA,Major Ditch,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,0
-Poleline Ditch,PD3,7/29/2020,9:26,9:41,"Melissa, Sidney",65.3,9.5,13.6,Clear,18.3,6.3,NA,Major Ditch,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,2
-Poleline Ditch,PD3,7/30/2020,9:36,9:51,"Melissa, Sidney",66.3,12.2,14.7,Clear,18.6,6.4,NA,Major Ditch,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,0
-Poleline Ditch,PD4,6/24/2020,11:23,11:38,"Melissa, Sidney",76,6,9.3,Clear,21.6,3.1,NA,Major Ditch,"LELA, PHAU, DISP",100,none,13,0
-Poleline Ditch,PD4,6/25/2020,11:42,11:57,"Melissa, Sidney",85,9.4,12.8,Clear,23,3.8,NA,Major Ditch,"LELA, PHAU, DISP",100,none,13,1
-Poleline Ditch,PD4,6/26/2020,10:20,10:35,"Melissa, Sidney",74,9.6,14.6,Clear,20.8,4,NA,Major Ditch,"LELA, PHAU, DISP",100,none,13,0
-Poleline Ditch,PD4,7/28/2020,13:50,14:05,Melissa,80.7,10.3,12.3,Clear,24.3,6.3,NA,Major Ditch,"PHAU, LELA, DISP, JACA",100,SAV,9,0
-Poleline Ditch,PD4,7/29/2020,9:54,10:09,Melissa,65.3,8.1,12.5,Clear,18.5,6.3,NA,Major Ditch,"PHAU, LELA, DISP, JACA",100,SAV,9,0
-Poleline Ditch,PD4,7/30/2020,9:11,9:26,"Melissa, Sidney",63.4,9,11.9,Partly Cloudy,18,5.5,NA,Major Ditch,"PHAU, LELA, DISP, JACA",100,SAV,9,0
-Roaring River,RR1,7/12/2020,10:12,10:27,Melissa,85,7.6,10.6,Clear,21.3,4.6,NA,Pond,"SCAC, Typha",85,none,14,0
-Roaring River,RR1,7/13/2020,10:38,10:53,Sidney,73.7,12,14.6,Clear,21,3.7,NA,Pond,"BOMA, Typha, Primrose",100,algae,15,0
-Roaring River,RR1,7/14/2020,12:50,13:05,Melissa,84.9,9.6,13.4,Clear,22.3,4.3,NA,Pond,"BOMA, Typha, Primrose",100,algae,15,0
-Roaring River,RR2,7/12/2020,10:11,10:26,Sidney,85,7.6,10.6,Clear,22.5,4.2,NA,Major Ditch,"BOMA, DISP",60,"rip rap, submerged aquatic veg",18,11
-Roaring River,RR2,7/13/2020,10:38,10:53,Melissa,73.7,12,14.6,Clear,23.2,3.7,NA,Major Ditch,"BOMA, DISP",60,"rip rap, submerged aquatic veg",18,12
-Roaring River,RR2,7/14/2020,12:49,13:04,Sidney,84.9,9.6,13.4,Clear,23.2,3.7,NA,Major Ditch,"BOMA, SCAC, LELA, POMO, primrose",70,"algae, rip rap",18,14
-Roaring River,RR3,7/12/2020,10:44,10:59,"Melissa, Sidney",77.8,8.8,11.7,Clear,22.9,3.7,NA,Major Ditch,"SCAC, Typha, PHAU",95,none,16,0
-Roaring River,RR3,7/13/2020,10:13,10:28,"Melissa, Sidney",72.8,8.3,10.4,Clear,22.6,3.2,NA,Major Ditch,"SCAC, Typha, PHAU",95,none,16,0
-Roaring River,RR3,7/14/2020,13:21,13:36,"Melissa, Sidney",77.7,9.8,15.5,Clear,22.9,4,NA,Major Ditch,"SCAC, Typha, PHAU",95,none,16,0
-Roaring River,RR4,7/12/2020,11:10,11:25,"Melissa, Sidney",82.5,6.4,8.9,Clear,23.6,3.6,NA,Major Ditch,"Typha, SCAC",85,algae,16,37
-Roaring River,RR4,7/13/2020,9:46,10:01,"Melissa, Sidney",75.7,5.6,7.4,Clear,22.8,3.5,NA,Major Ditch,"Typha, SCAC",85,algae,16,23
-Roaring River,RR4,7/14/2020,13:46,14:01,"Melissa, Sidney",82.3,11.7,14.4,Clear,24.5,3.5,NA,Major Ditch,"Typha, SCAC",85,algae,16,38
-Roaring River,RR5,7/12/2020,11:50,12:05,Melissa,82.9,9.5,11.1,Clear,23.1,2.7,NA,Major Ditch,"Typha, SCAC, PHAU",95,"Tules, Algae",16,1
-Roaring River,RR5,7/13/2020,9:16,9:31,"Melissa, Sidney",68.7,8,12.2,Clear,21.9,2.7,NA,Major Ditch,"Typha, SCAC, PHAU",95,"Tules, Algae",16,0
-Roaring River,RR5,7/14/2020,14:10,14:25,"Melissa, Sidney",77,13.5,16.3,Clear,23.1,2.7,NA,Major Ditch,"Typha, SCAC, PHAU",95,"Tules, Algae",16,1
-Roaring River,RR6,7/12/2020,12:17,12:32,Melissa,90.5,8.3,10.4,Clear,24.5,2.3,NA,Major Ditch,"Riprap, Tule, Primrose",70,none,16,22
-Roaring River,RR6,7/13/2020,8:47,9:02,Sidney,68,8,10.8,Clear,22.4,2.3,NA,Major Ditch,"BOMA, Primrose",100,downed tule,18,5
-Roaring River,RR6,7/14/2020,14:36,14:51,Melissa,79.4,13.5,15.3,Clear,23.8,2.3,NA,Major Ditch,"BOMA, Primrose",100,downed tule,18,19
-Roaring River,RR7,7/12/2020,13:16,13:31,Melissa,91.5,4.5,7.5,Clear,23.7,2.3,NA,Major Ditch,"SCAC, Typha, AG",95,none,15,0
-Roaring River,RR7,7/13/2020,8:19,8:34,Sidney,67.5,8.1,11.2,Clear,22.2,2.1,NA,Major Ditch,"BOMA, PHAU",100,downed tule,17,0
-Roaring River,RR7,7/14/2020,15:17,15:33,Melissa,80.7,10,13.1,Clear,23.9,2.4,NA,Major Ditch,"BOMA, PHAU",100,downed tule,17,0
-Shortcut Ditch,SC1,6/24/2020,13:18,13:33,"Melissa, Sidney",83.3,10.4,15.8,Clear,24.6,2.8,NA,Major Ditch,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,4
-Shortcut Ditch,SC1,6/25/2020,10:10,10:25,"Melissa, Sidney",82,7.9,12.8,Clear,23.1,3.1,NA,Major Ditch,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,11
-Shortcut Ditch,SC1,6/26/2020,8:19,8:34,"Melissa, Sidney",65.5,12,16.9,Clear,21.2,3.4,NA,Major Ditch,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,6
-Shortcut Ditch,SC1,7/28/2020,13:22,13:37,"Melissa, Sidney",85.1,8.2,12.1,Clear,22.7,5.7,NA,Major Ditch,"SCAC, PHAU",100,SCAC,13,14
-Shortcut Ditch,SC1,7/29/2020,10:20,10:35,"Melissa, Sidney",66.7,12.8,15.9,Clear,20.2,5.6,NA,Major Ditch,"SCAC, PHAU",100,SCAC,13,4
-Shortcut Ditch,SC1,7/30/2020,8:43,8:58,"Melissa, Sidney",64.4,12.6,18.2,Partly Cloudy,19.3,5.6,NA,Major Ditch,"SCAC, PHAU",100,SCAC,13,3
-Shortcut Ditch,SC2,6/24/2020,13:51,14:06,"Melissa, Sidney",85,8.7,9.5,Clear,28.5,2.7,NA,Major Ditch,"SCAC, Eucalyptus",5,none,8,1
-Shortcut Ditch,SC2,6/25/2020,9:43,9:58,"Melissa, Sidney",72,9.2,12.4,Clear,20.6,3.1,NA,Major Ditch,"SCAC, Eucalyptus",5,none,8,1
-Shortcut Ditch,SC2,6/26/2020,8:45,9:00,"Melissa, Sidney",63.1,14.1,17.6,Clear,17.9,3.3,NA,Major Ditch,"SCAC, Eucalyptus",5,none,8,0
-Shortcut Ditch,SC2,7/28/2020,13:00,13:15,"Melissa, Sidney",74.5,9.9,13.6,Clear,24.8,5.7,NA,Major Ditch,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,1
-Shortcut Ditch,SC2,7/29/2020,10:44,10:59,"Melissa, Sidney",65.9,14.5,17.7,Clear,19.9,5.5,NA,Major Ditch,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,1
-Shortcut Ditch,SC2,7/30/2020,8:22,8:37,"Melissa, Sidney",56.3,10.5,15.8,Partly Cloudy,16.5,5.4,NA,Major Ditch,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,0
-Solano Cut,SOC1,7/12/2020,12:44,12:59,"Melissa, Sidney",92.5,6.7,8.8,Clear,24.5,2.4,NA,Borrow Ditch,"PHAU, DISP",95,Exposed banks,9,6
-Solano Cut,SOC1,7/13/2020,8:45,9:00,Melissa,68,8,10.8,Clear,20.7,2.3,NA,Borrow Ditch,"PHAU, FOVU, DISP, EUOC",100,algae,9,10
-Solano Cut,SOC1,7/14/2020,14:37,14:52,Sidney,79.4,13.5,15.3,Clear,23.6,2.3,NA,Borrow Ditch,"PHAU, FOVU, DISP, EUOC",100,algae,14,4
-Suisun Slough,SS1,7/6/2020,9:19,9:34,"Melissa, Sidney",71.4,13.5,15.3,Clear,21.39,5.5,ebb,Major Slough,"SCAC, ROCA, PHAU",90,none,15,0
-Suisun Slough,SS1,7/7/2020,13:21,13:36,"Melissa, Sidney",94.5,0.9,1.8,Clear,21.67,5.2,flood,Major Slough,"SCAC, ROCA, PHAU",90,none,14,0
-Suisun Slough,SS1,7/8/2020,9:06,9:21,"Melissa, Sidney",80.9,2,3.7,Clear,23.3,2.2,ebb,Major Slough,"SCAC, ROCA, PHAU",90,none,13,0
-Suisun Slough,SS2,7/6/2020,9:52,10:07,Melissa,70.4,5.6,7.9,Clear,22.4,4.6,ebb,Major Slough,SCAC,90,"rip rap, eucalyptus",12,0
-Suisun Slough,SS2,7/7/2020,12:36,12:51,Sidney,87.3,0.9,1.4,Clear,22.2,7.8,NA,Major Slough,SCAC,90,"exposed bank, downed logs",9,0
-Suisun Slough,SS2,7/8/2020,8:32,8:47,Melissa,70.7,1.6,2.6,Clear,21,7.5,Ebb,Major Slough,SCAC,90,"logs, boards",16,0
-Suisun Slough,SS3,7/6/2020,10:47,11:02,"Melissa, Sidney",73.2,10,12.6,Clear,21.33,4.95,slack,Major Slough,"SCAC, rip rap",80,"logs, rip rap",,0
-Suisun Slough,SS3,7/7/2020,11:47,12:02,Sidney,88.3,1.4,3.8,Clear,21.89,4.89,flood,Major Slough,"SCAC, rip rap",80,exposed bank,9,0
-Suisun Slough,SS3,7/8/2020,10:27,10:42,Melissa,77.6,5.5,6.7,Clear,21.67,5.6,ebb,Major Slough,"SCAC, rip rap",80,rip rap,14,0
-Suisun Slough,SS4,7/13/2020,13:55,14:10,Sidney,82.8,8.6,11.7,Clear,25.9,8.8,LOOKUP,Major Slough,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,16,0
-Suisun Slough,SS4,7/14/2020,9:36,9:51,Melissa,71.4,7.9,11.5,Clear,22,9.4,LOOKUP,Major Slough,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,13,0
-Suisun Slough,SS4,7/15/2020,10:40,10:55,Melissa,73.8,8.5,13.5,Clear,21.2,10.3,LOOKUP,Major Slough,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,13,0
-Steve's Ditch,STD1,7/12/2020,8:32,8:47,"Melissa, Sidney",70.3,9.3,11.9,Clear,19.3,6.3,NA,Major Ditch,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,5
-Steve's Ditch,STD1,7/13/2020,11:03,11:18,"Melissa, Sidney",77,9.1,10.7,Clear,23.6,8.1,NA,Major Ditch,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,6
-Steve's Ditch,STD1,7/14/2020,12:26,12:41,"Melissa, Sidney",82.6,8.2,10.8,Clear,26.1,11.2,NA,Major Ditch,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,5
-Steve's Ditch,STD2,7/12/2020,9:03,9:18,"Melissa, Sidney",70.6,7.2,11.9,Clear,19.1,16.2,NA,Major Ditch,"SAPA, PHAU, DISP",80,culverts,5,0
-Steve's Ditch,STD2,7/13/2020,11:27,11:42,"Melissa, Sidney",87.1,4.1,5.9,Clear,24.2,19.5,NA,Major Ditch,"SAPA, PHAU, DISP",80,culverts,5,0
-Steve's Ditch,STD2,7/14/2020,12:03,12:18,"Melissa, Sidney",81.5,4.4,6.7,Clear,21.7,25.7,NA,Major Ditch,"SAPA, PHAU, DISP",80,culverts,5,0
-Steve's Ditch,STD3,7/12/2020,9:33,9:48,Melissa,75.8,4.9,8.7,Clear,20.9,14.3,NA,Major Ditch,"SAPA, ATPR, Xanthium",90,exposed banks,5,1
-Steve's Ditch,STD3,7/13/2020,11:53,12:08,Sidney,80.2,9.3,12.4,Clear,25,14.3,NA,Major Ditch,"SAPA, ATPR, Xanthium, Raddish",90,exposed bank,5,3
-Steve's Ditch,STD3,7/14/2020,11:36,11:51,Melissa,74.3,6.6,8.8,Clear,23.7,14.4,NA,Major Ditch,"SAPA, ATPR, Xanthium, Raddish",90,exposed bank,5,1
-Tule Red,TR1,7/12/2020,13:16,13:31,Sidney,91.5,4.5,7.5,Clear,28.6,8.4,LOOKUP,Tidal,"BOMA, PHAU, ROCA",100,Exposed substrate and tules,6,0
-Tule Red,TR1,7/13/2020,8:19,8:34,Melissa,67.5,8.1,11.2,Clear,23.3,8,LOOKUP,Tidal,"PHAU, SCAC",100,floating tule,14,0
-Tule Red,TR1,7/14/2020,15:18,15:33,Sidney,80.7,10,13.1,Clear,25.9,8,LOOKUP,Tidal,"PHAU, BOMA, ROCA, FOVU, Typha",100,downed tule,17,0
-Tree Slough,TS1,6/29/2020,8:44,8:59,"Melissa, Sidney",78,1.2,2.4,Clear,20.6,4.5,LOOKUP,Minor Slough,SCAC,90,none,16,1
-Tree Slough,TS1,6/30/2020,12:39,12:55,"Melissa, Sidney",99,0.9,1.1,Clear,24.3,4.6,LOOKUP,Minor Slough,SCAC,90,none,16,1
-Tree Slough,TS1,7/1/2020,13:28,13:43,"Melissa, Sidney",88.6,0.6,5.4,Clear,25,4.5,LOOKUP,Minor Slough,SCAC,90,none,16,1
-Tree Slough,TS2,7/6/2020,14:04,14:18,Melissa,84.8,7,10.3,Clear,25.5,8,LOOKUP,Minor Slough,"SCAC, Typha",90,none,,5
-Tree Slough,TS2,7/7/2020,8:35,8:50,Sidney,71.9,1.2,2.5,Clear,21.2,7.2,LOOKUP,Minor Slough,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,11,3
-Tree Slough,TS2,7/9/2020,12:42,12:57,Melissa,91,0.8,8.6,Clear,26.1,7.7,Ebb,Minor Slough,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,5,4
-Tree Slough,TS2,8/3/2020,13:24,13:39,"Melissa, Sidney",91.5,1.6,2.1,Clear,25.9,11.9,LOOKUP,Minor Slough,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,1
-Tree Slough,TS2,8/4/2020,14:07,14:22,Melissa,90.5,2.7,8.1,Clear,26.5,12.5,LOOKUP,Minor Slough,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,0
-Tree Slough,TS2,8/5/2020,9:30,9:45,Melissa,67.8,4.4,6,Overcast,21.2,9.3,LOOKUP,Minor Slough,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,2
-Volanti Slough,VS1,7/6/2020,11:16,11:31,Sidney,80.3,6.4,11.2,Clear,21.5,4.3,NA,Minor Slough,"PHAU, Typha",95,tule and exposed bank,13,1
-Volanti Slough,VS1,7/7/2020,11:21,11:36,"Melissa, Sidney",80.6,3.2,5.3,Clear,22.5,4.3,NA,Minor Slough,"PHAU, Typha",95,tule and exposed bank,14,0
-Volanti Slough,VS1,7/8/2020,14:09,14:24,Sidney,96.2,5.5,8.9,Clear,25.6,4.4,NA,Minor Slough,"PHAU, Typha",95,tule and exposed bank,14,0
-Volanti Slough,VS2,7/6/2020,11:47,12:02,"Melissa, Sidney",79,5.5,9.5,Clear,22.7,4.6,NA,Minor Slough,"Typha, SCAC",95,none,17,0
-Volanti Slough,VS2,7/7/2020,10:56,11:11,"Melissa, Sidney",77.9,2.9,3.8,Clear,22.1,4.7,NA,Minor Slough,SCAC,95,downed tule,15,2
-Volanti Slough,VS2,7/8/2020,14:35,14:50,"Melissa, Sidney",91.4,3.5,6.6,Clear,28.5,4.6,NA,Minor Slough,SCAC,95,downed tule,14,1
+location,surveypoint,date,start,end,observers,airtemp,avgwind,maxwind,clouds,watertemp,salinity,tide,habitat,mgmt,bankveg,bankcover,basking,flowstatus,number
+Arnold,AR1P,6/29/2020,10:50,11:06,"Melissa, Sidney",87.5,6,10.9,Clear,25.2,10.1,NA,Borrow Ditch,managed,"AG, SAPA",90,exposed bank,7,0
+Arnold,AR1P,6/30/2020,11:32,11:47,"Melissa, Sidney",89.2,1.6,2.7,Clear,30.7,4.1,NA,Borrow Ditch,managed,"AG, SAPA",90,exposed bank,7,1
+Arnold,AR1P,7/1/2020,9:21,9:36,"Melissa, Sidney",82.5,5.8,8.8,Clear,24.1,11.7,NA,Borrow Ditch,managed,"AG, SAPA",90,exposed bank,7,1
+Arnold,AR1P,8/10/2020,8:42,8:57,Sidney,68.5,6.2,8.6,Clear,21.3,7.1,NA,Borrow Ditch,managed,"PHAU, SAPA, ATPR",90,exposed bank,14,0
+Arnold,AR1P,8/11/2020,10:20,10:35,Melissa,73.2,8.4,11.8,Clear,21.7,8.4,NA,Borrow Ditch,managed,"ATPR, RASA, GRST",90,exposed bank,12,0
+Arnold,AR1P,8/12/2020,12:16,12:31,Sidney,83.7,5.8,7.7,Clear,25,8.1,NA,Borrow Ditch,managed,"RASA, SAPA, DISP",90,exposed bank,14,0
+Arnold,AR1S,6/29/2020,10:50,11:06,"Melissa, Sidney",87.5,6,10.9,Clear,21.5,4,LOOKUP,Minor Slough,tidal,"SCAC, CASE",100,banks,16,0
+Arnold,AR1S,6/30/2020,11:32,11:47,"Melissa, Sidney",89.2,1.6,2.7,Clear,22.4,10.8,LOOKUP,Minor Slough,tidal,"SCAC, CASE",100,banks,16,0
+Arnold,AR1S,7/1/2020,9:21,9:36,"Melissa, Sidney",82.5,5.8,8.8,Clear,21.7,4,LOOKUP,Minor Slough,tidal,"SCAC, CASE",100,banks,11,0
+Arnold,AR1S,8/10/2020,8:42,8:57,Melissa,68.5,6.2,8.6,Clear,21.8,6.9,LOOKUP,Minor Slough,tidal,"SCAC, SCAM, CASE",100,banks,14,0
+Arnold,AR1S,8/11/2020,10:20,10:35,Sidney,73.2,8.4,11.8,Clear,21.6,6.1,LOOKUP,Minor Slough,tidal,"SCAC, CASE",100,banks,17,0
+Arnold,AR1S,8/12/2020,12:16,12:31,Melissa,83.7,5.8,7.7,Clear,22.1,6.9,LOOKUP,Minor Slough,tidal,"SCAC, CASE",100,banks,17,0
+Arnold,AR2,6/29/2020,11:17,11:32,"Melissa, Sidney",84.7,4,6.2,Clear,25.2,10.1,NA,Borrow Ditch,managed,"SCAC, ATPR",90,exposed bank,7,0
+Arnold,AR2,6/30/2020,11:08,11:23,"Melissa, Sidney",90.9,1.9,3.2,Clear,30.7,4.1,NA,Borrow Ditch,managed,"SCAC, ATPR",90,exposed bank,7,0
+Arnold,AR2,7/1/2020,8:57,9:12,"Melissa, Sidney",69.5,4.9,8.5,Clear,22.2,3.8,NA,Borrow Ditch,managed,"SCAC, ATPR",90,exposed bank,7,0
+Arnold,AR2,8/10/2020,9:07,9:22,Sidney,70.9,4.6,8,Clear,21.3,7.1,NA,Borrow Ditch,managed,"SCAC, SAPA, RASA, ATPR",90,exposed bank,13,0
+Arnold,AR2,8/11/2020,10:41,10:56,Melissa,74,4.4,9.7,Clear,21.7,8.4,NA,Borrow Ditch,managed,"SCAC, SAPA, RASA, ATPR",90,exposed bank,10,0
+Arnold,AR2,8/12/2020,11:57,12:12,Sidney,77.8,4.6,7.2,Clear,25,8.1,NA,Borrow Ditch,managed,"SCAC, SAPA, RASA, ATPR",90,exposed bank,14,0
+Blacklock,BL1,6/29/2020,11:17,11:32,"Melissa, Sidney",84.7,4,6.2,Clear,21.4,4,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,16,0
+Blacklock,BL1,6/30/2020,11:08,11:23,"Melissa, Sidney",90.9,1.9,3.2,Clear,21.9,3.9,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,16,0
+Blacklock,BL1,7/1/2020,8:57,9:12,"Melissa, Sidney",69.5,4.9,8.5,Clear,21.4,4,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,16,0
+Blacklock,BL1,8/10/2020,9:07,9:22,Melissa,70.9,4.6,8,Clear,22.3,6.9,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,13,0
+Blacklock,BL1,8/11/2020,10:41,10:56,Sidney,74,4.4,9.7,Clear,21,7.1,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,15,0
+Blacklock,BL1,8/12/2020,11:57,12:13,Melissa,77.8,4.6,7.2,Clear,21.8,6.9,LOOKUP,Tidal,tidal,"PHAU, blackberry",100,downed tule,15,0
+Bradmoor Island,BM1,6/29/2020,12:28,12:44,"Melissa, Sidney",86.2,2.8,5.4,Clear,21.9,4,NA,Pond,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM1,6/30/2020,10:26,10:41,"Melissa, Sidney",91.5,1.6,2.7,Clear,21.7,4.1,NA,Pond,managed,"SCAC, PHAU",100,none,15,1
+Bradmoor Island,BM1,7/1/2020,10:52,11:07,"Melissa, Sidney",85.8,2.1,4.2,Clear,24.1,4.2,NA,Pond,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM1,8/10/2020,10:37,10:53,"Melissa, Sidney",83.5,3.4,7.6,Clear,22,7.3,NA,Pond,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM1,8/11/2020,11:36,11:51,"Melissa, Sidney",70,10,13.2,Clear,21.8,7.3,NA,Pond,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM1,8/12/2020,10:14,10:29,"Melissa, Sidney",71.3,3.4,6.6,Clear,19.7,7.1,NA,Pond,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM2,6/29/2020,13:02,13:17,"Melissa, Sidney",86.5,0.6,7.2,Clear,22.6,3.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,16,4
+Bradmoor Island,BM2,6/30/2020,9:58,10:13,"Melissa, Sidney",86.8,3.3,4,Clear,20.4,4,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,16,8
+Bradmoor Island,BM2,7/1/2020,10:25,10:40,"Melissa, Sidney",88.5,3.8,5.8,Clear,22.2,3.8,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,16,4
+Bradmoor Island,BM2,8/10/2020,10:12,10:27,"Melissa, Sidney",83.6,5.8,9.3,Clear,22.5,6.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,13,1
+Bradmoor Island,BM2,8/11/2020,12:04,12:19,"Melissa, Sidney",73.8,9.2,11.4,Clear,21.8,6.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,13,4
+Bradmoor Island,BM2,8/12/2020,10:40,10:55,"Melissa, Sidney",70.2,5.4,7.6,Clear,21,6.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,13,6
+Bradmoor Island,BM3,6/29/2020,13:41,14:56,"Melissa, Sidney",90.2,3.9,6,Clear,22.9,3.7,NA,Borrow Ditch,managed,"PHAU, DISP, Typha, Radish",100,none,14,1
+Bradmoor Island,BM3,6/30/2020,9:33,9:49,"Melissa, Sidney",88,0.7,1.2,Clear,19.7,3.7,NA,Borrow Ditch,managed,"PHAU, DISP, Typha, Radish",100,none,14,1
+Bradmoor Island,BM3,7/1/2020,10:01,10:16,"Melissa, Sidney",71.7,3.8,6.6,Clear,19.9,3.7,NA,Borrow Ditch,managed,"PHAU, DISP, Typha, Radish",100,none,14,1
+Bradmoor Island,BM3,8/10/2020,9:43,9:58,"Melissa, Sidney",79.2,6,10,Clear,19.8,6.8,NA,Borrow Ditch,managed,"PHAU, Typha, DISP, BOMA",100,none,15,0
+Bradmoor Island,BM3,8/11/2020,12:27,12:42,"Melissa, Sidney",80.3,6.5,10.1,Clear,21.1,6.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM3,8/12/2020,11:03,11:18,"Melissa, Sidney",74.1,4.2,6.1,Clear,19.8,6.6,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,15,0
+Bradmoor Island,BM4,6/29/2020,14:07,14:22,"Melissa, Sidney",93,5.4,8.9,Clear,24.1,3.8,NA,Borrow Ditch,managed,"DISP, Typha, SCAC",100,none,16,0
+Bradmoor Island,BM4,6/30/2020,9:09,9:24,"Melissa, Sidney",88.8,1,1.4,Clear,22,3.8,NA,Borrow Ditch,managed,"DISP, Typha, SCAC",100,none,16,3
+Bradmoor Island,BM4,7/1/2020,11:24,11:39,"Melissa, Sidney",85.8,3.2,4.7,Clear,23.6,4,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,16,1
+Bradmoor Island,BM4,8/10/2020,11:28,11:43,"Melissa, Sidney",79.1,6.6,10,Clear,23.9,6.9,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,11,2
+Bradmoor Island,BM4,8/11/2020,11:14,11:29,"Melissa, Sidney",70.3,10.3,15.4,Clear,21.9,7,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,11,1
+Bradmoor Island,BM4,8/12/2020,11:24,11:39,"Melissa, Sidney",73.4,5.1,7.7,Clear,21.7,7.1,NA,Borrow Ditch,managed,"SCAC, PHAU",100,none,11,0
+Cutoff Slough,CO1,7/6/2020,13:19,13:34,Melissa,82,13.7,16.9,Clear,22.3,5.3,LOOKUP,Minor Slough,tidal,"SCAC, PHAU",100,banks,15,0
+Cutoff Slough,CO1,7/7/2020,14:36,14:51,"Melissa, Sidney",90.2,4.4,6.9,Clear,22.6,5.5,LOOKUP,Minor Slough,tidal,"SCAC, PHAU",100,banks,18,0
+Cutoff Slough,CO1,7/8/2020,13:24,13:39,"Melissa, Sidney",84.9,8,10.6,Clear,22.9,5.3,Flood,Minor Slough,tidal,"SCAC, PHAU",100,banks,11,0
+Cutoff Slough,CO2,7/6/2020,12:45,13:00,Melissa,85.5,8,9.9,Clear,22.5,5.2,LOOKUP,Minor Slough,tidal,SCAC,100,"tule rafts, exposed banks",11,0
+Cutoff Slough,CO2,7/7/2020,9:59,10:14,Sidney,74.3,3.8,5.5,Clear,22.1,5.5,LOOKUP,Minor Slough,tidal,SCAC,100,"tule rafts, exposed banks",12,0
+Cutoff Slough,CO2,7/8/2020,15:21,15:35,Melissa,91.3,4.6,8,Clear,23,5.3,LOOKUP,Minor Slough,tidal,SCAC,100,"tule rafts, exposed banks",18,0
+Crescent Unit,CR1,6/25/2020,9:08,9:23,"Melissa, Sidney",75.5,5.9,7.7,Clear,19.8,18.7,NA,Pond,managed,SAPA,90,none,14,0
+Crescent Unit,CR1,6/26/2020,14:13,14:28,"Melissa, Sidney",93.5,7.2,11.4,Clear,26,19.5,NA,Pond,managed,SAPA,90,none,14,0
+Crescent Unit,CR2A,6/24/2020,14:55,15:10,"Melissa, Sidney",88,4.2,6.5,Clear,25.3,4.4,NA,Borrow Ditch,managed,"FRSA, DISP",90,none,14,0
+Crescent Unit,CR2A,6/25/2020,8:40,8:55,"Melissa, Sidney",87,4.2,7.6,Clear,22.6,4.6,NA,Borrow Ditch,managed,SCAC,90,"algae, floating tules",14,1
+Crescent Unit,CR2A,6/26/2020,13:49,14:06,"Melissa, Sidney",92.3,5.6,7.8,Clear,24.7,4.5,NA,Borrow Ditch,managed,SCAC,90,"algae, floating tules",14,1
+Crescent Unit,CR2A,8/3/2020,14:58,15:13,"Melissa, Sidney",92.8,12,14.9,Clear,25,8.4,NA,Borrow Ditch,managed,"DISP, BOMA, FRSA",100,downed tules,14,0
+Crescent Unit,CR2A,8/4/2020,12:38,12:52,"Melissa, Sidney",81,6.4,8.3,Clear,24.5,8.9,NA,Borrow Ditch,managed,"DISP, BOMA, FRSA",100,downed tules,14,0
+Crescent Unit,CR2A,8/5/2020,8:23,8:38,"Melissa, Sidney",63.5,9.7,11.6,Overcast,20.3,8.4,NA,Borrow Ditch,managed,"DISP, BOMA, FRSA",100,downed tules,14,0
+Crescent Unit,CR2B,6/24/2020,14:55,15:10,"Melissa, Sidney",88,4.2,6.5,Clear,24.5,4.2,NA,Pond,managed,"FRSA, DISP",90,none,14,0
+Crescent Unit,CR2B,6/25/2020,8:40,8:55,"Melissa, Sidney",87,4.2,7.6,Clear,22.6,4.6,NA,Pond,managed,SCAC,90,"algae, floating tules",14,0
+Crescent Unit,CR2B,6/26/2020,13:49,14:06,"Melissa, Sidney",92.3,5.6,7.8,Clear,24.7,4.5,NA,Pond,managed,SCAC,90,"algae, floating tules",14,0
+Crescent Unit,CR3A,6/24/2020,15:19,15:34,"Melissa, Sidney",93,8.5,11.9,Clear,26.9,6.3,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,0
+Crescent Unit,CR3A,6/25/2020,8:15,8:30,"Melissa, Sidney",71,1.5,2.4,Clear,22,4.5,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,1
+Crescent Unit,CR3A,6/26/2020,13:23,13:38,"Melissa, Sidney",93.1,3.9,5.8,Clear,25.7,5.1,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,0
+Crescent Unit,CR3A,8/3/2020,14:36,14:51,"Melissa, Sidney",96.2,4.1,7.4,Clear,25.1,8,NA,Borrow Ditch,managed,"FRSA, DISP, Fennel",100,none,13,0
+Crescent Unit,CR3A,8/4/2020,12:58,13:13,"Melissa, Sidney",85.5,7.2,8.8,Clear,22,8.1,NA,Borrow Ditch,managed,"FRSA, DISP, Fennel",100,none,13,0
+Crescent Unit,CR3A,8/5/2020,8:43,8:59,"Melissa, Sidney",64.3,4.1,6.8,Overcast,19,8.5,NA,Borrow Ditch,managed,"FRSA, DISP, Fennel",100,none,13,0
+Crescent Unit,CR3B,6/24/2020,15:19,15:34,"Melissa, Sidney",93,8.5,11.9,Clear,25.1,4.3,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,0
+Crescent Unit,CR3B,6/25/2020,8:15,8:30,"Melissa, Sidney",71,1.5,2.4,Clear,22,4.5,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,0
+Crescent Unit,CR3B,6/26/2020,13:23,13:38,"Melissa, Sidney",93.1,3.9,5.8,Clear,25.7,5.1,NA,Borrow Ditch,managed,"FRSA, SCAM",90,One board,14,0
+Dutton's Pond,DP1,6/24/2020,8:48,9:03,"Melissa, Sidney",62.7,17.5,14.4,Partly Cloudy,19.4,3.1,NA,Pond,managed,"SCAC, Primrose",90,Algae,18,0
+Dutton's Pond,DP1,6/25/2020,14:03,14:18,"Melissa, Sidney",88,9.8,13.6,Clear,24.4,3.4,NA,Pond,managed,"SCAC, Primrose",90,Algae,18,0
+Dutton's Pond,DP1,6/26/2020,12:40,12:55,"Melsisa, Sidney",80.3,14.8,17.4,Clear,22.6,3.3,NA,Pond,managed,"SCAC, Primrose",90,Algae,18,1
+Dutton's Pond,DP1,7/28/2020,15:16,15:31,"Melissa, Sidney",79.3,14.4,17.7,Clear,22.4,5.3,NA,Pond,managed,SCAC,90,algae,16,4
+Dutton's Pond,DP1,7/29/2020,8:21,8:37,"Melissa, Sidney",61.2,12,13.5,Clear,18.8,5.2,NA,Pond,managed,SCAC,90,algae,16,7
+Dutton's Pond,DP1,7/30/2020,10:39,10:55,"Melissa, Sidney",67.3,8.3,12.4,Clear,19.9,5.2,NA,Pond,managed,SCAC,95,algae,16,26
+Dutton's Pond,DP2,6/24/2020,9:21,9:36,"Melissa, Sidney",69.2,3.2,7.2,Clear,22,3.8,NA,Borrow Ditch,managed,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
+Dutton's Pond,DP2,6/25/2020,13:34,13:49,"Melissa, Sidney",88,5.8,8.8,Clear,24,4,NA,Borrow Ditch,managed,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
+Dutton's Pond,DP2,6/26/2020,12:16,12:31,"Melissa, Sidney",83.7,6.4,9.7,Clear,23,4.3,NA,Borrow Ditch,managed,"Typha, SCAC, DISP",90,Aquatic vegetation,18,0
+Denverton,DV1,6/29/2020,17:52,18:09,Melissa,85,5,8.8,Clear,25.8,3.5,NA,Borrow Ditch,managed,"SCAC, Typha",80,mud bank,10,4
+Denverton,DV1,6/30/2020,7:52,8:07,Melissa,75.2,4.9,6,Clear,21.4,3.5,NA,Borrow Ditch,managed,"SCAC, Typha",80,mud bank,10,3
+Denverton,DV1,7/1/2020,7:53,8:08,Sidney,71.2,4.3,5.8,Clear,21.6,3.5,NA,Pond,managed,"SCAC, Typha",80,mud bank,10,0
+Denverton,DV2,6/29/2020,18:37,18:52,Melissa,86.4,6.8,11.7,Clear,25.2,5.1,NA,Pond,managed,"COCO, SCAC, SAPA, DISP",90,none,14,1
+Denverton,DV2,6/30/2020,7:20,7:35,Sidney,69,3.2,4.8,Clear,18.1,5.1,NA,Pond,managed,"SCAC, DISP, COCO",40,"mud bank, dead emergent tule",9,4
+Denverton,DV2,7/1/2020,7:28,7:44,"Melissa, Sidney",66.3,4.1,8.1,Clear,19.3,4.6,NA,Pond,managed,"SCAC, DISP, COCO",40,"mud bank, dead emergent tule",9,4
+Denverton,DV3,6/29/2020,19:21,19:36,Melissa,79.6,10.4,12.4,Clear,24.4,10.3,NA,Pond,managed,"SAPA, POMO, COCO",80,exposed bank,13,0
+Denverton,DV3,6/30/2020,6:56,7:11,"Melissa, Sidney",67,3.2,5.1,Clear,18.4,10.2,NA,Pond,managed,"SAPA, POMO, COCO",80,exposed bank,13,0
+Denverton,DV3,7/1/2020,7:06,7:21,"Melissa, Sidney",61.9,7.4,9.7,Clear,19.5,10.5,NA,Pond,managed,"SAPA, POMO, COCO",80,exposed bank,14,0
+Denverton,DVS1,6/29/2020,18:11,18:27,Melissa,85,9.6,12.8,Clear,25.7,3.4,LOOKUP,Minor Slough,tidal,"SCAC, PHAU, Typha",100,none,15,1
+Denverton,DVS1,6/30/2020,7:50,8:05,Sidney,75.2,4.9,6,Clear,21.6,3.5,LOOKUP,Minor Slough,tidal,"SCAC, DISP",100,logs,13,0
+Denverton,DVS1,7/1/2020,7:53,8:08,"Melissa, Sidney",71.2,4.3,5.8,Clear,22,3.5,LOOKUP,Major Slough,tidal,"SCAC, DISP",100,exposed mud bank,10,1
+Denverton,DVS2,6/29/2020,18:54,19:09,Melissa,86.4,7.2,9.8,Clear,24.4,3.6,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,none,16,1
+Denverton,DVS2,6/30/2020,7:20,7:35,Melissa,69,3.2,4.8,Clear,20.9,3.6,LOOKUP,Minor Slough,tidal,"SCAC, PHAU",100,none,16,5
+Denverton,DVS2,7/1/2020,7:29,7:44,Sidney,66.3,4.1,8.1,Clear,21.1,3.8,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,none,9,7
+Denverton,DVS3,6/30/2020,8:26,8:41,Melissa,73.9,4.6,5.6,Clear,21.7,4,LOOKUP,Major Slough,tidal,SCAC,100,none,14,2
+Denverton,DVS3,7/1/2020,8:24,8:39,"Melissa, Sidney",70.8,1.5,4.7,Clear,19,4.3,LOOKUP,Major Slough,tidal,SCAC,100,none,14,3
+Fleetside,FS1,7/28/2020,8:46,9:01,"Melissa, Sidney",60.2,7.4,13.9,Partly Cloudy,18.2,14.1,NA,Pond,managed,"Typha, PHAU, LELA, DISP",100,SAV,16,0
+Fleetside,FS1,7/29/2020,13:06,13:21,"Melissa, Sidney",76.9,9.4,13.8,Clear,20.5,14.5,NA,Pond,managed,"Typha, PHAU, LELA, DISP",100,SAV,16,0
+Fleetside,FS1,7/30/2020,13:36,13:51,"Melissa, Sidney",76.9,7.7,10.2,Clear,21.5,14.7,NA,Pond,managed,"Typha, PHAU, LELA, DISP",100,SAV,16,0
+Fleetside,FS2,7/28/2020,9:13,9:28,"Melissa, Sidney",61.4,8.9,14.2,Partly Cloudy,18.6,14.7,NA,Pond,managed,"Typha, PHAU",98,SAV,16,0
+Fleetside,FS2,7/29/2020,12:44,12:59,"Melissa, Sidney",78.6,7.5,10.5,Clear,19.5,14.7,NA,Pond,managed,"Typha, PHAU",98,SAV,16,0
+Fleetside,FS2,7/30/2020,14:42,14:57,"Melissa, Sidney",80.8,5.7,10.2,Clear,21.1,14.9,NA,Pond,managed,"Typha, PHAU",98,SAV,16,0
+Fleetside,FS3,7/28/2020,9:43,9:58,"Melissa, Sidney",62.4,16.5,20.6,Partly Cloudy,16.9,14,NA,Pond,managed,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
+Fleetside,FS3,7/29/2020,12:12,12:27,"Melissa, Sidney",71.6,11.3,14.3,Clear,19.4,14.3,NA,Pond,managed,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
+Fleetside,FS3,7/30/2020,14:11,14:26,"Melissa, Sidney",76.4,12.7,14.4,Clear,21.5,14.1,NA,Pond,managed,"Typha, PHAU, DISP, SAPA, BAPI, LELA",100,"SAV, log",15,0
+Fleetside,FS4,7/28/2020,10:51,11:06,"Melissa, Sidney",60.2,6.2,10.2,Partly Cloudy,19.4,11.6,NA,Pond,managed,"PHAU, LELA, DISP",80,exposed banks,16,0
+Fleetside,FS4,7/29/2020,13:44,13:59,"Melissa, Sidney",89.1,5.1,8.2,Clear,21.9,11.4,NA,Pond,managed,"PHAU, LELA, DISP",80,exposed banks,16,0
+Fleetside,FS4,7/30/2020,13:06,13:21,"Melissa, Sidney",78.4,8.4,13,Clear,20.8,10.9,NA,Pond,managed,"PHAU, LELA, DISP",80,exposed banks,16,0
+Fleetside,FS5,7/28/2020,11:14,11:29,"Melissa, Sidney",69.5,8,11,Partly Cloudy,20.2,11.4,NA,Pond,managed,"typha, LELA, PHAU",90,,15,0
+Fleetside,FS5,7/29/2020,14:05,14:20,"Melissa, Sidney",85.7,3.2,5.1,Clear,23,11.2,NA,Pond,managed,"typha, LELA, PHAU",90,,15,1
+Fleetside,FS5,7/30/2020,12:37,12:52,"Melissa, Sidney",74.8,10,12.8,Clear,21.3,10.7,NA,Pond,managed,"typha, LELA, PHAU",90,,15,0
+Fleetside,FS6,7/28/2020,11:36,11:51,"Melissa, Sidney",80.7,6.4,8.4,Clear,19.4,13.3,NA,Borrow Ditch,managed,"PHAU, DISP, ATPR",80,algae,16,0
+Fleetside,FS6,7/29/2020,14:29,14:44,"Melissa, Sidney",86.7,6.6,10.2,Clear,19.9,13.1,NA,Borrow Ditch,managed,"PHAU, DISP, ATPR",80,algae,16,0
+Fleetside,FS6,7/30/2020,12:13,12:28,"Melissa, Sidney",69.9,8.6,12.7,Clear,20.1,11,NA,Borrow Ditch,managed,"PHAU, DISP, ATPR",80,algae,16,0
+Fleetside,FS7,7/28/2020,11:58,12:13,"Melissa, Sidney",76.5,6.8,11,Clear,19.9,13.9,NA,Pond,managed,"Typha, SCAC, PHAU",80,,16,0
+Fleetside,FS7,7/29/2020,14:50,15:05,"Melissa, Sidney",89.4,5.7,8.7,Clear,20.1,14.2,NA,Pond,managed,"Typha, SCAC, PHAU",80,,16,0
+Fleetside,FS7,7/30/2020,11:51,12:06,"Melissa, Sidney",71.3,7.6,10.5,Clear,20,14.4,NA,Pond,managed,"Typha, SCAC, PHAU",80,,16,0
+Grizzly Ditch,GD1,7/22/2020,14:23,14:38,Melissa,78.4,8.4,12.4,Clear,22.5,2.6,NA,Major Ditch,managed,"SCAC, Fennel, Typha, LELA",95,none,16,41
+Grizzly Ditch,GD1,7/23/2020,9:39,9:54,Melissa,66.4,7.7,8.9,Clear,20.1,2.6,NA,Major Ditch,managed,"SCAC, Fennel, Typha, LELA",95,none,16,17
+Grizzly Ditch,GD1,7/24/2020,13:10,13:25,Melissa,81.5,8.2,12.3,Clear,23.2,2.7,NA,Major Ditch,managed,"SCAC, Fennel, Typha, LELA",95,Algae,16,42
+Grizzly Ditch,GD2,7/22/2020,14:46,15:01,Melissa,78.5,10.4,13.5,Clear,22.4,5.4,NA,Major Ditch,managed,SCAC,100,none,14,0
+Grizzly Ditch,GD2,7/23/2020,11:07,11:22,Melissa,71.2,6.8,8.1,Clear,22.4,5.4,NA,Major Ditch,managed,SCAC,100,none,14,0
+Grizzly Ditch,GD2,7/24/2020,12:49,13:04,Melissa,81,5.1,7.7,Clear,21.7,5.4,NA,Major Ditch,managed,SCAC,100,none,14,0
+Grizzly Ditch,GD3,7/22/2020,15:12,15:27,Melissa,76.8,10.4,12.8,Clear,25.1,5.4,NA,Major Ditch,managed,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,5
+Grizzly Ditch,GD3,7/23/2020,9:15,9:30,Melissa,66.6,6.1,9,Clear,17.9,5.4,NA,Major Ditch,managed,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,0
+Grizzly Ditch,GD3,7/24/2020,12:25,12:41,Melissa,77.7,7.7,10.1,Clear,22.6,5.5,NA,Major Ditch,managed,"SCAC, ROCA, OHAU, DISP, Wheat grass",80,"Algae, pipe",13,5
+Grizzly Ditch,GD4,7/22/2020,15:35,15:50,Melissa,77.9,7.9,13.2,Clear,24,5.2,NA,Major Ditch,managed,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
+Grizzly Ditch,GD4,7/23/2020,8:53,9:09,Melissa,63.1,7.7,14.3,Clear,19.1,5.4,NA,Major Ditch,managed,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
+Grizzly Ditch,GD4,7/24/2020,12:03,12:18,Melissa,80,7.7,9.1,Clear,22.5,5.2,NA,Major Ditch,managed,"SCAC, PHAU, Typha, Fennel",100,Algae,13,0
+Grizzly Ditch,GD5,7/22/2020,15:55,16:10,Melissa,74.8,13.2,19.7,Clear,23.2,5.2,NA,Major Ditch,managed,"Typha, SCAC, BAPI, LELA",95,none,14,0
+Grizzly Ditch,GD5,7/23/2020,8:31,8:46,Melissa,69.8,8.1,10.7,Clear,20.1,5.2,NA,Major Ditch,managed,"Typha, SCAC, BAPI, LELA",95,none,14,0
+Grizzly Ditch,GD5,7/24/2020,11:40,11:55,Melissa,78.7,9.9,12.3,Clear,22.4,5.4,NA,Major Ditch,managed,"Typha, SCAC, BAPI, LELA",95,none,14,0
+Grizzly Ranch,GR1D,6/29/2020,8:18,8:33,"Melissa, Sidney",74.5,3,5.4,Clear,19.1,4.8,NA,Borrow Ditch,managed,"SCAC, DISP",100,none,15,0
+Grizzly Ranch,GR1D,6/30/2020,13:37,13:52,"Melissa, Sidney",91.3,5.5,9.4,Clear,22.8,4.9,NA,Borrow Ditch,managed,"SCAC, DISP",100,none,15,0
+Grizzly Ranch,GR1D,7/1/2020,12:28,12:43,"Melissa, Sidney",85.2,2.9,5.2,Clear,23,4.9,NA,Borrow Ditch,managed,"SCAC, DISP",100,none,15,1
+Grizzly Ranch,GR1P,6/29/2020,8:18,8:33,"Melissa, Sidney",74.5,3,5.4,Clear,19.3,4.4,NA,Pond,managed,DISP,100,algae,15,0
+Grizzly Ranch,GR1P,6/30/2020,13:37,13:52,"Melissa, Sidney",91.3,5.5,9.4,Clear,27.2,4.5,NA,Pond,managed,DISP,100,algae,15,0
+Grizzly Ranch,GR1P,7/1/2020,12:28,12:43,"Melissa, Sidney",85.2,2.9,5.2,Clear,27.1,4.1,NA,Pond,managed,DISP,100,algae,15,3
+Grizzly Ranch,GR2,6/29/2020,8:44,8:59,"Melissa, Sidney",78,1.2,2.4,Clear,20.3,7.8,NA,Borrow Ditch,managed,"SCAC, DISP, Ice Plant",100,none,11,5
+Grizzly Ranch,GR2,6/30/2020,12:39,12:55,"Melissa, Sidney",99,0.9,1.1,Clear,22.3,8.1,NA,Borrow Ditch,managed,"SCAC, DISP, Ice Plant",100,none,11,3
+Grizzly Ranch,GR2,7/1/2020,13:28,13:43,"Melissa, Sidney",88.6,0.6,5.4,Clear,24.7,8.1,NA,Borrow Ditch,managed,"SCAC, DISP, Ice Plant",100,none,11,3
+Grizzly Ranch,GR3,6/29/2020,9:37,9:53,"Melissa, Sidney",83,5.1,6.3,Clear,21.4,4.6,NA,Borrow Ditch,managed,"Typha, SCAC",100,none,16,4
+Grizzly Ranch,GR3,6/30/2020,13:08,13:23,"Melissa, Sidney",93.8,2.4,4.1,Clear,24,4.6,NA,Borrow Ditch,managed,"Typha, SCAC",100,none,16,1
+Grizzly Ranch,GR3,7/1/2020,12:56,13:12,"Melissa, Sidney",88.3,2.4,4.2,Clear,22.8,4.7,NA,Borrow Ditch,managed,"Typha, SCAC",100,none,16,3
+Howard's Slough,HOS1,7/12/2020,9:33,9:48,Sidney,75.8,4.9,8.7,Clear,22.1,21.3,NA,Major Ditch,managed,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,5,0
+Howard's Slough,HOS1,7/13/2020,11:54,12:09,Melissa,80.2,9.3,12.4,Clear,27,21.8,NA,Major Ditch,managed,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,2,0
+Howard's Slough,HOS1,7/14/2020,11:36,11:51,Sidney,74.3,6.6,8.8,Clear,27,22.5,NA,Borrow Ditch,managed,"PHAU, DISP, CESO, ELPO",100,Exposed banks and substrate,4,0
+Hill Slough,HS1,8/3/2020,11:52,12:07,"Melissa, Sidney",91.9,3,6.6,Clear,26.5,6.1,LOOKUP,Minor Slough,tidal,"Typha, SCAC",100,exposed banks,9,3
+Hill Slough,HS1,8/4/2020,9:04,9:19,"Melissa, Sidney",67.6,4,6.8,Clear,21.3,5.7,LOOKUP,Minor Slough,tidal,"Typha, SCAC",100,exposed banks,13,0
+Hill Slough,HS1,8/5/2020,11:22,11:37,"Melissa, Sidney",76.7,7.3,10.4,Partly Cloudy,24.3,5.1,Ebb,Minor Slough,tidal,"Typha, SCAC",100,exposed banks,13,2
+Hill Slough,HS2,8/3/2020,12:22,12:37,"Melissa, Sidney",91,2.6,3.4,Clear,30.3,5.3,LOOKUP,Minor Slough,tidal,,100,exposed banks,9,0
+Hill Slough,HS2,8/4/2020,8:40,8:55,"Melissa, Sidney",67.6,5.4,8.1,Clear,20.9,6.4,LOOKUP,Minor Slough,tidal,,100,exposed banks,11,0
+Hill Slough,HS2,8/5/2020,10:52,11:08,"Melissa, Sidney",68.5,5.2,8.9,Partly Cloudy,22.8,5.5,Ebb,Minor Slough,tidal,,100,exposed banks,10,1
+Hill Slough,HS3,8/10/2020,12:23,12:38,"Melissa, Sidney",81.4,9.5,12.5,Clear,23.1,6.4,LOOKUP,Minor Slough,tidal,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,0
+Hill Slough,HS3,8/11/2020,14:55,15:10,"Melissa, Sidney",82.7,11.9,16.5,Clear,22.8,6.2,LOOKUP,Minor Slough,tidal,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,1
+Hill Slough,HS3,8/12/2020,13:08,13:23,"Melissa, Sidney",91.4,7.8,9.6,Clear,21.7,6.4,LOOKUP,Minor Slough,tidal,"DISP, Typha, SCAC",95,"exposed mud bank, downed tules",10,0
+Hill Slough,HS4A,8/10/2020,12:51,13:11,Melissa,83.7,9.2,12.4,Clear,22.5,6.4,LOOKUP,Tidal,tidal,"PHAU, Typha",100,platform,12,4
+Hill Slough,HS4A,8/11/2020,14:26,14:41,Sidney,77,11.2,14,Clear,22.4,6.3,LOOKUP,Tidal,tidal,"BOMA, PHAU, Typha, fennel",95,platform,12,8
+Hill Slough,HS4A,8/12/2020,13:57,14:12,Melissa,94.8,5.4,6.2,Clear,23.1,6.4,LOOKUP,Tidal,tidal,"PHAU, Typha",100,Platform,16,2
+Hill Slough,HS4B,8/10/2020,12:49,13:04,Sidney,83.7,9.2,12.4,Clear,22.5,6.4,LOOKUP,Tidal,tidal,"PHAU, BOMA",100,"downe tule, algae, tule root wad",12,19
+Hill Slough,HS4B,8/11/2020,14:26,14:41,Melissa,77,11.2,14,Clear,22.4,6.3,LOOKUP,Tidal,tidal,"PHAU, BOMA",100,"downe tule, algae, tule root wad",12,13
+Hill Slough,HS4B,8/12/2020,13:57,14:12,Sidney,94.8,5.4,6.2,Clear,23.1,6.4,LOOKUP,Tidal,tidal,PHAU,100,"exposed bank, algae",15,26
+Hill Slough,HS5,8/10/2020,13:38,13:52,"Melissa, Sidney",84,7.3,10.6,Clear,23.6,5.4,NA,Borrow Ditch,managed,"Typha, DISP",100,none,14,5
+Hill Slough,HS5,8/11/2020,14:05,14:20,"Melissa, Sidney",76.2,9.1,11,Clear,22.5,6.6,NA,Borrow Ditch,managed,"Typha, DISP",100,none,14,4
+Hill Slough,HS5,8/12/2020,13:35,13:49,"Melissa, Sidney",85.6,4.3,7.2,Clear,22.7,6.8,NA,Borrow Ditch,managed,"Typha, DISP",100,none,14,7
+Hill Slough,HS6,8/10/2020,14:05,14:20,"Melissa, Sidney",88.3,5,6.9,Clear,21,4.1,NA,Borrow Ditch,managed,"Typha, SCAC, RASA, LELA",100,none,13,0
+Hill Slough,HS6,8/11/2020,13:41,12:56,"Melissa, Sidney",77,7.4,10.7,Clear,20.9,6.4,NA,Borrow Ditch,managed,"Typha, SCAC, RASA, LELA",100,none,13,2
+Hill Slough,HS6,8/14/2020,7:40,7:55,Melissa,75.7,0,0,Partly Cloudy,22,6.4,NA,Borrow Ditch,managed,"Typha, SCAC, RASA, LELA",100,none,13,1
+Hill Slough,HS7,8/10/2020,14:26,14:41,"Melissa, Sidney",85,8,12.3,Clear,23.9,6.3,NA,Borrow Ditch,managed,"SCAM, PHAU",,fallen SCAM,,0
+Hill Slough,HS7,8/11/2020,13:21,13:36,"Melissa, Sidney",76.5,8.6,10.9,Clear,21.9,6.1,NA,Borrow Ditch,managed,"SCAM, PHAU",,fallen SCAM,,1
+Hill Slough,HS7,8/14/2020,7:21,7:36,Melissa,74.5,0.7,1.2,Partly Cloudy,22,6.4,NA,Borrow Ditch,managed,"SCAM, PHAU",,fallen SCAM,,2
+Island Slough,IS1,8/3/2020,8:35,8:49,Sidney,79.3,3.3,4.3,Clear,22.4,8,NA,Borrow Ditch,managed,"BOMA, DISP, blackberry",100,downed tule,16,1
+Island Slough,IS1,8/4/2020,11:21,11:36,Sidney,91.7,2.6,5,Clear,24.6,6,NA,Borrow Ditch,managed,"BOMA, DISP, raddish",100,floating tule,15,7
+Island Slough,IS1,8/5/2020,12:08,12:23,Sidney,69,7.1,9.4,Partly Cloudy,22.1,6.8,NA,Borrow Ditch,managed,"BOMA, DISP",100,downed tule,17,8
+Island Slough,IS2,8/3/2020,8:35,8:51,"Melissa, Sidney",79.3,3.3,4.3,Clear,19.3,8.3,NA,Pond,managed,"SAPA, DISP, PHAU",100,none,13,0
+Island Slough,IS2,8/4/2020,11:21,11:36,Melissa,91.7,2.6,5,Clear,23.4,8.2,NA,Pond,managed,"SAPA, DISP, PHAU",100,none,13,0
+Island Slough,IS2,8/5/2020,12:09,12:24,Melissa,69,7.1,9.4,Clear,23,7,NA,Pond,managed,"SAPA, DISP, PHAU",100,none,13,0
+Island Slough,IS3,8/3/2020,9:07,9:22,"Melissa, Sidney",80.8,4.5,7.1,Clear,21.9,8,NA,Borrow Ditch,managed,"DISP, ATPR, SAPA, SCAC",,none,12,2
+Island Slough,IS3,8/4/2020,11:47,12:02,"Melissa, Sidney",84.2,5,8,Clear,23.1,7.9,NA,Borrow Ditch,managed,"DISP, ATPR, SAPA, SCAC",,none,12,0
+Island Slough,IS3,8/5/2020,12:45,13:00,Melissa,75,8.3,11.5,Clear,22,6.6,NA,Borrow Ditch,managed,"DISP, ATPR, SAPA, SCAC",,none,12,0
+Island Slough,IS4,8/3/2020,9:32,9:48,Melissa,83.3,3.5,4.6,Clear,20.5,8.2,NA,Borrow Ditch,managed,"ATPR, DISP, SAPA",100,pipe,11,0
+Island Slough,IS4,8/4/2020,10:53,11:08,Sidney,82.6,6.5,10.9,Clear,21.2,8.1,NA,Borrow Ditch,managed,"ATPR, DISP, SAPA",100,pipe,11,0
+Island Slough,IS4,8/5/2020,13:11,13:26,"Melissa, Sidney",75.6,8.5,12.5,Clear,21.6,6.8,NA,Borrow Ditch,managed,"ATPR, DISP, SAPA",100,pipe,11,0
+Island Slough,IS5,8/3/2020,9:32,9:47,Sidney,83.3,3.5,4.6,Clear,20.5,8.1,NA,Borrow Ditch,managed,"DISP, Raddish",100,downed tule,16,0
+Island Slough,IS5,8/4/2020,10:53,11:08,Melissa,82.6,6.5,10.9,Clear,22.8,7.7,NA,Borrow Ditch,managed,"DISP, Raddish",100,downed tule,16,0
+Island Slough,IS5,8/5/2020,13:11,13:26,Sidney,75.6,8.5,12.5,Clear,22.6,6.6,NA,Borrow Ditch,managed,"DISP, Raddish",100,downed tule,16,2
+Island Slough,IS6A,8/3/2020,10:10,10:25,"Melissa, Sidney",87.8,3.2,4.1,Clear,20.6,11.4,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,3
+Island Slough,IS6A,8/4/2020,10:08,10:23,"Melissa, Sidney",79.4,2.5,3.3,Clear,19.9,8.3,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,13
+Island Slough,IS6A,8/5/2020,13:59,14:14,"Melissa, Sidney",77.5,7.4,11.3,Clear,21.8,9.1,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,10
+Island Slough,IS6B,8/3/2020,10:10,10:25,"Melissa, Sidney",87.8,3.2,4.1,Clear,17.7,20.3,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,0
+Island Slough,IS6B,8/4/2020,10:08,10:23,"Melissa, Sidney",79.4,2.5,3.3,Clear,16.8,15.9,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,0
+Island Slough,IS6B,8/5/2020,13:59,14:14,"Melissa, Sidney",77.5,7.4,11.3,Clear,20.9,15.9,NA,Pond,managed,"Typha, PHAU, ATPR, DISP",100,algae,10,0
+Island Slough,IS7,8/3/2020,10:37,10:52,"Melissa, Sidney",94.1,2.5,3.4,Clear,22.2,10,NA,Borrow Ditch,managed,"PHAU, DISP, SAPA, SCAC",100,none,15,0
+Island Slough,IS7,8/4/2020,10:31,10:46,"Melissa, Sidney",86.5,0.6,0.9,Clear,21.4,9.2,NA,Borrow Ditch,managed,"PHAU, DISP, SAPA, SCAC",100,none,15,0
+Island Slough,IS7,8/5/2020,13:38,13:53,"Melissa, Sidney",76.1,12.6,16.1,Clear,24.5,7.9,NA,Borrow Ditch,managed,"PHAU, DISP, SAPA, SCAC",100,none,15,0
+Island Slough,IS8,8/3/2020,11:01,11:16,"Melissa, Sidney",92.9,1.1,1.7,Clear,25.5,7.7,NA,Borrow Ditch,managed,"Typha, DISP, ATPR, Blackberry",95,none,10,4
+Island Slough,IS8,8/4/2020,9:46,10:02,"Melissa, Sidney",73.4,3.6,6.1,Clear,21.1,6.3,NA,Borrow Ditch,managed,"Typha, DISP, ATPR, Blackberry",95,none,10,2
+Island Slough,IS8,8/5/2020,14:19,14:34,"Melissa, Sidney",77,7.6,11.5,Clear,24.3,6.2,NA,Borrow Ditch,managed,"Typha, DISP, ATPR, Blackberry",95,none,10,4
+Joice Island,JI1,7/6/2020,8:46,9:01,Sidney,74.2,6,9.4,Clear,18,8.5,NA,Borrow Ditch,managed,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
+Joice Island,JI1,7/7/2020,13:51,14:06,Melissa,90.8,4.8,7.1,Clear,28.4,8.9,NA,Borrow Ditch,managed,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
+Joice Island,JI1,7/8/2020,9:37,9:52,Sidney,81.6,1.8,2.8,Clear,21.1,9,NA,Borrow Ditch,managed,"RUCR, PHAU, SAPA, SASO",90,exposed bank,7,0
+Joice Island,JI2,7/6/2020,9:52,10:07,Sidney,70.4,5.6,7.9,Clear,20.6,9.7,NA,Borrow Ditch,managed,"PHAU, BOMA, SAPA, SASO",100,downed tule,9,0
+Joice Island,JI2,7/7/2020,12:34,12:49,"Melissa, Sidney",87.3,0.9,1.4,Clear,25.1,10.3,NA,Borrow Ditch,managed,"SAPA, BOMA, PHAU",100,downed tule,9,0
+Joice Island,JI2,7/8/2020,8:32,8:47,Sidney,80.9,2,3.7,Clear,20.4,9.9,NA,Borrow Ditch,managed,"PHAU, BOMA, SAPA",100,downed tule,9,0
+Joice Island,JI3,7/6/2020,10:24,10:39,"Melissa, Sidney",73.6,11.1,7.6,Clear,22.1,9.7,NA,Borrow Ditch,managed,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
+Joice Island,JI3,7/7/2020,12:12,12:27,"Melissa, Sidney",80.9,3.9,4.7,Clear,25.8,10.2,NA,Borrow Ditch,managed,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
+Joice Island,JI3,7/8/2020,10:04,10:19,"Melissa, Sidney",78.4,4.2,6.4,Clear,24.2,9.1,NA,Borrow Ditch,managed,"SAPA, JACA, Smartweed",,exposed mud bank,7,0
+Joice Island,JI4,7/6/2020,10:49,11:04,Sidney,73.2,10,12.6,Clear,21.8,9.5,NA,Borrow Ditch,managed,"PHAU, SAPA",95,none,13,0
+Joice Island,JI4,7/7/2020,11:48,12:03,"Melissa, Sidney",88.3,1.4,3.8,Clear,24.1,9.8,NA,Borrow Ditch,managed,"PHAU, SAPA",95,none,13,0
+Joice Island,JI4,7/8/2020,10:25,10:40,Sidney,77.6,5.5,6.7,Clear,31.2,10.1,NA,Borrow Ditch,managed,"PHAU, SAPA",95,none,13,0
+Joice Island,JI5,7/6/2020,11:16,11:31,Melissa,80.3,6.4,11.2,Clear,26.2,8.1,NA,Borrow Ditch,managed,"SAPA, PHAU",100,mud banks,7,0
+Joice Island,JI5,7/7/2020,11:22,11:37,Sidney,88.3,1.4,3.8,Clear,27.4,8.5,NA,Borrow Ditch,managed,"SAPA, PHAU",100,mud banks,7,0
+Joice Island,JI5,7/8/2020,14:09,14:24,Melissa,96.2,5.5,8.9,Clear,35.9,8.3,NA,Borrow Ditch,managed,"SAPA, PHAU",100,mud banks,7,0
+Joice Island,JI6,7/6/2020,12:16,12:31,"Melissa, Sidney",83.1,6.3,9,Clear,25.8,7.1,NA,Borrow Ditch,managed,"Typha, DISP, PHAU",90,none,12,0
+Joice Island,JI6,7/7/2020,10:28,10:43,Sidney,84.3,1.6,3.4,Clear,23.3,7.1,NA,Borrow Ditch,managed,"Typha, DISP, PHAU",90,none,12,0
+Joice Island,JI6,7/8/2020,14:57,15:12,Melissa,93.2,4,7.5,Clear,24.7,6,NA,Borrow Ditch,managed,"Typha, DISP, PHAU",90,none,12,0
+Joice Island,JI7,7/6/2020,12:44,1:00,Sidney,85.5,8,9.9,Clear,24.4,7.3,NA,Borrow Ditch,managed,Typha,100,downed tule,12,4
+Joice Island,JI7,7/7/2020,10:00,10:15,Melissa,74.3,3.8,5.5,Clear,19.9,7.1,NA,Borrow Ditch,managed,Typha,100,tule root wad,15,4
+Joice Island,JI7,7/8/2020,15:21,15:36,Sidney,91.3,4.6,8,Clear,29.9,7.7,NA,Borrow Ditch,managed,Typha,100,none,12,4
+Kings Cut,KC1,6/24/2020,14:27,14:42,"Melissa, Sidney",89,4.7,7,Clear,29.2,12.3,NA,Major Ditch,managed,Typha,100,none,14,0
+Kings Cut,KC1,6/25/2020,9:08,9:23,"Melissa, Sidney",75.5,5.9,7.7,Clear,22.8,13.8,NA,Major Ditch,managed,Typha,100,none,14,0
+Kings Cut,KC1,6/26/2020,14:13,14:28,"Melissa, Sidney",93.5,7.2,11.4,Clear,20.2,4.1,NA,Major Ditch,managed,Typha,100,none,14,0
+Kings Cut,KC1,8/3/2020,15:20,15:35,"Melissa, Sidney",93.4,9.8,12.8,Clear,29.7,15.3,NA,Major Ditch,managed,Typha,100,downed tules,12,0
+Kings Cut,KC1,8/4/2020,12:17,12:32,"Melissa, Sidney",88.4,6.7,8.9,Clear,25,14,NA,Major Ditch,managed,Typha,100,downed tules,12,0
+Kings Cut,KC1,8/5/2020,8:02,8:17,"Melissa, Sidney",63.6,4.4,8.1,Overcast,19.2,16.4,NA,Major Ditch,managed,Typha,100,downed tules,12,0
+Laughing Mallard,LM1D,7/6/2020,14:04,14:19,Sidney,84.8,7,10.3,Clear,25.8,9.2,NA,Borrow Ditch,managed,"PHAU, SAPA, BOMA, Typha, LELA",100,none,16,0
+Laughing Mallard,LM1D,7/7/2020,8:35,8:50,Melissa,71.9,1.2,2.5,Clear,20.9,8.6,NA,Borrow Ditch,managed,"PHAU, SAPA, BOMA, Typha, LELA",100,none,16,0
+Laughing Mallard,LM1D,7/8/2020,12:42,12:57,Sidney,91,0.8,8.6,Clear,26,10,NA,Borrow Ditch,managed,"SAPA, BOMA, Typha",100,downed tule,17,0
+Laughing Mallard,LM1D,8/3/2020,13:24,13:38,Sidney,91.5,1.6,2.1,Clear,24.5,14.5,NA,Borrow Ditch,managed,"BOMA, PHAU, SAPA, Typha, DISP, Fennel",100,downed tule,17,0
+Laughing Mallard,LM1D,8/4/2020,14:07,14:22,Sidney,90.5,2.7,8.1,Clear,27.3,15,NA,Borrow Ditch,managed,"BOMA, FRSA, fennel, Typha, PHAU, DISP",100,downed tules,16,0
+Laughing Mallard,LM1D,8/5/2020,9:30,9:45,Sidney,67.8,4.4,6,Overcast,21.9,15.6,NA,Borrow Ditch,managed,"SAPA, Typha, BOMA, PHAU, FRSA, DISP",100,downed tule,16,0
+Laughing Mallard,LM2D,7/6/2020,14:32,14:47,Melissa,85.3,10.6,15.2,Clear,26.3,6.9,NA,Borrow Ditch,managed,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
+Laughing Mallard,LM2D,7/7/2020,9:08,9:23,Sidney,75.7,1.8,3,Clear,18.2,7.1,NA,Borrow Ditch,managed,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
+Laughing Mallard,LM2D,7/8/2020,12:16,12:31,Melissa,82.5,6.7,8.6,Clear,26.1,7.2,NA,Borrow Ditch,managed,"SAPA, DISP, LELA, FRSA, Typha",95,"bank, pipe",11,0
+Laughing Mallard,LM2D,8/3/2020,13:47,14:02,Melissa,96.8,4.4,8.5,Clear,24,13.4,NA,Borrow Ditch,managed,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
+Laughing Mallard,LM2D,8/4/2020,13:44,13:59,Sidney,85,8.8,11.8,Clear,21,13,NA,Borrow Ditch,managed,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
+Laughing Mallard,LM2D,8/5/2020,9:54,10:08,Melissa,65.7,3.9,5.7,Partly Cloudy,17.9,11.1,NA,Borrow Ditch,managed,"ATPR, SAPA, Raddish, Typha, FRSA",95,"pipe, dirt bank",9,0
+Laughing Mallard,LM2P,7/6/2020,14:32,14:47,Sidney,85.3,10.2,15.2,Clear,27.5,7,NA,Pond,managed,SAPA,100,grass islands,18,0
+Laughing Mallard,LM2P,7/7/2020,9:08,9:23,Melissa,75.7,1.8,3,Clear,17.4,7.1,NA,Pond,managed,SAPA,100,grass islands,18,0
+Laughing Mallard,LM2P,7/8/2020,12:17,12:32,Sidney,82.5,6.7,8.6,Clear,27.8,7.3,NA,Pond,managed,SAPA,100,grass islands,18,0
+Laughing Mallard,LM2P,8/3/2020,13:48,14:03,Sidney,96.8,4.4,8.5,Clear,34.8,12.7,NA,Pond,managed,SAPA,100,islands,13,0
+Laughing Mallard,LM2P,8/4/2020,13:43,13:58,Melissa,85,8.8,11.8,Clear,33.2,7.6,NA,Pond,managed,SAPA,100,islands,13,0
+Laughing Mallard,LM2P,8/5/2020,9:55,10:10,Sidney,65.7,3.9,5.7,Overcast,19.5,13.3,NA,Pond,managed,SAPA,100,islands,13,0
+Laughing Mallard,LM3D,7/6/2020,14:58,15:13,Sidney,82.8,10.7,14.9,Clear,26.9,6,NA,Borrow Ditch,managed,"Typha, DISP, BOMA, LELA",100,none,14,0
+Laughing Mallard,LM3D,7/7/2020,8:08,8:23,Melissa,66.4,4.2,5.9,Clear,18.7,7.1,NA,Borrow Ditch,managed,"Typha, DISP, BOMA, LELA",100,none,14,0
+Laughing Mallard,LM3D,7/8/2020,11:53,12:08,Sidney,83.9,3.3,5.4,Clear,25,7.3,NA,Borrow Ditch,managed,"Typha, DISP",100,none,15,0
+Laughing Mallard,LM3D,8/3/2020,14:11,14:26,Sidney,96.7,1.2,8.5,Clear,28,8.5,NA,Borrow Ditch,managed,"Typha, fennel, DISP, FRSA",100,none,12,0
+Laughing Mallard,LM3D,8/4/2020,13:22,13:37,Melissa,88.4,6.6,9.7,Clear,26.4,8.7,NA,Borrow Ditch,managed,"Typha, fennel, DISP, FRSA",100,none,12,0
+Laughing Mallard,LM3D,8/5/2020,9:07,9:22,Sidney,63.8,5.5,9,Overcast,19.1,9,NA,Borrow Ditch,managed,"Typha, fennel, DISP, FRSA",100,none,12,0
+Laughing Mallard,LM3P,7/6/2020,14:58,15:13,Melissa,82.8,10.7,14.9,Clear,27,7.2,NA,Pond,managed,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
+Laughing Mallard,LM3P,7/7/2020,8:08,8:23,Sidney,66.4,4.2,5.9,Clear,16.7,7.2,NA,Pond,managed,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
+Laughing Mallard,LM3P,7/8/2020,11:52,12:07,Melissa,83.9,3.3,5.4,Clear,25.1,7.3,NA,Pond,managed,"DISP, SAPA, Typha, PHAU, SCAC",100,none,12,0
+Laughing Mallard,LM3P,8/3/2020,14:10,14:25,Melissa,96.7,1.2,8.5,Clear,31.2,11.8,NA,Pond,managed,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
+Laughing Mallard,LM3P,8/4/2020,13:22,13:37,Sidney,88.4,6.6,9.7,Clear,30.1,9.4,NA,Pond,managed,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
+Laughing Mallard,LM3P,8/5/2020,9:06,9:21,Melissa,63.8,5.5,9,Overcast,17.6,12.3,NA,Pond,managed,"DISP, SAPA, ATPR, SCAC, Typha, PHAU",100,pipe,14,0
+Morrow Island Distribution System,MIDS1,7/13/2020,14:45,15:00,"Melissa, Sidney",83.6,4.5,6.4,Clear,26.3,9.4,NA,Major Ditch,managed,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
+Morrow Island Distribution System,MIDS1,7/14/2020,8:53,9:08,"Melissa, Sidney",71.4,1.5,3.8,Clear,19.6,10,NA,Major Ditch,managed,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
+Morrow Island Distribution System,MIDS1,7/15/2020,9:47,10:02,Melissa,68.8,5.6,10.7,Clear,19.7,9.7,NA,Major Ditch,managed,"DISP, PHAU, SASO, LELA, Eucalyptus",95,algae,9,0
+Morrow Island Distribution System,MIDS2,7/13/2020,14:21,14:37,"Melissa, Sidney",81.4,9.8,12.7,Clear,26.7,10.1,NA,Major Ditch,managed,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
+Morrow Island Distribution System,MIDS2,7/14/2020,9:15,9:30,"Melissa, Sidney",70.6,6.8,9.5,Clear,20.2,10.4,NA,Major Ditch,managed,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
+Morrow Island Distribution System,MIDS2,7/15/2020,10:17,10:32,Melissa,69.4,9.4,13.3,Clear,19.7,10.6,NA,Major Ditch,managed,"SCAC, GRST, LELA, PHAU, DISP",100,algae,8,0
+Morrow Island Distribution System,MIDS3,7/13/2020,13:54,14:09,Melissa,82.8,8.6,11.7,Clear,25.6,8.7,NA,Major Ditch,managed,"PHAU, Raddish, SCAC, GRST, DISP",95,"algae, tule mat",9,13
+Morrow Island Distribution System,MIDS3,7/14/2020,9:37,9:52,Sidney,71.4,7.9,11.5,Clear,21.5,9.2,NA,Major Ditch,managed,"PHAU, Raddish, SCAC, GRST, DISP",95,"downed tule, algae",9,12
+Morrow Island Distribution System,MIDS3,7/15/2020,10:56,11:12,Melissa,73.8,8.5,13.5,Clear,21.4,9.9,NA,Major Ditch,managed,"PHAU, Raddish, SCAC, GRST, DISP",95,"downed tule, algae",9,10
+Morrow Island Distribution System,MIDS4,7/13/2020,13:30,13:45,"Melissa, Sidney",83.6,9.5,11.6,Clear,25.4,9.6,NA,Major Ditch,managed,"LELA, DISP, SCAC, GRST",75,none,8,0
+Morrow Island Distribution System,MIDS4,7/14/2020,10:00,10:15,"Melissa, Sidney",71.9,8.7,11.4,Clear,20.7,9.4,NA,Major Ditch,managed,"LELA, DISP, SCAC, GRST",75,none,8,0
+Morrow Island Distribution System,MIDS4,7/15/2020,11:22,11:37,Melissa,72.9,8.8,12.2,Clear,20.9,9.4,NA,Major Ditch,managed,"LELA, DISP, SCAC, GRST",75,none,8,0
+Montezuma Slough,MS1,6/24/2020,12:35,12:50,"Melissa, Sidney",83.6,6.7,11,Clear,22.4,4.29,LOOKUP,Major Slough,tidal,PHAU,90,none,9,0
+Montezuma Slough,MS1,6/25/2020,10:49,11:04,"Melissa, Sidney",85,9.7,14.9,Clear,22.5,3.99,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,tree branch,16,0
+Montezuma Slough,MS1,6/26/2020,9:21,9:36,"Melissa, Sidney",70.4,9.8,14,Clear,22.6,3.68,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,tree branch,16,0
+Montezuma Slough,MS1,7/6/2020,8:44,8:59,Melissa,74.2,6,9.4,Clear,22.1,8,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,tree branch,16,0
+Montezuma Slough,MS1,7/7/2020,13:50,14:05,Sidney,90.8,4.8,7.1,Clear,23.9,6.7,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,tree branch,16,0
+Montezuma Slough,MS1,7/8/2020,9:35,9:50,Melissa,81.6,1.8,2.8,Clear,22.4,6.7,LOOKUP,Major Slough,tidal,"SCAC, PHAU",100,tree branch,16,0
+Montezuma Slough,MS2,7/6/2020,12:16,12:31,Sidney,83.1,6.3,9,Clear,23.9,6.9,Flood,Major Slough,tidal,"BOMA, PHAU",40,exposed bank,13,0
+Montezuma Slough,MS2,7/7/2020,10:28,10:43,Melissa,84.3,1.6,3.4,Clear,20.9,7.3,LOOKUP,Major Slough,tidal,"PHAU, SCAC, Typha",,mud bank,13,0
+Montezuma Slough,MS2,7/8/2020,14:57,15:12,Sidney,93.2,4,7.5,Clear,23.5,5.8,Flood,Major Slough,tidal,"BOMA, PHAU, DISP",100,none,18,0
+Pond 7,P7,6/24/2020,12:00,12:15,"Melissa, Sidney",78.2,6.8,10.4,Clear,22,3.3,NA,Pond,managed,,,none,16,0
+Pond 7,P7,6/25/2020,11:16,11:32,"Melissa, Sidney",85.1,8.8,10.8,Clear,23,3.4,NA,Pond,managed,,,none,16,0
+Pond 7,P7,6/26/2020,9:55,10:10,"Melissa, Sidney",74,8.6,12.6,Clear,19.3,3.5,NA,Pond,managed,,,none,16,0
+Pond 8,P81,6/24/2020,11:24,11:39,"Melissa, Sidney",76,6,9.3,Clear,20.9,11.7,NA,Borrow Ditch,managed,SAPA,70,Exposed bank,16,0
+Pond 8,P81,6/25/2020,11:43,11:58,Melissa,85,9.4,12.8,Clear,22.8,3.4,NA,Borrow Ditch,managed,SAPA,70,Exposed bank,16,1
+Pond 8,P81,6/26/2020,10:21,10:36,"Melissa, Sidney",74,9.6,14.6,Clear,20.7,3.5,NA,Borrow Ditch,managed,SAPA,70,Exposed bank,16,0
+Pond 8,P82,6/24/2020,11:58,12:15,"Melissa, Sidney",78.2,6.8,10.4,Clear,21.1,8.2,NA,Pond,managed,"PHAU, BOMA",100,none,18,0
+Pond 8,P82,6/25/2020,11:16,11:32,"Melissa, Sidney",85.1,8.8,10.8,Clear,23,8.5,NA,Pond,managed,"PHAU, BOMA",100,none,18,0
+Pond 8,P82,6/26/2020,9:55,10:10,"Melissa, Sidney",74,8.6,12.6,Clear,20,8.4,NA,Pond,managed,"PHAU, BOMA",100,none,18,0
+Pond 8,P82,7/28/2020,13:50,14:05,Sidney,80.7,10.3,12.3,Clear,21.3,8.1,NA,Borrow Ditch,managed,"SAPA, BOMA, PHAU",100,"pipe, SASO",14,0
+Pond 8,P82,7/29/2020,9:54,10:09,Sidney,65.3,8.1,12.5,Clear,17.7,8.6,NA,Borrow Ditch,managed,"SAPA, PHAU, BOMA",100,"SASO, exposed bank",14,0
+Pond 8,P82,7/30/2020,9:09,9:25,"Melissa, Sidney",63.4,9,11.9,Partly Cloudy,17.1,9.4,NA,Pond,managed,"SAPA, SCAC, PHAU",100,SASO,14,0
+Poleline Ditch,PD1,6/24/2020,9:50,10:05,"Melissa, Sidney",72,1.7,4.1,Clear,18.4,3.3,NA,Major Ditch,managed,"DISP, Eucalyptus",75,Logs,6,0
+Poleline Ditch,PD1,6/25/2020,13:03,13:18,"Melissa, Sidney",85,4.5,7.7,Clear,24.1,3.9,NA,Major Ditch,managed,"AG, Eucalyptus",100,branches,6,4
+Poleline Ditch,PD1,6/26/2020,11:49,12:04,"Melissa, Sidney",83.2,0.7,1.2,Clear,22.7,3.9,NA,Major Ditch,managed,"AG, Eucalyptus",100,branches,6,5
+Poleline Ditch,PD1,7/28/2020,14:53,15:08,"Melissa, Sidney",82.9,2.4,4.5,Clear,20.2,6,NA,Major Ditch,managed,ATPR,85,logs,8,5
+Poleline Ditch,PD1,7/29/2020,8:46,9:01,"Melissa, Sidney",64.1,3.1,7.5,Clear,18.2,6.1,NA,Major Ditch,managed,ATPR,85,logs,8,2
+Poleline Ditch,PD1,7/30/2020,10:16,10:32,"Melissa, Sidney",66.4,1.5,3.1,Clear,19.1,6,NA,Major Ditch,managed,ATPR,85,logs,8,1
+Poleline Ditch,PD2,6/24/2020,10:17,10:32,"Melissa, Sidney",71.5,5.3,8.5,Clear,20.7,4,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,0
+Poleline Ditch,PD2,6/25/2020,12:38,12:53,"Melissa, Sidney",87.8,3.2,6.9,Clear,27.5,3.9,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,1
+Poleline Ditch,PD2,6/26/2020,11:22,11:37,"Melissa, Sidney",81,6.4,9.7,Clear,22.4,4.2,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,1
+Poleline Ditch,PD2,7/28/2020,14:32,14:47,"Melissa, Sidney",82.1,6.2,11.8,Clear,25,5.5,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,4
+Poleline Ditch,PD2,7/29/2020,9:06,9:21,"Melissa, Sidney",67.7,9.1,13.3,Clear,17,5.2,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,2
+Poleline Ditch,PD2,7/30/2020,9:55,10:10,"Melissa, Sidney",67.2,5.5,9.9,Clear,17.4,5.3,NA,Major Ditch,managed,"ATPR, LELA, DISP, PHAU",100,none,9,4
+Poleline Ditch,PD3,6/24/2020,10:42,10:57,"Melissa, Sidney",74.9,5.2,11.8,Clear,21.2,3,NA,Major Ditch,managed,"DISP, LELA",100,Log,7,2
+Poleline Ditch,PD3,6/25/2020,12:16,12:31,"Melissa, Sidney",85,9.7,11.9,Clear,24.6,3.9,NA,Major Ditch,managed,"DISP, LELA",90,SASO,16,0
+Poleline Ditch,PD3,6/26/2020,10:56,11:11,"Melissa, Sidney",76.2,10,11.9,Clear,22.5,3.9,NA,Major Ditch,managed,"DISP, LELA",90,SASO,14,3
+Poleline Ditch,PD3,7/28/2020,14:13,14:28,"Melissa, Sidney",82.3,9.5,12.1,Clear,24.9,6.2,NA,Major Ditch,managed,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,0
+Poleline Ditch,PD3,7/29/2020,9:26,9:41,"Melissa, Sidney",65.3,9.5,13.6,Clear,18.3,6.3,NA,Major Ditch,managed,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,2
+Poleline Ditch,PD3,7/30/2020,9:36,9:51,"Melissa, Sidney",66.3,12.2,14.7,Clear,18.6,6.4,NA,Major Ditch,managed,"LELA, JUBA, DISP, ATPR",90,"SASO, log, SAV",8,0
+Poleline Ditch,PD4,6/24/2020,11:23,11:38,"Melissa, Sidney",76,6,9.3,Clear,21.6,3.1,NA,Major Ditch,managed,"LELA, PHAU, DISP",100,none,13,0
+Poleline Ditch,PD4,6/25/2020,11:42,11:57,"Melissa, Sidney",85,9.4,12.8,Clear,23,3.8,NA,Major Ditch,managed,"LELA, PHAU, DISP",100,none,13,1
+Poleline Ditch,PD4,6/26/2020,10:20,10:35,"Melissa, Sidney",74,9.6,14.6,Clear,20.8,4,NA,Major Ditch,managed,"LELA, PHAU, DISP",100,none,13,0
+Poleline Ditch,PD4,7/28/2020,13:50,14:05,Melissa,80.7,10.3,12.3,Clear,24.3,6.3,NA,Major Ditch,managed,"PHAU, LELA, DISP, JACA",100,SAV,9,0
+Poleline Ditch,PD4,7/29/2020,9:54,10:09,Melissa,65.3,8.1,12.5,Clear,18.5,6.3,NA,Major Ditch,managed,"PHAU, LELA, DISP, JACA",100,SAV,9,0
+Poleline Ditch,PD4,7/30/2020,9:11,9:26,"Melissa, Sidney",63.4,9,11.9,Partly Cloudy,18,5.5,NA,Major Ditch,managed,"PHAU, LELA, DISP, JACA",100,SAV,9,0
+Roaring River,RR1,7/12/2020,10:12,10:27,Melissa,85,7.6,10.6,Clear,21.3,4.6,NA,Pond,managed,"SCAC, Typha",85,none,14,0
+Roaring River,RR1,7/13/2020,10:38,10:53,Sidney,73.7,12,14.6,Clear,21,3.7,NA,Pond,managed,"BOMA, Typha, Primrose",100,algae,15,0
+Roaring River,RR1,7/14/2020,12:50,13:05,Melissa,84.9,9.6,13.4,Clear,22.3,4.3,NA,Pond,managed,"BOMA, Typha, Primrose",100,algae,15,0
+Roaring River,RR2,7/12/2020,10:11,10:26,Sidney,85,7.6,10.6,Clear,22.5,4.2,NA,Major Ditch,managed,"BOMA, DISP",60,"rip rap, submerged aquatic veg",18,11
+Roaring River,RR2,7/13/2020,10:38,10:53,Melissa,73.7,12,14.6,Clear,23.2,3.7,NA,Major Ditch,managed,"BOMA, DISP",60,"rip rap, submerged aquatic veg",18,12
+Roaring River,RR2,7/14/2020,12:49,13:04,Sidney,84.9,9.6,13.4,Clear,23.2,3.7,NA,Major Ditch,managed,"BOMA, SCAC, LELA, POMO, primrose",70,"algae, rip rap",18,14
+Roaring River,RR3,7/12/2020,10:44,10:59,"Melissa, Sidney",77.8,8.8,11.7,Clear,22.9,3.7,NA,Major Ditch,managed,"SCAC, Typha, PHAU",95,none,16,0
+Roaring River,RR3,7/13/2020,10:13,10:28,"Melissa, Sidney",72.8,8.3,10.4,Clear,22.6,3.2,NA,Major Ditch,managed,"SCAC, Typha, PHAU",95,none,16,0
+Roaring River,RR3,7/14/2020,13:21,13:36,"Melissa, Sidney",77.7,9.8,15.5,Clear,22.9,4,NA,Major Ditch,managed,"SCAC, Typha, PHAU",95,none,16,0
+Roaring River,RR4,7/12/2020,11:10,11:25,"Melissa, Sidney",82.5,6.4,8.9,Clear,23.6,3.6,NA,Major Ditch,managed,"Typha, SCAC",85,algae,16,37
+Roaring River,RR4,7/13/2020,9:46,10:01,"Melissa, Sidney",75.7,5.6,7.4,Clear,22.8,3.5,NA,Major Ditch,managed,"Typha, SCAC",85,algae,16,23
+Roaring River,RR4,7/14/2020,13:46,14:01,"Melissa, Sidney",82.3,11.7,14.4,Clear,24.5,3.5,NA,Major Ditch,managed,"Typha, SCAC",85,algae,16,38
+Roaring River,RR5,7/12/2020,11:50,12:05,Melissa,82.9,9.5,11.1,Clear,23.1,2.7,NA,Major Ditch,managed,"Typha, SCAC, PHAU",95,"Tules, Algae",16,1
+Roaring River,RR5,7/13/2020,9:16,9:31,"Melissa, Sidney",68.7,8,12.2,Clear,21.9,2.7,NA,Major Ditch,managed,"Typha, SCAC, PHAU",95,"Tules, Algae",16,0
+Roaring River,RR5,7/14/2020,14:10,14:25,"Melissa, Sidney",77,13.5,16.3,Clear,23.1,2.7,NA,Major Ditch,managed,"Typha, SCAC, PHAU",95,"Tules, Algae",16,1
+Roaring River,RR6,7/12/2020,12:17,12:32,Melissa,90.5,8.3,10.4,Clear,24.5,2.3,NA,Major Ditch,managed,"Riprap, Tule, Primrose",70,none,16,22
+Roaring River,RR6,7/13/2020,8:47,9:02,Sidney,68,8,10.8,Clear,22.4,2.3,NA,Major Ditch,managed,"BOMA, Primrose",100,downed tule,18,5
+Roaring River,RR6,7/14/2020,14:36,14:51,Melissa,79.4,13.5,15.3,Clear,23.8,2.3,NA,Major Ditch,managed,"BOMA, Primrose",100,downed tule,18,19
+Roaring River,RR7,7/12/2020,13:16,13:31,Melissa,91.5,4.5,7.5,Clear,23.7,2.3,NA,Major Ditch,managed,"SCAC, Typha, AG",95,none,15,0
+Roaring River,RR7,7/13/2020,8:19,8:34,Sidney,67.5,8.1,11.2,Clear,22.2,2.1,NA,Major Ditch,managed,"BOMA, PHAU",100,downed tule,17,0
+Roaring River,RR7,7/14/2020,15:17,15:33,Melissa,80.7,10,13.1,Clear,23.9,2.4,NA,Major Ditch,managed,"BOMA, PHAU",100,downed tule,17,0
+Shortcut Ditch,SC1,6/24/2020,13:18,13:33,"Melissa, Sidney",83.3,10.4,15.8,Clear,24.6,2.8,NA,Major Ditch,managed,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,4
+Shortcut Ditch,SC1,6/25/2020,10:10,10:25,"Melissa, Sidney",82,7.9,12.8,Clear,23.1,3.1,NA,Major Ditch,managed,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,11
+Shortcut Ditch,SC1,6/26/2020,8:19,8:34,"Melissa, Sidney",65.5,12,16.9,Clear,21.2,3.4,NA,Major Ditch,managed,"SCAC, PHAU, BAPI",90,"Floating tule, exposed bank",9,6
+Shortcut Ditch,SC1,7/28/2020,13:22,13:37,"Melissa, Sidney",85.1,8.2,12.1,Clear,22.7,5.7,NA,Major Ditch,managed,"SCAC, PHAU",100,SCAC,13,14
+Shortcut Ditch,SC1,7/29/2020,10:20,10:35,"Melissa, Sidney",66.7,12.8,15.9,Clear,20.2,5.6,NA,Major Ditch,managed,"SCAC, PHAU",100,SCAC,13,4
+Shortcut Ditch,SC1,7/30/2020,8:43,8:58,"Melissa, Sidney",64.4,12.6,18.2,Partly Cloudy,19.3,5.6,NA,Major Ditch,managed,"SCAC, PHAU",100,SCAC,13,3
+Shortcut Ditch,SC2,6/24/2020,13:51,14:06,"Melissa, Sidney",85,8.7,9.5,Clear,28.5,2.7,NA,Major Ditch,managed,"SCAC, Eucalyptus",5,none,8,1
+Shortcut Ditch,SC2,6/25/2020,9:43,9:58,"Melissa, Sidney",72,9.2,12.4,Clear,20.6,3.1,NA,Major Ditch,managed,"SCAC, Eucalyptus",5,none,8,1
+Shortcut Ditch,SC2,6/26/2020,8:45,9:00,"Melissa, Sidney",63.1,14.1,17.6,Clear,17.9,3.3,NA,Major Ditch,managed,"SCAC, Eucalyptus",5,none,8,0
+Shortcut Ditch,SC2,7/28/2020,13:00,13:15,"Melissa, Sidney",74.5,9.9,13.6,Clear,24.8,5.7,NA,Major Ditch,managed,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,1
+Shortcut Ditch,SC2,7/29/2020,10:44,10:59,"Melissa, Sidney",65.9,14.5,17.7,Clear,19.9,5.5,NA,Major Ditch,managed,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,1
+Shortcut Ditch,SC2,7/30/2020,8:22,8:37,"Melissa, Sidney",56.3,10.5,15.8,Partly Cloudy,16.5,5.4,NA,Major Ditch,managed,"JUBA, DISP, SCAC",70,"logs, exposed banks",7,0
+Solano Cut,SOC1,7/12/2020,12:44,12:59,"Melissa, Sidney",92.5,6.7,8.8,Clear,24.5,2.4,NA,Borrow Ditch,managed,"PHAU, DISP",95,Exposed banks,9,6
+Solano Cut,SOC1,7/13/2020,8:45,9:00,Melissa,68,8,10.8,Clear,20.7,2.3,NA,Borrow Ditch,managed,"PHAU, FOVU, DISP, EUOC",100,algae,9,10
+Solano Cut,SOC1,7/14/2020,14:37,14:52,Sidney,79.4,13.5,15.3,Clear,23.6,2.3,NA,Borrow Ditch,managed,"PHAU, FOVU, DISP, EUOC",100,algae,14,4
+Suisun Slough,SS1,7/6/2020,9:19,9:34,"Melissa, Sidney",71.4,13.5,15.3,Clear,21.39,5.5,ebb,Major Slough,managed,"SCAC, ROCA, PHAU",90,none,15,0
+Suisun Slough,SS1,7/7/2020,13:21,13:36,"Melissa, Sidney",94.5,0.9,1.8,Clear,21.67,5.2,flood,Major Slough,managed,"SCAC, ROCA, PHAU",90,none,14,0
+Suisun Slough,SS1,7/8/2020,9:06,9:21,"Melissa, Sidney",80.9,2,3.7,Clear,23.3,2.2,ebb,Major Slough,managed,"SCAC, ROCA, PHAU",90,none,13,0
+Suisun Slough,SS2,7/6/2020,9:52,10:07,Melissa,70.4,5.6,7.9,Clear,22.4,4.6,ebb,Major Slough,managed,SCAC,90,"rip rap, eucalyptus",12,0
+Suisun Slough,SS2,7/7/2020,12:36,12:51,Sidney,87.3,0.9,1.4,Clear,22.2,7.8,NA,Major Slough,managed,SCAC,90,"exposed bank, downed logs",9,0
+Suisun Slough,SS2,7/8/2020,8:32,8:47,Melissa,70.7,1.6,2.6,Clear,21,7.5,Ebb,Major Slough,managed,SCAC,90,"logs, boards",16,0
+Suisun Slough,SS3,7/6/2020,10:47,11:02,"Melissa, Sidney",73.2,10,12.6,Clear,21.33,4.95,slack,Major Slough,managed,"SCAC, rip rap",80,"logs, rip rap",,0
+Suisun Slough,SS3,7/7/2020,11:47,12:02,Sidney,88.3,1.4,3.8,Clear,21.89,4.89,flood,Major Slough,managed,"SCAC, rip rap",80,exposed bank,9,0
+Suisun Slough,SS3,7/8/2020,10:27,10:42,Melissa,77.6,5.5,6.7,Clear,21.67,5.6,ebb,Major Slough,managed,"SCAC, rip rap",80,rip rap,14,0
+Suisun Slough,SS4,7/13/2020,13:55,14:10,Sidney,82.8,8.6,11.7,Clear,25.9,8.8,LOOKUP,Major Slough,managed,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,16,0
+Suisun Slough,SS4,7/14/2020,9:36,9:51,Melissa,71.4,7.9,11.5,Clear,22,9.4,LOOKUP,Major Slough,managed,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,13,0
+Suisun Slough,SS4,7/15/2020,10:40,10:55,Melissa,73.8,8.5,13.5,Clear,21.2,10.3,LOOKUP,Major Slough,managed,"PHAU, SAPA, RUCR, GRST, ELPO",90,exposed bank,13,0
+Steve's Ditch,STD1,7/12/2020,8:32,8:47,"Melissa, Sidney",70.3,9.3,11.9,Clear,19.3,6.3,NA,Major Ditch,managed,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,5
+Steve's Ditch,STD1,7/13/2020,11:03,11:18,"Melissa, Sidney",77,9.1,10.7,Clear,23.6,8.1,NA,Major Ditch,managed,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,6
+Steve's Ditch,STD1,7/14/2020,12:26,12:41,"Melissa, Sidney",82.6,8.2,10.8,Clear,26.1,11.2,NA,Major Ditch,managed,"PHAU, SAPA, BOMA, ATPR",90,"exposed bank, culvert",7,5
+Steve's Ditch,STD2,7/12/2020,9:03,9:18,"Melissa, Sidney",70.6,7.2,11.9,Clear,19.1,16.2,NA,Major Ditch,managed,"SAPA, PHAU, DISP",80,culverts,5,0
+Steve's Ditch,STD2,7/13/2020,11:27,11:42,"Melissa, Sidney",87.1,4.1,5.9,Clear,24.2,19.5,NA,Major Ditch,managed,"SAPA, PHAU, DISP",80,culverts,5,0
+Steve's Ditch,STD2,7/14/2020,12:03,12:18,"Melissa, Sidney",81.5,4.4,6.7,Clear,21.7,25.7,NA,Major Ditch,managed,"SAPA, PHAU, DISP",80,culverts,5,0
+Steve's Ditch,STD3,7/12/2020,9:33,9:48,Melissa,75.8,4.9,8.7,Clear,20.9,14.3,NA,Major Ditch,managed,"SAPA, ATPR, Xanthium",90,exposed banks,5,1
+Steve's Ditch,STD3,7/13/2020,11:53,12:08,Sidney,80.2,9.3,12.4,Clear,25,14.3,NA,Major Ditch,managed,"SAPA, ATPR, Xanthium, Raddish",90,exposed bank,5,3
+Steve's Ditch,STD3,7/14/2020,11:36,11:51,Melissa,74.3,6.6,8.8,Clear,23.7,14.4,NA,Major Ditch,managed,"SAPA, ATPR, Xanthium, Raddish",90,exposed bank,5,1
+Tule Red,TR1,7/12/2020,13:16,13:31,Sidney,91.5,4.5,7.5,Clear,28.6,8.4,LOOKUP,Tidal,tidal,"BOMA, PHAU, ROCA",100,Exposed substrate and tules,6,0
+Tule Red,TR1,7/13/2020,8:19,8:34,Melissa,67.5,8.1,11.2,Clear,23.3,8,LOOKUP,Tidal,tidal,"PHAU, SCAC",100,floating tule,14,0
+Tule Red,TR1,7/14/2020,15:18,15:33,Sidney,80.7,10,13.1,Clear,25.9,8,LOOKUP,Tidal,tidal,"PHAU, BOMA, ROCA, FOVU, Typha",100,downed tule,17,0
+Tree Slough,TS1,6/29/2020,8:44,8:59,"Melissa, Sidney",78,1.2,2.4,Clear,20.6,4.5,LOOKUP,Minor Slough,tidal,SCAC,90,none,16,1
+Tree Slough,TS1,6/30/2020,12:39,12:55,"Melissa, Sidney",99,0.9,1.1,Clear,24.3,4.6,LOOKUP,Minor Slough,tidal,SCAC,90,none,16,1
+Tree Slough,TS1,7/1/2020,13:28,13:43,"Melissa, Sidney",88.6,0.6,5.4,Clear,25,4.5,LOOKUP,Minor Slough,tidal,SCAC,90,none,16,1
+Tree Slough,TS2,7/6/2020,14:04,14:18,Melissa,84.8,7,10.3,Clear,25.5,8,LOOKUP,Minor Slough,tidal,"SCAC, Typha",90,none,,5
+Tree Slough,TS2,7/7/2020,8:35,8:50,Sidney,71.9,1.2,2.5,Clear,21.2,7.2,LOOKUP,Minor Slough,tidal,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,11,3
+Tree Slough,TS2,7/9/2020,12:42,12:57,Melissa,91,0.8,8.6,Clear,26.1,7.7,Ebb,Minor Slough,tidal,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,5,4
+Tree Slough,TS2,8/3/2020,13:24,13:39,"Melissa, Sidney",91.5,1.6,2.1,Clear,25.9,11.9,LOOKUP,Minor Slough,tidal,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,1
+Tree Slough,TS2,8/4/2020,14:07,14:22,Melissa,90.5,2.7,8.1,Clear,26.5,12.5,LOOKUP,Minor Slough,tidal,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,0
+Tree Slough,TS2,8/5/2020,9:30,9:45,Melissa,67.8,4.4,6,Overcast,21.2,9.3,LOOKUP,Minor Slough,tidal,"PHAU, Typha, BOMA, ROCA, Blackbeery",100,exposed bank,17,2
+Volanti Slough,VS1,7/6/2020,11:16,11:31,Sidney,80.3,6.4,11.2,Clear,21.5,4.3,NA,Major Ditch,managed,"PHAU, Typha",95,tule and exposed bank,13,1
+Volanti Slough,VS1,7/7/2020,11:21,11:36,"Melissa, Sidney",80.6,3.2,5.3,Clear,22.5,4.3,NA,Major Ditch,managed,"PHAU, Typha",95,tule and exposed bank,14,0
+Volanti Slough,VS1,7/8/2020,14:09,14:24,Sidney,96.2,5.5,8.9,Clear,25.6,4.4,NA,Major Ditch,managed,"PHAU, Typha",95,tule and exposed bank,14,0
+Volanti Slough,VS2,7/6/2020,11:47,12:02,"Melissa, Sidney",79,5.5,9.5,Clear,22.7,4.6,NA,Major Ditch,managed,"Typha, SCAC",95,none,17,0
+Volanti Slough,VS2,7/7/2020,10:56,11:11,"Melissa, Sidney",77.9,2.9,3.8,Clear,22.1,4.7,NA,Major Ditch,managed,SCAC,95,downed tule,15,2
+Volanti Slough,VS2,7/8/2020,14:35,14:50,"Melissa, Sidney",91.4,3.5,6.6,Clear,28.5,4.6,NA,Major Ditch,managed,SCAC,95,downed tule,14,1
