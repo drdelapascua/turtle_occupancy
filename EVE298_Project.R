@@ -1,5 +1,5 @@
 # EVE 298: Group Project
-# Authors: Melissa, Sidney, Cnristofer, Danielle
+# Authors: Melissa, Sidney, Christofer, Danielle
 # Date: Spring Quarter 2021
 
 # set working directory and read in the data
@@ -10,13 +10,47 @@ wpt <- read.csv("data/WPT_Occupancy_R.csv")
 
 head(wpt)
 str(wpt)
+wpt$fhabitat <- as.factor(wpt$habitat)
+str(wpt)
+
+'lets do some data exploration!'
+
+plot(number ~ salinity, data = wpt)
 
 # response variable - number of wpt
-# predictor variables - salinity, habitat type, water temperature?, air temperature?, wind speed?
 
+hist(wpt$number)
+dotchart(wpt$number, color = wpt$fhabitat)
 
-plot(salinity ~ number, data = wpt)
+# predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status
+
 hist(wpt$salinity)
+dotchart(wpt$salinity)
+
+hist(wpt$airtemp)
+dotchart(wpt$airtemp) 
+
+hist(wpt$watertemp)
+dotchart(wpt$watertemp)
+
+hist(wpt$avgwind)
+dotchart(wpt$avgwind)
+
+hist(wpt$flowstatus)
+dotchart(wpt$flowstatus)
+
+#this is an observational data set, we should check to see if anything is co-linear
+#pairs(wpt)
+#pairs(loyn[,2:5]) #subsetting dataframes [rows, columns]
+#pairs(loyn[,c(2,4,6)])
+#pairs(loyn[,c("AREA", "DIST", "ABUND", "GRAZE")])
+
+
+#looking at the effect of habitat, but also looking at the spread at different habitat levels, may have to check homogeneity of variance closely
+boxplot(wpt$number ~ wpt$fhabitat)
+boxplot(wpt$salinity ~ wpt$fhabitat) 
+
+
 
 
 #### Questions ####
