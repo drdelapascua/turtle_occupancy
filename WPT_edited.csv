@@ -1,132 +1,132 @@
 location,surveypoint,month,airtemp,avgwind,maxwind,clouds,watertemp,salinity,habitat,mgmt,bankcover,baskingarea,flowstatus,number,present
-Arnold,AR1P,June,86.40,4.47,7.47,Clear,26.67,8.63,Borrow Ditch,managed,90.00,1,7.00,2.00,1
-Arnold,AR1P,August,75.13,6.80,9.37,Clear,22.67,7.87,Borrow Ditch,managed,90.00,1,13.33,0.00,0
-Arnold,AR1S,June,86.40,4.47,7.47,Clear,21.87,6.27,Minor Slough,tidal,100.00,1,14.33,0.00,0
-Arnold,AR1S,August,75.13,6.80,9.37,Clear,21.83,6.63,Minor Slough,tidal,100.00,1,16.00,0.00,0
-Arnold,AR2,June,81.70,3.60,5.97,Clear,26.03,6.00,Borrow Ditch,managed,90.00,1,7.00,0.00,0
-Arnold,AR2,August,74.23,4.53,8.30,Clear,22.67,7.87,Borrow Ditch,managed,90.00,1,12.33,0.00,0
-Blacklock,BL1,June,81.70,3.60,5.97,Clear,21.57,3.97,Tidal,tidal,100.00,1,16.00,0.00,0
-Blacklock,BL1,August,74.23,4.53,8.30,Clear,21.70,6.97,Tidal,tidal,100.00,1,14.33,0.00,0
-Bradmoor Island,BM1,June,87.83,2.17,4.10,Clear,22.57,4.10,Pond,managed,100.00,0,15.00,1.00,1
-Bradmoor Island,BM1,August,74.93,5.60,9.13,Clear,21.17,7.23,Pond,managed,100.00,0,15.00,0.00,0
-Bradmoor Island,BM2,June,87.27,2.57,5.67,Clear,21.73,3.90,Borrow Ditch,managed,100.00,0,16.00,16.00,1
-Bradmoor Island,BM2,August,75.87,6.80,9.43,Clear,21.77,6.90,Borrow Ditch,managed,100.00,0,13.00,11.00,1
-Bradmoor Island,BM3,June,83.30,2.80,4.60,Clear,20.83,3.70,Borrow Ditch,managed,100.00,0,14.00,3.00,1
-Bradmoor Island,BM3,August,77.87,5.57,8.73,Clear,20.23,6.77,Borrow Ditch,managed,100.00,0,15.00,0.00,0
-Bradmoor Island,BM4,June,89.20,3.20,5.00,Clear,23.23,3.87,Borrow Ditch,managed,100.00,0,16.00,4.00,1
-Bradmoor Island,BM4,August,74.27,7.33,11.03,Clear,22.50,7.00,Borrow Ditch,managed,100.00,0,11.00,3.00,1
-Cutoff Slough,CO1,July,85.70,8.70,11.47,Clear,22.60,5.37,Minor Slough,tidal,100.00,1,14.67,0.00,0
-Cutoff Slough,CO2,July,83.70,5.47,7.80,Clear,22.53,5.33,Minor Slough,tidal,100.00,1,13.67,0.00,0
-Crescent Unit,CR1,June,84.23,6.19,8.97,Clear,22.78,14.51,Pond,managed,93.33,0,13.89,0.00,0
-Crescent Unit,CR2A,June,89.10,4.67,7.30,Clear,24.20,4.50,Borrow Ditch,managed,90.00,1,14.00,2.00,1
-Crescent Unit,CR2A,August,79.10,9.37,11.60,Overcast,23.27,8.57,Borrow Ditch,managed,100.00,1,14.00,0.00,0
-Crescent Unit,CR2B,June,89.10,4.67,7.30,Clear,23.93,4.43,Pond,managed,90.00,1,14.00,0.00,0
-Crescent Unit,CR3A,June,85.70,4.63,6.70,Clear,24.87,5.30,Borrow Ditch,managed,90.00,1,14.00,1.00,1
-Crescent Unit,CR3A,August,82.00,5.13,7.67,Overcast,22.03,8.20,Borrow Ditch,managed,100.00,0,13.00,0.00,0
-Crescent Unit,CR3B,June,85.70,4.63,6.70,Clear,24.27,4.63,Borrow Ditch,managed,90.00,1,14.00,0.00,0
-Dutton's Pond,DP1,June,77.00,14.03,15.13,Clear,22.13,3.27,Pond,managed,90.00,1,18.00,1.00,1
-Dutton's Pond,DP1,July,69.27,11.57,14.53,Clear,20.37,5.23,Pond,managed,91.67,1,16.00,37.00,1
-Dutton's Pond,DP2,June,80.30,5.13,8.57,Clear,23.00,4.03,Borrow Ditch,managed,90.00,1,18.00,0.00,0
-Denverton,DV1,June,77.13,4.73,6.87,Clear,22.93,3.50,Pond,managed,80.00,1,10.00,7.00,1
-Denverton,DV2,June,73.90,4.70,8.20,Clear,20.87,4.93,Pond,managed,56.67,1,10.67,9.00,1
-Denverton,DV3,June,69.50,7.00,9.07,Clear,20.77,10.33,Pond,managed,80.00,1,13.33,0.00,0
-Denverton,DVS1,June,77.13,6.27,8.20,Clear,23.10,3.47,Major Slough,tidal,100.00,1,12.67,2.00,1
-Denverton,DVS2,June,73.90,4.83,7.57,Clear,22.13,3.67,Major Slough,tidal,100.00,0,13.67,13.00,1
-Denverton,DVS3,June,72.87,3.64,5.96,Clear,20.94,3.99,Major Slough,tidal,100.00,0,13.89,18.00,1
-Fleetside,FS1,July,71.33,8.17,12.63,Clear,20.07,14.43,Pond,managed,100.00,1,16.00,0.00,0
-Fleetside,FS2,July,73.60,7.37,11.63,Clear,19.73,14.77,Pond,managed,98.00,1,16.00,0.00,0
-Fleetside,FS3,July,70.13,13.50,16.43,Clear,19.27,14.13,Pond,managed,100.00,1,15.00,0.00,0
-Fleetside,FS4,July,75.90,6.57,10.47,Clear,20.70,11.30,Pond,managed,80.00,1,16.00,0.00,0
-Fleetside,FS5,July,76.67,7.07,9.63,Clear,21.50,11.10,Pond,managed,90.00,1,15.00,1.00,1
-Fleetside,FS6,July,79.10,7.20,10.43,Clear,19.80,12.47,Borrow Ditch,managed,80.00,1,16.00,0.00,0
-Fleetside,FS7,July,79.07,6.70,10.07,Clear,20.00,14.17,Pond,managed,80.00,1,16.00,0.00,0
-Grizzly Ditch,GD1,July,75.43,8.10,11.20,Clear,21.93,2.63,Major Ditch,managed,95.00,1,16.00,100.00,1
-Grizzly Ditch,GD2,July,76.90,7.43,9.77,Clear,22.17,5.40,Major Ditch,managed,100.00,0,14.00,0.00,0
-Grizzly Ditch,GD3,July,73.70,8.07,10.63,Clear,21.87,5.43,Major Ditch,managed,80.00,1,13.00,10.00,1
-Grizzly Ditch,GD4,July,73.67,7.77,12.20,Clear,21.87,5.27,Major Ditch,managed,100.00,1,13.00,0.00,0
-Grizzly Ditch,GD5,July,74.43,10.40,14.23,Clear,21.90,5.27,Major Ditch,managed,95.00,0,14.00,0.00,0
-Grizzly Ranch,GR1D,June,83.67,3.80,6.67,Clear,21.63,4.87,Borrow Ditch,managed,100.00,0,15.00,1.00,1
-Grizzly Ranch,GR1P,June,83.67,3.80,6.67,Clear,24.53,4.33,Pond,managed,100.00,1,15.00,3.00,1
-Grizzly Ranch,GR2,June,88.53,0.90,2.97,Clear,22.43,8.00,Borrow Ditch,managed,100.00,0,11.00,11.00,1
-Grizzly Ranch,GR3,June,88.37,3.30,4.87,Clear,22.73,4.63,Borrow Ditch,managed,100.00,0,16.00,8.00,1
-Howard's Slough,HOS1,July,76.77,6.93,9.97,Clear,25.37,21.87,Borrow Ditch,managed,100.00,1,3.67,0.00,0
-Hill Slough,HS1,August,78.73,4.77,7.93,Partly Cloudy,24.03,5.63,Minor Slough,tidal,100.00,1,11.67,5.00,1
-Hill Slough,HS2,August,75.70,4.40,6.80,Partly Cloudy,24.67,5.73,Minor Slough,tidal,100.00,1,10.00,1.00,1
-Hill Slough,HS3,August,85.17,9.73,12.87,Clear,22.53,6.33,Minor Slough,tidal,95.00,1,10.00,1.00,1
-Hill Slough,HS4A,August,85.17,8.60,10.87,Clear,22.67,6.37,Tidal,tidal,98.33,1,13.33,14.00,1
-Hill Slough,HS4B,August,85.17,8.60,10.87,Clear,22.67,6.37,Tidal,tidal,100.00,1,13.00,58.00,1
-Hill Slough,HS5,August,81.93,6.90,9.60,Clear,22.93,6.27,Borrow Ditch,managed,100.00,0,14.00,16.00,1
-Hill Slough,HS6,August,80.33,4.13,5.87,Partly Cloudy,21.30,5.63,Borrow Ditch,managed,100.00,0,13.00,3.00,1
-Hill Slough,HS7,August,78.67,5.77,8.13,Partly Cloudy,22.60,6.27,Borrow Ditch,managed,100.00,1,#DIV/0!,3.00,1
-Island Slough,IS1,August,80.00,4.33,6.23,Partly Cloudy,23.03,6.93,Borrow Ditch,managed,100.00,1,16.00,16.00,1
-Island Slough,IS2,August,80.00,4.33,6.23,Clear,21.90,7.83,Pond,managed,100.00,0,13.00,0.00,0
-Island Slough,IS3,August,80.00,5.93,8.87,Clear,22.33,7.50,Borrow Ditch,managed,100.00,0,12.00,2.00,1
-Island Slough,IS4,August,80.50,6.17,9.33,Clear,21.10,7.70,Borrow Ditch,managed,100.00,1,11.00,0.00,0
-Island Slough,IS5,August,80.50,6.17,9.33,Clear,21.97,7.47,Borrow Ditch,managed,100.00,1,16.00,2.00,1
-Island Slough,IS6A,August,81.57,4.37,6.23,Clear,20.77,9.60,Pond,managed,100.00,1,10.00,26.00,1
-Island Slough,IS6B,August,81.57,4.37,6.23,Clear,18.47,17.37,Pond,managed,100.00,1,10.00,0.00,0
-Island Slough,IS7,August,85.57,5.23,6.80,Clear,22.70,9.03,Borrow Ditch,managed,100.00,0,15.00,0.00,0
-Island Slough,IS8,August,81.10,4.10,6.43,Clear,23.63,6.73,Borrow Ditch,managed,95.00,0,10.00,10.00,1
-Joice Island,JI1,July,82.20,4.20,6.43,Clear,22.50,8.80,Borrow Ditch,managed,90.00,1,7.00,0.00,0
-Joice Island,JI2,July,79.53,2.83,4.33,Clear,22.03,9.97,Borrow Ditch,managed,100.00,1,9.00,0.00,0
-Joice Island,JI3,July,77.63,6.40,6.23,Clear,24.03,9.67,Borrow Ditch,managed,95.00,1,7.00,0.00,0
-Joice Island,JI4,July,79.70,5.63,7.70,Clear,25.70,9.80,Borrow Ditch,managed,95.00,0,13.00,0.00,0
-Joice Island,JI5,July,88.27,4.43,7.97,Clear,29.83,8.30,Borrow Ditch,managed,100.00,1,7.00,0.00,0
-Joice Island,JI6,July,86.87,3.97,6.63,Clear,24.60,6.73,Borrow Ditch,managed,90.00,0,12.00,0.00,0
-Joice Island,JI7,July,83.70,5.47,7.80,Clear,24.73,7.37,Borrow Ditch,managed,100.00,0,13.00,12.00,1
-Kings Cut,KC1,June,86.00,5.93,8.70,Clear,24.07,10.07,Major Ditch,managed,100.00,0,14.00,0.00,0
-Kings Cut,KC1,August,81.80,6.97,9.93,Overcast,24.63,15.23,Major Ditch,managed,100.00,1,12.00,0.00,0
-Laughing Mallard,LM1D,July,82.57,3.00,7.13,Clear,24.23,9.27,Borrow Ditch,managed,100.00,1,16.33,0.00,0
-Laughing Mallard,LM1D,August,83.27,2.90,5.40,Overcast,24.57,15.03,Borrow Ditch,managed,100.00,1,16.33,0.00,0
-Laughing Mallard,LM2D,July,81.17,6.37,8.93,Clear,23.53,7.07,Borrow Ditch,managed,95.00,1,11.00,0.00,0
-Laughing Mallard,LM2D,August,82.50,5.70,8.67,Partly Cloudy,20.97,12.50,Borrow Ditch,managed,95.00,1,9.00,0.00,0
-Laughing Mallard,LM2P,July,81.17,6.23,8.93,Clear,24.23,7.13,Pond,managed,100.00,1,18.00,0.00,0
-Laughing Mallard,LM2P,August,82.50,5.70,8.67,Overcast,29.17,11.20,Pond,managed,100.00,1,13.00,0.00,0
-Laughing Mallard,LM3D,July,77.70,6.07,8.73,Clear,23.53,6.80,Borrow Ditch,managed,100.00,0,14.33,0.00,0
-Laughing Mallard,LM3D,August,82.97,4.43,9.07,Overcast,24.50,8.73,Borrow Ditch,managed,100.00,0,12.00,0.00,0
-Laughing Mallard,LM3P,July,77.70,6.07,8.73,Clear,22.93,7.23,Pond,managed,100.00,0,12.00,0.00,0
-Laughing Mallard,LM3P,August,82.97,4.43,9.07,Overcast,26.30,11.17,Pond,managed,100.00,1,14.00,0.00,0
-Morrow Island Distribution System,MIDS1,July,74.60,3.87,6.97,Clear,21.87,9.70,Major Ditch,managed,95.00,1,9.00,0.00,0
-Morrow Island Distribution System,MIDS2,July,73.80,8.67,11.83,Clear,22.20,10.37,Major Ditch,managed,100.00,1,8.00,0.00,0
-Morrow Island Distribution System,MIDS3,July,76.00,8.33,12.23,Clear,22.83,9.27,Major Ditch,managed,95.00,1,9.00,35.00,1
-Morrow Island Distribution System,MIDS4,July,76.13,9.00,11.73,Clear,22.33,9.47,Major Ditch,managed,75.00,0,8.00,0.00,0
-Montezuma Slough,MS1,June,79.67,8.73,13.30,Clear,22.50,3.99,Major Slough,tidal,96.67,1,13.67,0.00,0
-Montezuma Slough,MS1,July,82.20,4.20,6.43,Clear,22.80,7.13,Major Slough,tidal,100.00,1,16.00,0.00,0
-Montezuma Slough,MS2,July,86.87,3.97,6.63,Clear,22.77,6.67,Major Slough,tidal,70.00,0,14.67,0.00,0
-Pond 7,P7,June,79.10,8.07,11.27,Clear,21.43,3.40,Pond,managed,100.00,0,16.00,0.00,0
-Pond 8,P81,June,78.33,8.33,12.23,Clear,21.47,6.20,Borrow Ditch,managed,70.00,1,16.00,1.00,1
-Pond 8,P82,June,79.10,8.07,11.27,Clear,21.37,8.37,Pond,managed,100.00,0,18.00,0.00,0
-Pond 8,P82,July,69.80,9.13,12.23,Partly Cloudy,18.70,8.70,Pond,managed,100.00,1,14.00,0.00,0
-Poleline Ditch,PD1,June,80.07,2.30,4.33,Clear,21.73,3.70,Major Ditch,managed,91.67,1,6.00,9.00,1
-Poleline Ditch,PD1,July,71.13,2.33,5.03,Clear,19.17,6.03,Major Ditch,managed,85.00,1,8.00,8.00,1
-Poleline Ditch,PD2,June,80.10,4.97,8.37,Clear,23.53,4.03,Major Ditch,managed,100.00,0,9.00,2.00,1
-Poleline Ditch,PD2,July,72.33,6.93,11.67,Clear,19.80,5.33,Major Ditch,managed,100.00,0,9.00,10.00,1
-Poleline Ditch,PD3,June,78.70,8.30,11.87,Clear,22.77,3.60,Major Ditch,managed,93.33,1,12.33,5.00,1
-Poleline Ditch,PD3,July,71.30,10.40,13.47,Clear,20.60,6.30,Major Ditch,managed,90.00,1,8.00,2.00,1
-Poleline Ditch,PD4,June,78.33,8.33,12.23,Clear,21.80,3.63,Major Ditch,managed,100.00,0,13.00,1.00,1
-Poleline Ditch,PD4,July,69.80,9.13,12.23,Partly Cloudy,20.27,6.03,Major Ditch,managed,100.00,1,9.00,0.00,0
-Roaring River,RR1,July,81.20,9.73,12.87,Clear,21.53,4.20,Pond,managed,95.00,1,14.67,0.00,0
-Roaring River,RR2,July,81.20,9.73,12.87,Clear,22.97,3.87,Major Ditch,managed,63.33,1,18.00,37.00,1
-Roaring River,RR3,July,76.10,8.97,12.53,Clear,22.80,3.63,Major Ditch,managed,95.00,0,16.00,0.00,0
-Roaring River,RR4,July,80.17,7.90,10.23,Clear,23.63,3.53,Major Ditch,managed,85.00,1,16.00,98.00,1
-Roaring River,RR5,July,76.20,10.33,13.20,Clear,22.70,2.70,Major Ditch,managed,95.00,1,16.00,2.00,1
-Roaring River,RR6,July,79.30,9.93,12.17,Clear,23.57,2.30,Major Ditch,managed,90.00,1,17.33,46.00,1
-Roaring River,RR7,July,79.90,7.53,10.60,Clear,23.27,2.27,Major Ditch,managed,98.33,1,16.33,0.00,0
-Shortcut Ditch,SC1,June,76.93,10.10,15.17,Clear,22.97,3.10,Major Ditch,managed,90.00,1,9.00,21.00,1
-Shortcut Ditch,SC1,July,72.07,11.20,15.40,Partly Cloudy,20.73,5.63,Major Ditch,managed,100.00,1,13.00,21.00,1
-Shortcut Ditch,SC2,June,73.37,10.67,13.17,Clear,22.33,3.03,Major Ditch,managed,5.00,0,8.00,2.00,1
-Shortcut Ditch,SC2,July,65.57,11.63,15.70,Partly Cloudy,20.40,5.53,Major Ditch,managed,70.00,1,7.00,2.00,1
-Solano Cut,SOC1,July,79.97,9.40,11.63,Clear,22.93,2.33,Borrow Ditch,managed,98.33,1,10.67,20.00,1
-Suisun Slough,SS1,July,82.27,5.47,6.93,Clear,22.12,4.30,Major Slough,managed,90.00,0,14.00,0.00,0
-Suisun Slough,SS2,July,76.13,2.70,3.97,Clear,21.87,6.63,Major Slough,managed,90.00,1,12.33,0.00,0
-Suisun Slough,SS3,July,79.70,5.63,7.70,Clear,21.63,5.15,Major Slough,managed,80.00,1,11.50,0.00,0
-Suisun Slough,SS4,July,76.00,8.33,12.23,Clear,23.03,9.50,Major Slough,managed,90.00,1,14.00,0.00,0
-Steve's Ditch,STD1,July,76.63,8.87,11.13,Clear,23.00,8.53,Major Ditch,managed,90.00,1,7.00,16.00,1
-Steve's Ditch,STD2,July,79.73,5.23,8.17,Clear,21.67,20.47,Major Ditch,managed,80.00,1,5.00,0.00,0
-Steve's Ditch,STD3,July,76.77,6.93,9.97,Clear,23.20,14.33,Major Ditch,managed,90.00,1,5.00,5.00,1
-Tule Red,TR1,July,79.90,7.53,10.60,Clear,25.93,8.13,Tidal,tidal,100.00,1,12.33,0.00,0
-Tree Slough,TS1,June,88.53,0.90,2.97,Clear,23.30,4.53,Minor Slough,tidal,90.00,0,16.00,3.00,1
-Tree Slough,TS2,July,82.57,3.00,7.13,Clear,24.27,7.63,Minor Slough,tidal,96.67,1,8.00,12.00,1
-Tree Slough,TS2,August,83.27,2.90,5.40,Overcast,24.53,11.23,Minor Slough,tidal,100.00,1,17.00,3.00,1
-Volanti Slough,VS1,July,85.70,5.03,8.47,Clear,23.20,4.33,Major Ditch,managed,95.00,1,13.67,1.00,1
-Volanti Slough,VS2,July,82.77,3.97,6.63,Clear,24.43,4.63,Major Ditch,managed,95.00,1,15.33,3.00,1
+Arnold,AR1P,June,86.4,4.47,7.47,Clear,26.67,8.63,Borrow Ditch,managed,90,1,7,2,1
+Arnold,AR1P,August,75.13,6.8,9.37,Clear,22.67,7.87,Borrow Ditch,managed,90,1,13.33,0,0
+Arnold,AR1S,June,86.4,4.47,7.47,Clear,21.87,6.27,Minor Slough,tidal,100,1,14.33,0,0
+Arnold,AR1S,August,75.13,6.8,9.37,Clear,21.83,6.63,Minor Slough,tidal,100,1,16,0,0
+Arnold,AR2,June,81.7,3.6,5.97,Clear,26.03,6,Borrow Ditch,managed,90,1,7,0,0
+Arnold,AR2,August,74.23,4.53,8.3,Clear,22.67,7.87,Borrow Ditch,managed,90,1,12.33,0,0
+Blacklock,BL1,June,81.7,3.6,5.97,Clear,21.57,3.97,Tidal,tidal,100,1,16,0,0
+Blacklock,BL1,August,74.23,4.53,8.3,Clear,21.7,6.97,Tidal,tidal,100,1,14.33,0,0
+Bradmoor Island,BM1,June,87.83,2.17,4.1,Clear,22.57,4.1,Pond,managed,100,0,15,1,1
+Bradmoor Island,BM1,August,74.93,5.6,9.13,Clear,21.17,7.23,Pond,managed,100,0,15,0,0
+Bradmoor Island,BM2,June,87.27,2.57,5.67,Clear,21.73,3.9,Borrow Ditch,managed,100,0,16,16,1
+Bradmoor Island,BM2,August,75.87,6.8,9.43,Clear,21.77,6.9,Borrow Ditch,managed,100,0,13,11,1
+Bradmoor Island,BM3,June,83.3,2.8,4.6,Clear,20.83,3.7,Borrow Ditch,managed,100,0,14,3,1
+Bradmoor Island,BM3,August,77.87,5.57,8.73,Clear,20.23,6.77,Borrow Ditch,managed,100,0,15,0,0
+Bradmoor Island,BM4,June,89.2,3.2,5,Clear,23.23,3.87,Borrow Ditch,managed,100,0,16,4,1
+Bradmoor Island,BM4,August,74.27,7.33,11.03,Clear,22.5,7,Borrow Ditch,managed,100,0,11,3,1
+Cutoff Slough,CO1,July,85.7,8.7,11.47,Clear,22.6,5.37,Minor Slough,tidal,100,1,14.67,0,0
+Cutoff Slough,CO2,July,83.7,5.47,7.8,Clear,22.53,5.33,Minor Slough,tidal,100,1,13.67,0,0
+Crescent Unit,CR1,June,84.23,6.19,8.97,Clear,22.78,14.51,Pond,managed,93.33,0,13.89,0,0
+Crescent Unit,CR2A,June,89.1,4.67,7.3,Clear,24.2,4.5,Borrow Ditch,managed,90,1,14,2,1
+Crescent Unit,CR2A,August,79.1,9.37,11.6,Overcast,23.27,8.57,Borrow Ditch,managed,100,1,14,0,0
+Crescent Unit,CR2B,June,89.1,4.67,7.3,Clear,23.93,4.43,Pond,managed,90,1,14,0,0
+Crescent Unit,CR3A,June,85.7,4.63,6.7,Clear,24.87,5.3,Borrow Ditch,managed,90,1,14,1,1
+Crescent Unit,CR3A,August,82,5.13,7.67,Overcast,22.03,8.2,Borrow Ditch,managed,100,0,13,0,0
+Crescent Unit,CR3B,June,85.7,4.63,6.7,Clear,24.27,4.63,Borrow Ditch,managed,90,1,14,0,0
+Dutton's Pond,DP1,June,77,14.03,15.13,Clear,22.13,3.27,Pond,managed,90,1,18,1,1
+Dutton's Pond,DP1,July,69.27,11.57,14.53,Clear,20.37,5.23,Pond,managed,91.67,1,16,37,1
+Dutton's Pond,DP2,June,80.3,5.13,8.57,Clear,23,4.03,Borrow Ditch,managed,90,1,18,0,0
+Denverton,DV1,June,77.13,4.73,6.87,Clear,22.93,3.5,Pond,managed,80,1,10,7,1
+Denverton,DV2,June,73.9,4.7,8.2,Clear,20.87,4.93,Pond,managed,56.67,1,10.67,9,1
+Denverton,DV3,June,69.5,7,9.07,Clear,20.77,10.33,Pond,managed,80,1,13.33,0,0
+Denverton,DVS1,June,77.13,6.27,8.2,Clear,23.1,3.47,Major Slough,tidal,100,1,12.67,2,1
+Denverton,DVS2,June,73.9,4.83,7.57,Clear,22.13,3.67,Major Slough,tidal,100,0,13.67,13,1
+Denverton,DVS3,June,72.87,3.64,5.96,Clear,20.94,3.99,Major Slough,tidal,100,0,13.89,18,1
+Fleetside,FS1,July,71.33,8.17,12.63,Clear,20.07,14.43,Pond,managed,100,1,16,0,0
+Fleetside,FS2,July,73.6,7.37,11.63,Clear,19.73,14.77,Pond,managed,98,1,16,0,0
+Fleetside,FS3,July,70.13,13.5,16.43,Clear,19.27,14.13,Pond,managed,100,1,15,0,0
+Fleetside,FS4,July,75.9,6.57,10.47,Clear,20.7,11.3,Pond,managed,80,1,16,0,0
+Fleetside,FS5,July,76.67,7.07,9.63,Clear,21.5,11.1,Pond,managed,90,1,15,1,1
+Fleetside,FS6,July,79.1,7.2,10.43,Clear,19.8,12.47,Borrow Ditch,managed,80,1,16,0,0
+Fleetside,FS7,July,79.07,6.7,10.07,Clear,20,14.17,Pond,managed,80,1,16,0,0
+Grizzly Ditch,GD1,July,75.43,8.1,11.2,Clear,21.93,2.63,Major Ditch,managed,95,1,16,100,1
+Grizzly Ditch,GD2,July,76.9,7.43,9.77,Clear,22.17,5.4,Major Ditch,managed,100,0,14,0,0
+Grizzly Ditch,GD3,July,73.7,8.07,10.63,Clear,21.87,5.43,Major Ditch,managed,80,1,13,10,1
+Grizzly Ditch,GD4,July,73.67,7.77,12.2,Clear,21.87,5.27,Major Ditch,managed,100,1,13,0,0
+Grizzly Ditch,GD5,July,74.43,10.4,14.23,Clear,21.9,5.27,Major Ditch,managed,95,0,14,0,0
+Grizzly Ranch,GR1D,June,83.67,3.8,6.67,Clear,21.63,4.87,Borrow Ditch,managed,100,0,15,1,1
+Grizzly Ranch,GR1P,June,83.67,3.8,6.67,Clear,24.53,4.33,Pond,managed,100,1,15,3,1
+Grizzly Ranch,GR2,June,88.53,0.9,2.97,Clear,22.43,8,Borrow Ditch,managed,100,0,11,11,1
+Grizzly Ranch,GR3,June,88.37,3.3,4.87,Clear,22.73,4.63,Borrow Ditch,managed,100,0,16,8,1
+Howard's Slough,HOS1,July,76.77,6.93,9.97,Clear,25.37,21.87,Borrow Ditch,managed,100,1,3.67,0,0
+Hill Slough,HS1,August,78.73,4.77,7.93,Partly Cloudy,24.03,5.63,Minor Slough,tidal,100,1,11.67,5,1
+Hill Slough,HS2,August,75.7,4.4,6.8,Partly Cloudy,24.67,5.73,Minor Slough,tidal,100,1,10,1,1
+Hill Slough,HS3,August,85.17,9.73,12.87,Clear,22.53,6.33,Minor Slough,tidal,95,1,10,1,1
+Hill Slough,HS4A,August,85.17,8.6,10.87,Clear,22.67,6.37,Tidal,tidal,98.33,1,13.33,14,1
+Hill Slough,HS4B,August,85.17,8.6,10.87,Clear,22.67,6.37,Tidal,tidal,100,1,13,58,1
+Hill Slough,HS5,August,81.93,6.9,9.6,Clear,22.93,6.27,Borrow Ditch,managed,100,0,14,16,1
+Hill Slough,HS6,August,80.33,4.13,5.87,Partly Cloudy,21.3,5.63,Borrow Ditch,managed,100,0,13,3,1
+Hill Slough,HS7,August,78.67,5.77,8.13,Partly Cloudy,22.6,6.27,Borrow Ditch,managed,100,1,13,3,1
+Island Slough,IS1,August,80,4.33,6.23,Partly Cloudy,23.03,6.93,Borrow Ditch,managed,100,1,16,16,1
+Island Slough,IS2,August,80,4.33,6.23,Clear,21.9,7.83,Pond,managed,100,0,13,0,0
+Island Slough,IS3,August,80,5.93,8.87,Clear,22.33,7.5,Borrow Ditch,managed,100,0,12,2,1
+Island Slough,IS4,August,80.5,6.17,9.33,Clear,21.1,7.7,Borrow Ditch,managed,100,1,11,0,0
+Island Slough,IS5,August,80.5,6.17,9.33,Clear,21.97,7.47,Borrow Ditch,managed,100,1,16,2,1
+Island Slough,IS6A,August,81.57,4.37,6.23,Clear,20.77,9.6,Pond,managed,100,1,10,26,1
+Island Slough,IS6B,August,81.57,4.37,6.23,Clear,18.47,17.37,Pond,managed,100,1,10,0,0
+Island Slough,IS7,August,85.57,5.23,6.8,Clear,22.7,9.03,Borrow Ditch,managed,100,0,15,0,0
+Island Slough,IS8,August,81.1,4.1,6.43,Clear,23.63,6.73,Borrow Ditch,managed,95,0,10,10,1
+Joice Island,JI1,July,82.2,4.2,6.43,Clear,22.5,8.8,Borrow Ditch,managed,90,1,7,0,0
+Joice Island,JI2,July,79.53,2.83,4.33,Clear,22.03,9.97,Borrow Ditch,managed,100,1,9,0,0
+Joice Island,JI3,July,77.63,6.4,6.23,Clear,24.03,9.67,Borrow Ditch,managed,95,1,7,0,0
+Joice Island,JI4,July,79.7,5.63,7.7,Clear,25.7,9.8,Borrow Ditch,managed,95,0,13,0,0
+Joice Island,JI5,July,88.27,4.43,7.97,Clear,29.83,8.3,Borrow Ditch,managed,100,1,7,0,0
+Joice Island,JI6,July,86.87,3.97,6.63,Clear,24.6,6.73,Borrow Ditch,managed,90,0,12,0,0
+Joice Island,JI7,July,83.7,5.47,7.8,Clear,24.73,7.37,Borrow Ditch,managed,100,0,13,12,1
+Kings Cut,KC1,June,86,5.93,8.7,Clear,24.07,10.07,Major Ditch,managed,100,0,14,0,0
+Kings Cut,KC1,August,81.8,6.97,9.93,Overcast,24.63,15.23,Major Ditch,managed,100,1,12,0,0
+Laughing Mallard,LM1D,July,82.57,3,7.13,Clear,24.23,9.27,Borrow Ditch,managed,100,1,16.33,0,0
+Laughing Mallard,LM1D,August,83.27,2.9,5.4,Overcast,24.57,15.03,Borrow Ditch,managed,100,1,16.33,0,0
+Laughing Mallard,LM2D,July,81.17,6.37,8.93,Clear,23.53,7.07,Borrow Ditch,managed,95,1,11,0,0
+Laughing Mallard,LM2D,August,82.5,5.7,8.67,Partly Cloudy,20.97,12.5,Borrow Ditch,managed,95,1,9,0,0
+Laughing Mallard,LM2P,July,81.17,6.23,8.93,Clear,24.23,7.13,Pond,managed,100,1,18,0,0
+Laughing Mallard,LM2P,August,82.5,5.7,8.67,Overcast,29.17,11.2,Pond,managed,100,1,13,0,0
+Laughing Mallard,LM3D,July,77.7,6.07,8.73,Clear,23.53,6.8,Borrow Ditch,managed,100,0,14.33,0,0
+Laughing Mallard,LM3D,August,82.97,4.43,9.07,Overcast,24.5,8.73,Borrow Ditch,managed,100,0,12,0,0
+Laughing Mallard,LM3P,July,77.7,6.07,8.73,Clear,22.93,7.23,Pond,managed,100,0,12,0,0
+Laughing Mallard,LM3P,August,82.97,4.43,9.07,Overcast,26.3,11.17,Pond,managed,100,1,14,0,0
+Morrow Island Distribution System,MIDS1,July,74.6,3.87,6.97,Clear,21.87,9.7,Major Ditch,managed,95,1,9,0,0
+Morrow Island Distribution System,MIDS2,July,73.8,8.67,11.83,Clear,22.2,10.37,Major Ditch,managed,100,1,8,0,0
+Morrow Island Distribution System,MIDS3,July,76,8.33,12.23,Clear,22.83,9.27,Major Ditch,managed,95,1,9,35,1
+Morrow Island Distribution System,MIDS4,July,76.13,9,11.73,Clear,22.33,9.47,Major Ditch,managed,75,0,8,0,0
+Montezuma Slough,MS1,June,79.67,8.73,13.3,Clear,22.5,3.99,Major Slough,tidal,96.67,1,13.67,0,0
+Montezuma Slough,MS1,July,82.2,4.2,6.43,Clear,22.8,7.13,Major Slough,tidal,100,1,16,0,0
+Montezuma Slough,MS2,July,86.87,3.97,6.63,Clear,22.77,6.67,Major Slough,tidal,70,0,14.67,0,0
+Pond 7,P7,June,79.1,8.07,11.27,Clear,21.43,3.4,Pond,managed,100,0,16,0,0
+Pond 8,P81,June,78.33,8.33,12.23,Clear,21.47,6.2,Borrow Ditch,managed,70,1,16,1,1
+Pond 8,P82,June,79.1,8.07,11.27,Clear,21.37,8.37,Pond,managed,100,0,18,0,0
+Pond 8,P82,July,69.8,9.13,12.23,Partly Cloudy,18.7,8.7,Pond,managed,100,1,14,0,0
+Poleline Ditch,PD1,June,80.07,2.3,4.33,Clear,21.73,3.7,Major Ditch,managed,91.67,1,6,9,1
+Poleline Ditch,PD1,July,71.13,2.33,5.03,Clear,19.17,6.03,Major Ditch,managed,85,1,8,8,1
+Poleline Ditch,PD2,June,80.1,4.97,8.37,Clear,23.53,4.03,Major Ditch,managed,100,0,9,2,1
+Poleline Ditch,PD2,July,72.33,6.93,11.67,Clear,19.8,5.33,Major Ditch,managed,100,0,9,10,1
+Poleline Ditch,PD3,June,78.7,8.3,11.87,Clear,22.77,3.6,Major Ditch,managed,93.33,1,12.33,5,1
+Poleline Ditch,PD3,July,71.3,10.4,13.47,Clear,20.6,6.3,Major Ditch,managed,90,1,8,2,1
+Poleline Ditch,PD4,June,78.33,8.33,12.23,Clear,21.8,3.63,Major Ditch,managed,100,0,13,1,1
+Poleline Ditch,PD4,July,69.8,9.13,12.23,Partly Cloudy,20.27,6.03,Major Ditch,managed,100,1,9,0,0
+Roaring River,RR1,July,81.2,9.73,12.87,Clear,21.53,4.2,Pond,managed,95,1,14.67,0,0
+Roaring River,RR2,July,81.2,9.73,12.87,Clear,22.97,3.87,Major Ditch,managed,63.33,1,18,37,1
+Roaring River,RR3,July,76.1,8.97,12.53,Clear,22.8,3.63,Major Ditch,managed,95,0,16,0,0
+Roaring River,RR4,July,80.17,7.9,10.23,Clear,23.63,3.53,Major Ditch,managed,85,1,16,98,1
+Roaring River,RR5,July,76.2,10.33,13.2,Clear,22.7,2.7,Major Ditch,managed,95,1,16,2,1
+Roaring River,RR6,July,79.3,9.93,12.17,Clear,23.57,2.3,Major Ditch,managed,90,1,17.33,46,1
+Roaring River,RR7,July,79.9,7.53,10.6,Clear,23.27,2.27,Major Ditch,managed,98.33,1,16.33,0,0
+Shortcut Ditch,SC1,June,76.93,10.1,15.17,Clear,22.97,3.1,Major Ditch,managed,90,1,9,21,1
+Shortcut Ditch,SC1,July,72.07,11.2,15.4,Partly Cloudy,20.73,5.63,Major Ditch,managed,100,1,13,21,1
+Shortcut Ditch,SC2,June,73.37,10.67,13.17,Clear,22.33,3.03,Major Ditch,managed,5,0,8,2,1
+Shortcut Ditch,SC2,July,65.57,11.63,15.7,Partly Cloudy,20.4,5.53,Major Ditch,managed,70,1,7,2,1
+Solano Cut,SOC1,July,79.97,9.4,11.63,Clear,22.93,2.33,Borrow Ditch,managed,98.33,1,10.67,20,1
+Suisun Slough,SS1,July,82.27,5.47,6.93,Clear,22.12,4.3,Major Slough,managed,90,0,14,0,0
+Suisun Slough,SS2,July,76.13,2.7,3.97,Clear,21.87,6.63,Major Slough,managed,90,1,12.33,0,0
+Suisun Slough,SS3,July,79.7,5.63,7.7,Clear,21.63,5.15,Major Slough,managed,80,1,11.5,0,0
+Suisun Slough,SS4,July,76,8.33,12.23,Clear,23.03,9.5,Major Slough,managed,90,1,14,0,0
+Steve's Ditch,STD1,July,76.63,8.87,11.13,Clear,23,8.53,Major Ditch,managed,90,1,7,16,1
+Steve's Ditch,STD2,July,79.73,5.23,8.17,Clear,21.67,20.47,Major Ditch,managed,80,1,5,0,0
+Steve's Ditch,STD3,July,76.77,6.93,9.97,Clear,23.2,14.33,Major Ditch,managed,90,1,5,5,1
+Tule Red,TR1,July,79.9,7.53,10.6,Clear,25.93,8.13,Tidal,tidal,100,1,12.33,0,0
+Tree Slough,TS1,June,88.53,0.9,2.97,Clear,23.3,4.53,Minor Slough,tidal,90,0,16,3,1
+Tree Slough,TS2,July,82.57,3,7.13,Clear,24.27,7.63,Minor Slough,tidal,96.67,1,8,12,1
+Tree Slough,TS2,August,83.27,2.9,5.4,Overcast,24.53,11.23,Minor Slough,tidal,100,1,17,3,1
+Volanti Slough,VS1,July,85.7,5.03,8.47,Clear,23.2,4.33,Major Ditch,managed,95,1,13.67,1,1
+Volanti Slough,VS2,July,82.77,3.97,6.63,Clear,24.43,4.63,Major Ditch,managed,95,1,15.33,3,1
