@@ -178,6 +178,8 @@ Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
 Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 AIC(Zip1, Zip2, Zip3)
 
+summary()
+
 summary(Zip3)
 
 summary(Zip2)
