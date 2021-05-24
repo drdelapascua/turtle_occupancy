@@ -4,8 +4,7 @@
 
 # set working directory and read in the data
 
-setwd("C:/Users/mkril/Desktop/EVE298")
-
+setwd("~/GitHub/turtle_occurance")
 wpt1 <- read.csv("data/WPT_Occupancy_R.csv")
 
 head(wpt1)
@@ -52,7 +51,8 @@ boxplot(wpt1$salinity ~ wpt1$fhabitat)
 
 #### Data that is Summed ####
 
-wpt <- read.csv("data/WPT_edited.csv")
+
+wpt <- read.csv("WPT_Occupancy_R.csv")
 
 head(wpt)
 str(wpt)
@@ -80,6 +80,47 @@ dotchart(wpt$avgwind)
 
 hist(wpt$flowstatus)
 dotchart(wpt$flowstatus)
+
+### Salinity
+plot(salinity ~ number, data = wpt) #funnel plot - not great
+hist(wpt$salinity) #more data points at lower (?) salinities, only a few at higher salinities - log transform? Will stretch out the big ones
+wpt$logsalinity <- log(wpt$salinity)
+hist(wpt$logsalinity) #huzzah! we should use the log transformed pH scale
+
+### Air temp
+plot(airtemp ~ number, data = wpt) #funnel shaped - is this good??
+hist(wpt$airtemp) # probably okay?
+
+### Avg wind
+plot(avgwind ~ number , data = wpt) #funneled
+hist(wpt$avgwind) #skewed, log trans
+wpt$logwind <- log(wpt$avgwind)
+hist(wpt$logwind)
+plot(logwind ~ number, data = wpt) #do not use the log scale, its worse
+
+### max wind
+plot(maxwind ~ number, data = wpt) #funneled - perhaps autocorrelation?
+hist(wpt$maxwind) #nice distribution - normal
+
+### water temp
+
+plot(watertemp ~ number, data = wpt) # funneled
+hist(wpt$watertemp) #slight skew, but mostly normal. a few outliers that have high temps
+
+### bank cover
+plot(bankcover ~ number, data = wpt) #up in the corner, amaybe the cover is not cont?
+hist(wpt$bankcover) #skewed to the right, lots of data points at end of scale a few in the front. How to deal? sqrt?
+hist((wpt$bankcover))
+
+### flow status
+plot(flowstatus ~ number, data = wpt) #up in the corner
+hist(wpt$flowstatus)
+
+### autocorrelation
+plot(watertemp ~ logsalinity, data = wpt) #uncorrelated!
+plot(watertemp ~ airtemp, data = wpt) #correlation, worth a ggplot 
+plot(watertemp ~ maxwind, data = wpt) #uncorr?
+plot(logsalinity ~ airtemp, data = wpt)#uncorr
 
 hist(wpt$baskingarea)
 dotchart(wpt$baskingarea)
@@ -112,7 +153,6 @@ AIC(mod2, mod.poisson)
 #### Presence/Absence Data ####
 
 # > logistic regression ----
-
 
 #### Questions ####
 
