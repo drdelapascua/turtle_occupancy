@@ -7,6 +7,8 @@
 setwd("~/GitHub/turtle_occurance")
 wpt1 <- read.csv("data/WPT_Occupancy_R.csv")
 
+#code
+
 head(wpt1)
 str(wpt1)
 wpt1$fhabitat <- as.factor(wpt1$habitat)
