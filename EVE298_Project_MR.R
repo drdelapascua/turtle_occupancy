@@ -187,6 +187,8 @@ Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
 
 AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
+summary()
+
 summary(Zip3)
 
 summary(Zip2)
