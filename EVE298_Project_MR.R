@@ -61,14 +61,20 @@ wpt <- read.csv("data/WPT_edited.csv")
 
 head(wpt)
 str(wpt)
+
+hist(wpt$salinity)
+hist(wpt$logsalinity)
 wpt$fhabitat <- as.factor(wpt$habitat)
 wpt$fmgmt <- as.factor(wpt$mgmt)
 wpt$fmonth <- as.factor(wpt$month)
+wpt$logsalinity <- log(wpt$salinity)
 str(wpt)
 
 # response variable - number of wpt
 
 hist(wpt$number)
+wpt$lognumber <- log(wpt$number)
+hist(wpt$lognumber)
 dotchart(wpt$number, color = wpt$fhabitat)
 
 # predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
@@ -171,12 +177,15 @@ AIC(mod2, mod.poisson)
 
 # > ZIP model ----
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
-f2 <- formula(number ~ salinity)
-f3 <- formula(number ~ salinity + fhabitat)
+f2 <- formula(lognumber ~ logsalinity + fhabitat + fmgmt)
+f3 <- formula(number ~ logsalinity + fhabitat + fmgmt)
+f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt)
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
 Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
-AIC(Zip1, Zip2, Zip3)
+Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
+
+AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
 summary(Zip3)
 
