@@ -150,8 +150,8 @@ Zip6 <- zeroinfl(f6, dist = "poisson", data = wpt) # taking out month and airtem
 f7 <- formula(number ~ salinity + watertemp + fhabitat + fmgmt)
 Zip7 <- zeroinfl(f7, dist = "poisson", data = wpt) 
 
-f8 <- formula(number ~ salinity + fhabitat)
-Zip8 <- zeroinfl(f8, dist = "poisson", data = wpt)
+#f8 <- formula(number ~ salinity + fhabitat)
+#Zip8 <- zeroinfl(f8, dist = "poisson", data = wpt)
 
 f9 <- formula(number ~ salinity + fhabitat + maxwind + fmgmt)
 Zip9 <- zeroinfl(f9, dist = "poisson", data = wpt)
@@ -159,8 +159,8 @@ Zip9 <- zeroinfl(f9, dist = "poisson", data = wpt)
 f10 <- formula(number ~ salinity + fmgmt)
 Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 
-f11 <- formula(number ~ salinity)
-Zip11 <- zeroinfl(f11, dist = "poisson", data = wpt)
+#f11 <- formula(number ~ salinity)
+#Zip11 <- zeroinfl(f11, dist = "poisson", data = wpt)
 
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
@@ -182,8 +182,9 @@ lrtest(Zip8, nb8)
 #log-likelihood for nb8 is better than Zip8, showing evidence that the ZINB model is a better fit to the data
 AIC(nb8, Zip8)
 summary(nb8) # I still think this interpretation is problematic, and I don't know why the NaNs are int he output...
-
+plot(resid(nb8))
 plot(resid(nb8) ~ wpt$salinity)
+plot(resid(nb8) ~wpt$fhabitat)
 
 
 ####need to decide what should be reported####
