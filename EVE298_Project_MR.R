@@ -11,11 +11,10 @@ library(glmmML)
 library(pscl)
 setwd("C:/Users/mkril/Desktop/EVE298")
 
-
-
-#### Data that is Summed ####
-
 wpt <- read.csv("data/WPT_edited.csv")
+
+# Note that this data has been modified to better fit the skills we learned in class.  
+# Date is replaced with the month sampling took place. Values for air temperature, wind speed, water temperature, salinity, bank cover, and  flow status are averaged for the three visits.  Number is now the sum of the turtles across all three visits.  In the column "present" there is a one if turtles were observed on any of the three visits and a zero if no turtles were observed.
 
 head(wpt)
 str(wpt)
@@ -25,6 +24,8 @@ wpt$fmgmt <- as.factor(wpt$mgmt)
 wpt$fmonth <- as.factor(wpt$month)
 wpt$logsalinity <- log(wpt$salinity)
 str(wpt)
+
+# > data exploration ----
 
 # response variable - number of wpt
 
@@ -77,39 +78,16 @@ mod1 <- lm(number ~ logsalinity, data = wpt)
 summary(mod1)
 plot(mod1) # we have a trumpet which is bad
 
-mod2 <- lm((sqrt(number)) ~ salinity, data = wpt)
-summary(mod2)
-plot(mod2) # it looks worse
+#mod2 <- lm(lognumber ~ logsalinity, data = wpt) #lognumber doesn't work for some reason
+#summary(mod2)
+#plot(mod2) # it looks worse
 
-mod3 <- lm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
+mod3 <- lm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
 summary(mod3)
-plot(mod3)
+plot(mod3) #the trumpet is still problematic
 
 
-# > model diagnostics ----
 
-# 1) variance homogeneity
-plot(mod3)
-
-# the first plot shows fitted vs. residuals, want to see a "starry night", in this case we got a trumpet plot, variance high at high values, this indicates a log linear relationship
-
-# 2) normality of errors
-plot(mod3, 2) # creates a QQ plot, want all data points to fall on theline, indicates normality
-hist(resid(mod3)) # ours is skewed in this case
-
-# 3) variance homogeneity
-plot(resid(mod3) ~ wpt$salinity) #the weirdness comes from length
-boxplot(resid(mod3) ~ wpt$salinity)
-
-# 4) plot predicted values
-
-plot(number ~ salinity, data = wpt)
-
-# now add predicted lines for each month
-
-#plot(AFD ~ LENGTH, data = clams, type = "n")
-# now adding in raw data for each month
-#points(AFD[fMONTH == "2"] ~ LENGTH[fMONTH == "2"], data = clams, col = "red")
 
 # > random structure ----
 
@@ -167,6 +145,30 @@ summary(Zip2)
 
 # > logistic regression ----
 
+# > model diagnostics ----
+
+# 1) variance homogeneity
+plot(mod3)
+
+# the first plot shows fitted vs. residuals, want to see a "starry night", in this case we got a trumpet plot, variance high at high values, this indicates a log linear relationship
+
+# 2) normality of errors
+plot(mod3, 2) # creates a QQ plot, want all data points to fall on theline, indicates normality
+hist(resid(mod3)) # ours is skewed in this case
+
+# 3) variance homogeneity
+plot(resid(mod3) ~ wpt$salinity) #the weirdness comes from length
+boxplot(resid(mod3) ~ wpt$salinity)
+
+# 4) plot predicted values
+
+plot(number ~ salinity, data = wpt)
+
+# now add predicted lines for each month
+
+#plot(AFD ~ LENGTH, data = clams, type = "n")
+# now adding in raw data for each month
+#points(AFD[fMONTH == "2"] ~ LENGTH[fMONTH == "2"], data = clams, col = "red")
 
 #### Questions ####
 
