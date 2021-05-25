@@ -11,49 +11,7 @@ library(glmmML)
 library(pscl)
 setwd("C:/Users/mkril/Desktop/EVE298")
 
-wpt1 <- read.csv("data/WPT_Occupancy_R.csv")
 
-head(wpt1)
-str(wpt1)
-wpt1$fhabitat <- as.factor(wpt1$habitat)
-str(wpt1)
-
-# > lets do some data exploration! ----
-
-plot(number ~ salinity, data = wpt1)
-
-# response variable - number of wpt
-
-hist(wpt1$number)
-dotchart(wpt1$number, color = wpt1$fhabitat)
-
-# predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status
-
-hist(wpt1$salinity)
-dotchart(wpt1$salinity)
-
-hist(wpt1$airtemp)
-dotchart(wpt1$airtemp) 
-
-hist(wpt1$watertemp)
-dotchart(wpt1$watertemp)
-
-hist(wpt1$avgwind)
-dotchart(wpt1$avgwind)
-
-hist(wpt1$flowstatus)
-dotchart(wpt1$flowstatus)
-
-#this is an observational data set, we should check to see if anything is co-linear
-#pairs(wpt)
-#pairs(loyn[,2:5]) #subsetting dataframes [rows, columns]
-#pairs(loyn[,c(2,4,6)])
-#pairs(loyn[,c("AREA", "DIST", "ABUND", "GRAZE")])
-
-
-#looking at the effect of habitat, but also looking at the spread at different habitat levels, may have to check homogeneity of variance closely
-boxplot(wpt1$number ~ wpt1$fhabitat)
-boxplot(wpt1$salinity ~ wpt1$fhabitat) 
 
 #### Data that is Summed ####
 
