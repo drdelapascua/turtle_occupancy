@@ -94,7 +94,7 @@ plot(mod1) # we have a trumpet which is bad
 
 #mod2 <- lm(lognumber ~ logsalinity, data = wpt) #lognumber doesn't work for some reason
 #summary(mod2)
-#plot(mod2) # it looks worse
+#plot(mod2) # it looks worse if you do a sqrt transformation on the number of turtles
 
 mod3 <- lm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
 summary(mod3)
@@ -131,6 +131,9 @@ mod.nb <- glm.nb(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp +
 plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
 # > ZIP model ----
+
+# we did some exploration of ZIP models
+
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
 #f2 <- formula(lognumber ~ logsalinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
 f3 <- formula(number ~ logsalinity + fhabitat + fmgmt)
@@ -142,8 +145,42 @@ Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 
 AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
-summary(Zip1)
-summary(Zip3)
+# trying a ZIP model with all of our predictor variables
+
+f5 <- formula(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt)
+Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
+
+f6 <- formula(number ~ logsalinity + maxwind + watertemp + fhabitat + fmgmt)
+Zip6 <- zeroinfl(f6, dist = "poisson", data = wpt) # taking out month and airtemp fixes the above error????
+
+f7 <- formula(number ~ logsalinity + watertemp + fhabitat + fmgmt)
+Zip7 <- zeroinfl(f7, dist = "poisson", data = wpt) 
+
+f8 <- formula(number ~ logsalinity + fhabitat)
+Zip8 <- zeroinfl(f8, dist = "poisson", data = wpt)
+
+f9 <- formula(number ~ logsalinity + fhabitat)
+Zip9 <- zeroinfl(f9, dist = "poisson", data = wpt)
+
+f10 <- formula(number ~ logsalinity + fmgmt)
+Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
+
+f11 <- formula(number ~ logsalinity)
+Zip11 <- zeroinfl(f11, dist = "poisson", data = wpt)
+
+f12 <- formula(number ~ fmgmt)
+Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
+
+AIC(Zip1, Zip3, Zip6, Zip7, Zip8, Zip9, Zip10, Zip11, Zip12) #Zip 3 and 6 are the best
+
+summary(Zip3) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
+summary(Zip6)
+
+# > ZIP vs. ZINB ----
+# we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
+
+
+
 
 
 
