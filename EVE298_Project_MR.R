@@ -43,31 +43,44 @@ hist(wpt$lognumber,
 
 # predictor variables - logsalinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
 
+plot(salinity ~ number, data = wpt)
 hist(wpt$salinity,
      main="Histogram of Salinities", 
      xlab="Salinity (ppt)",
-     col="green")
+     col="green") #more data points at lower (?) salinities, only a few at higher salinities - log transform? Will stretch out the big ones
 dotchart(wpt$salinity)
 
 hist(wpt$logsalinity,
      main="Histogram of Log Salinities", 
      xlab="Log Salinity",
-     col="green")
+     col="green") #huzzah! we should use the log transformed salinity
 
-hist(wpt$airtemp)
+plot(airtemp ~ number, data = wpt) #funnel shaped - is this good??
+hist(wpt$airtemp) # probably okay?
 dotchart(wpt$airtemp) 
 
-hist(wpt$watertemp)
+plot(watertemp ~ number, data = wpt) # funneled
+hist(wpt$watertemp) #slight skew, but mostly normal. a few outliers that have high temps
 dotchart(wpt$watertemp)
 
-hist(wpt$avgwind)
+plot(avgwind ~ number , data = wpt) #funneled
+hist(wpt$avgwind)#skewed, log trans
 dotchart(wpt$avgwind)
+wpt$logwind <- log(wpt$avgwind)
+hist(wpt$logwind)
+plot(logwind ~ number, data = wpt) #do not use the log scale, its worse
 
-hist(wpt$flowstatus)
+hist(wpt$flowstatus) #up in the corner
 dotchart(wpt$flowstatus)
 
 hist(wpt$baskingarea)
 dotchart(wpt$baskingarea)
+
+# autocorrelation
+plot(watertemp ~ logsalinity, data = wpt) #uncorrelated!
+plot(watertemp ~ airtemp, data = wpt) #correlation, worth a ggplot 
+plot(watertemp ~ maxwind, data = wpt) #uncorr?
+plot(logsalinity ~ airtemp, data = wpt)#uncorr
 
 boxplot(wpt$number ~ wpt$fhabitat)
 boxplot(wpt$logsalinity ~ wpt$fhabitat) 
