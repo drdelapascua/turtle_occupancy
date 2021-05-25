@@ -145,7 +145,7 @@ Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 
 AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
-# trying a ZIP model with all of our predictor variables
+# trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
 f5 <- formula(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt)
 Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
@@ -179,13 +179,22 @@ summary(Zip6)
 # > ZIP vs. ZINB ----
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
+nb3 <- zeroinfl(f3, dist = "negbin", link = "logit", data = wpt)
+nb6 <- zeroinfl(f6, dist = "negbin", link = "logit", data = wpt)
 
+library(lmtest)
+lrtest(Zip3, nb3)
 
+#log-likelihood for nb3 is better than Zip3, showing evidence that the ZINB model is a better fit to the data
 
+summary(nb3) # I still think this interpretation is problematic, and I don't know why the NaNs are int he output...
 
+####need to decide what should be reported####
 
 # > model validation ----
 
+EP <- residuals(nb3, type = "pearson")
+plot(EP)
 
 # > model diagnostics ----
 
