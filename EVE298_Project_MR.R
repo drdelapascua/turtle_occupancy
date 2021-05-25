@@ -22,7 +22,6 @@ str(wpt)
 wpt$fhabitat <- as.factor(wpt$habitat)
 wpt$fmgmt <- as.factor(wpt$mgmt)
 wpt$fmonth <- as.factor(wpt$month)
-wpt$logsalinity <- log(wpt$salinity)
 str(wpt)
 
 # > data exploration ----
@@ -47,13 +46,8 @@ plot(salinity ~ number, data = wpt)
 hist(wpt$salinity,
      main="Histogram of Salinities", 
      xlab="Salinity (ppt)",
-     col="green") #more data points at lower (?) salinities, only a few at higher salinities - log transform? Will stretch out the big ones
+     col="green")
 dotchart(wpt$salinity)
-
-hist(wpt$logsalinity,
-     main="Histogram of Log Salinities", 
-     xlab="Log Salinity",
-     col="green") #huzzah! we should use the log transformed salinity
 
 plot(airtemp ~ number, data = wpt) #funnel shaped - is this good??
 hist(wpt$airtemp) # probably okay?
@@ -83,20 +77,20 @@ plot(watertemp ~ maxwind, data = wpt) #uncorr?
 plot(logsalinity ~ airtemp, data = wpt)#uncorr
 
 boxplot(wpt$number ~ wpt$fhabitat)
-boxplot(wpt$logsalinity ~ wpt$fhabitat) 
+boxplot(wpt$salinity ~ wpt$fhabitat) 
 
 # > preliminary linear model, gaussian distribution ----
 
 #we know this is count data, but we can try to use a linear model to investigate our question and see if this type of model explains our data
-mod1 <- lm(number ~ logsalinity, data = wpt)
+mod1 <- lm(number ~ salinity, data = wpt)
 summary(mod1)
 plot(mod1) # we have a trumpet which is bad
 
-#mod2 <- lm(lognumber ~ logsalinity, data = wpt) #lognumber doesn't work for some reason
+#mod2 <- lm(lognumber ~ salinity, data = wpt) #lognumber doesn't work for some reason
 #summary(mod2)
 #plot(mod2) # it looks worse if you do a sqrt transformation on the number of turtles
 
-mod3 <- lm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
+mod3 <- lm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
 summary(mod3)
 plot(mod3) #the trumpet is still problematic, and adding all the predictors doesn't make the model any better
 
@@ -104,22 +98,22 @@ plot(mod3) #the trumpet is still problematic, and adding all the predictors does
 
 #maybe adding random structure will help improve the model
 
-mod.random <- lme(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, random = ~1|surveypoint, method = "ML",data = wpt)
+mod.random <- lme(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, random = ~1|surveypoint, method = "ML",data = wpt)
 summary(mod.random)
 
 AIC(mod1, mod3, mod.random) # adding in in a random effect improves the model, but the poisson distribution will still be better at fitting this type of data
 
 # > poisson distribution ----
-mod.poisson1 <- glm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
+mod.poisson1 <- glm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
 
 summary(mod.poisson1) # the residual deviance is way higher than the DF, so our model is over dispersed
 
 plot(mod.poisson1) #residuals still have a trumpet pattern
 
 #can we add in a random effect, while also using the poisson distribution?
-mod.poisson2 <- glmer(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = poisson, data = wpt) #this model failed to converge
+mod.poisson2 <- glmer(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = poisson, data = wpt) #this model failed to converge
 
-mod.poisson3 <- glmer(number ~ logsalinity + (1|surveypoint), family = poisson, data = wpt)
+mod.poisson3 <- glmer(number ~ salinity + (1|surveypoint), family = poisson, data = wpt)
 summary(mod.poisson3) #this worked, but the deviance is still really high 
 plot(mod.poisson3) #fitted vs. residuals does not look great
 
@@ -127,7 +121,7 @@ plot(mod.poisson3) #fitted vs. residuals does not look great
 
 # > negative binomial ----
 
-mod.nb <- glm.nb(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, link = "log", data = wpt)
+mod.nb <- glm.nb(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, link = "log", data = wpt)
 plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
 # > ZIP model ----
@@ -135,8 +129,8 @@ plot(mod.nb, 1) #this plot still looks awful, so something is going on
 # we did some exploration of ZIP models
 
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
-#f2 <- formula(lognumber ~ logsalinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
-f3 <- formula(number ~ logsalinity + fhabitat + fmgmt)
+#f2 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
+f3 <- formula(number ~ salinity + fhabitat + fmgmt)
 #f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 #Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
@@ -147,25 +141,25 @@ AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
 # trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
-f5 <- formula(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt)
+f5 <- formula(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt)
 Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
 
-f6 <- formula(number ~ logsalinity + maxwind + watertemp + fhabitat + fmgmt)
+f6 <- formula(number ~ salinity + maxwind + watertemp + fhabitat + fmgmt)
 Zip6 <- zeroinfl(f6, dist = "poisson", data = wpt) # taking out month and airtemp fixes the above error????
 
-f7 <- formula(number ~ logsalinity + watertemp + fhabitat + fmgmt)
+f7 <- formula(number ~ salinity + watertemp + fhabitat + fmgmt)
 Zip7 <- zeroinfl(f7, dist = "poisson", data = wpt) 
 
-f8 <- formula(number ~ logsalinity + fhabitat)
+f8 <- formula(number ~ salinity + fhabitat)
 Zip8 <- zeroinfl(f8, dist = "poisson", data = wpt)
 
-f9 <- formula(number ~ logsalinity + fhabitat + maxwind + fmgmt)
+f9 <- formula(number ~ salinity + fhabitat + maxwind + fmgmt)
 Zip9 <- zeroinfl(f9, dist = "poisson", data = wpt)
 
-f10 <- formula(number ~ logsalinity + fmgmt)
+f10 <- formula(number ~ salinity + fmgmt)
 Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 
-f11 <- formula(number ~ logsalinity)
+f11 <- formula(number ~ salinity)
 Zip11 <- zeroinfl(f11, dist = "poisson", data = wpt)
 
 f12 <- formula(number ~ fmgmt)
@@ -173,21 +167,24 @@ Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
 
 AIC(Zip1, Zip3, Zip6, Zip7, Zip8, Zip9, Zip10, Zip11, Zip12) #Zip 3, 8, and 9 are the best
 
-summary(Zip3) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
-summary(Zip6)
+summary(Zip8) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
+
 
 # > ZIP vs. ZINB ----
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
-nb3 <- zeroinfl(f3, dist = "negbin", link = "logit", data = wpt)
-nb6 <- zeroinfl(f6, dist = "negbin", link = "logit", data = wpt)
+nb8 <- zeroinfl(f8, dist = "negbin", link = "logit", data = wpt)
+
 
 library(lmtest)
-lrtest(Zip3, nb3)
+lrtest(Zip8, nb8)
 
-#log-likelihood for nb3 is better than Zip3, showing evidence that the ZINB model is a better fit to the data
+#log-likelihood for nb8 is better than Zip8, showing evidence that the ZINB model is a better fit to the data
+AIC(nb8, Zip8)
+summary(nb8) # I still think this interpretation is problematic, and I don't know why the NaNs are int he output...
 
-summary(nb3) # I still think this interpretation is problematic, and I don't know why the NaNs are int he output...
+plot(resid(nb8) ~ wpt$salinity)
+
 
 ####need to decide what should be reported####
 
@@ -201,7 +198,7 @@ plot(EP)
 # we have been doing some of this all along (looking at variance homogeneity and fitted vs. residual plots), but there are a few other things that can be done, I have copied the code from class if we want to explore anything else
 
 # 1) variance homogeneity
-#plot(mod3)
+#plot(Zip8)
 
 # the first plot shows fitted vs. residuals, want to see a "starry night", in this case we got a trumpet plot, variance high at high values, this indicates a log linear relationship
 
@@ -210,8 +207,8 @@ plot(EP)
 #hist(resid(mod3)) # ours is skewed in this case
 
 # 3) variance homogeneity
-#plot(resid(mod3) ~ wpt$salinity) #the weirdness comes from length
-#boxplot(resid(mod3) ~ wpt$salinity)
+plot(resid(Zip8) ~ wpt$salinity) 
+boxplot(resid(Zip8) ~ wpt$salinity)
 
 # 4) plot predicted values
 
@@ -226,13 +223,13 @@ plot(EP)
 # > binomial with presence data ----
 
 #what happens if we just do the presence/absence data?
-mod.bino <- glm(present ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = binomial, data = wpt)
+mod.bino <- glm(present ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = binomial, data = wpt)
 summary(mod.bino)
 plot(mod.bino) #weird pattern in residuals...
 
 # > adding a random effect for site, using binomial with presence data----
 
-mod.lmer <- glmer(present ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = binomial, data = wpt)
+mod.lmer <- glmer(present ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = binomial, data = wpt)
 
 summary(mod.lmer)
 plot(mod.lmer)
