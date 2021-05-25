@@ -20,8 +20,6 @@ wpt <- read.csv("data/WPT_edited.csv")
 head(wpt)
 str(wpt)
 
-hist(wpt$salinity)
-hist(wpt$logsalinity)
 wpt$fhabitat <- as.factor(wpt$habitat)
 wpt$fmgmt <- as.factor(wpt$mgmt)
 wpt$fmonth <- as.factor(wpt$month)
@@ -30,15 +28,30 @@ str(wpt)
 
 # response variable - number of wpt
 
-hist(wpt$number)
-wpt$lognumber <- log(wpt$number)
-hist(wpt$lognumber)
+hist(wpt$number,
+     main="Histogram of Western Pond Turtles Observed", 
+     xlab="Number of Turtles",
+     col="green")
 dotchart(wpt$number, color = wpt$fhabitat)
 
-# predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
+wpt$lognumber <- log(wpt$number)
+hist(wpt$lognumber,
+     main="Histogram of Log Western Pond Turtles Observed", 
+     xlab="Log Number of Turtles",
+     col="green")
 
-hist(wpt$salinity)
+# predictor variables - logsalinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
+
+hist(wpt$salinity,
+     main="Histogram of Salinities", 
+     xlab="Salinity (ppt)",
+     col="green")
 dotchart(wpt$salinity)
+
+hist(wpt$logsalinity,
+     main="Histogram of Log Salinities", 
+     xlab="Log Salinity",
+     col="green")
 
 hist(wpt$airtemp)
 dotchart(wpt$airtemp) 
@@ -56,11 +69,11 @@ hist(wpt$baskingarea)
 dotchart(wpt$baskingarea)
 
 boxplot(wpt$number ~ wpt$fhabitat)
-boxplot(wpt$salinity ~ wpt$fhabitat) 
+boxplot(wpt$logsalinity ~ wpt$fhabitat) 
 
 # > preliminary linear model, gaussian distribution ----
 
-mod1 <- lm(number ~ salinity, data = wpt)
+mod1 <- lm(number ~ logsalinity, data = wpt)
 summary(mod1)
 plot(mod1) # we have a trumpet which is bad
 
