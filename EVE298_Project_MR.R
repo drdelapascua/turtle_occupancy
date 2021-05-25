@@ -132,42 +132,44 @@ plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
 # > ZIP model ----
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
-f2 <- formula(lognumber ~ logsalinity + fhabitat + fmgmt)
+#f2 <- formula(lognumber ~ logsalinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
 f3 <- formula(number ~ logsalinity + fhabitat + fmgmt)
-f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt)
+#f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
-Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
+#Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
 Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
-Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
+#Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
 
 AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
-summary()
-
+summary(Zip1)
 summary(Zip3)
 
-summary(Zip2)
 
 
 # > model validation ----
+
+
 # > model diagnostics ----
 
+# we have been doing some of this all along (looking at variance homogeneity and fitted vs. residual plots), but there are a few other things that can be done, I have copied the code from class if we want to explore anything else
+
 # 1) variance homogeneity
-plot(mod3)
+#plot(mod3)
 
 # the first plot shows fitted vs. residuals, want to see a "starry night", in this case we got a trumpet plot, variance high at high values, this indicates a log linear relationship
 
 # 2) normality of errors
-plot(mod3, 2) # creates a QQ plot, want all data points to fall on theline, indicates normality
-hist(resid(mod3)) # ours is skewed in this case
+#plot(mod3, 2) # creates a QQ plot, want all data points to fall on theline, indicates normality
+#hist(resid(mod3)) # ours is skewed in this case
 
 # 3) variance homogeneity
-plot(resid(mod3) ~ wpt$salinity) #the weirdness comes from length
-boxplot(resid(mod3) ~ wpt$salinity)
+#plot(resid(mod3) ~ wpt$salinity) #the weirdness comes from length
+#boxplot(resid(mod3) ~ wpt$salinity)
 
 # 4) plot predicted values
 
-plot(number ~ salinity, data = wpt)
+#plot(number ~ salinity, data = wpt)
 
 # now add predicted lines for each month
 
