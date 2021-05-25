@@ -87,6 +87,7 @@ boxplot(wpt$logsalinity ~ wpt$fhabitat)
 
 # > preliminary linear model, gaussian distribution ----
 
+#we know this is count data, but we can try to use a linear model to investigate our question and see if this type of model explains our data
 mod1 <- lm(number ~ logsalinity, data = wpt)
 summary(mod1)
 plot(mod1) # we have a trumpet which is bad
@@ -97,45 +98,37 @@ plot(mod1) # we have a trumpet which is bad
 
 mod3 <- lm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
 summary(mod3)
-plot(mod3) #the trumpet is still problematic
-
-
-
+plot(mod3) #the trumpet is still problematic, and adding all the predictors doesn't make the model any better
 
 # > random structure ----
 
-mod.random <- lme(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, random = ~1|surveypoint, method = "ML",data = wpt)
+#maybe adding random structure will help improve the model
+
+mod.random <- lme(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, random = ~1|surveypoint, method = "ML",data = wpt)
 summary(mod.random)
 
-# > poisson distribution ----
-mod.poisson1 <- glm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
+AIC(mod1, mod3, mod.random) # adding in in a random effect improves the model, but the poisson distribution will still be better at fitting this type of data
 
-summary(mod.poisson1) # residual deviance is way higher than the DF, so our model is over dispersed
-plot(mod.poisson1)#residuals have a pattern
+# > poisson distribution ----
+mod.poisson1 <- glm(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
+
+summary(mod.poisson1) # the residual deviance is way higher than the DF, so our model is over dispersed
+
+plot(mod.poisson1) #residuals still have a trumpet pattern
+
+#can we add in a random effect, while also using the poisson distribution?
+mod.poisson2 <- glmer(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = poisson, data = wpt) #this model failed to converge
+
+mod.poisson3 <- glmer(number ~ logsalinity + (1|surveypoint), family = poisson, data = wpt)
+summary(mod.poisson3) #this worked, but the deviance is still really high 
+plot(mod.poisson3) #fitted vs. residuals does not look great
+
+#maybe the negative bionomial distribution will work out better...
 
 # > negative binomial ----
 
-mod.nb <- glm.nb(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, link = "log", data = wpt)
-plot(mod.nb, 1)
-
-# > binomial with presence data ----
-
-mod.bino <- glm(present ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = binomial, data = wpt)
-summary(mod.bino)
-plot(mod.bino)
-
-# > adding a random effect for site, using binomial ----
-
-mod.lmer <- glmer(present ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = binomial, data = wpt)
-
-
-summary(mod.lmer)
-plot(mod.lmer)
-str(wpt)
-
-# > model validation ----
-
-AIC(mod2, mod.poisson)
+mod.nb <- glm.nb(number ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, link = "log", data = wpt)
+plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
 # > ZIP model ----
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
@@ -154,10 +147,9 @@ summary()
 summary(Zip3)
 
 summary(Zip2)
-#### Presence/Absence Data ####
 
-# > logistic regression ----
 
+# > model validation ----
 # > model diagnostics ----
 
 # 1) variance homogeneity
@@ -183,7 +175,24 @@ plot(number ~ salinity, data = wpt)
 # now adding in raw data for each month
 #points(AFD[fMONTH == "2"] ~ LENGTH[fMONTH == "2"], data = clams, col = "red")
 
-#### Questions ####
+# > binomial with presence data ----
+
+#what happens if we just do the presence/absence data?
+mod.bino <- glm(present ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = binomial, data = wpt)
+summary(mod.bino)
+plot(mod.bino) #weird pattern in residuals...
+
+# > adding a random effect for site, using binomial with presence data----
+
+mod.lmer <- glmer(present ~ logsalinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = binomial, data = wpt)
+
+summary(mod.lmer)
+plot(mod.lmer)
+
+# > logistic regression ----
+
+
+# > Questions and Challenges ----
 
 # how to deal with uneven sampling
 # how to deal with repeat visits
