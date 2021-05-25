@@ -159,7 +159,7 @@ Zip7 <- zeroinfl(f7, dist = "poisson", data = wpt)
 f8 <- formula(number ~ logsalinity + fhabitat)
 Zip8 <- zeroinfl(f8, dist = "poisson", data = wpt)
 
-f9 <- formula(number ~ logsalinity + fhabitat)
+f9 <- formula(number ~ logsalinity + fhabitat + maxwind + fmgmt)
 Zip9 <- zeroinfl(f9, dist = "poisson", data = wpt)
 
 f10 <- formula(number ~ logsalinity + fmgmt)
@@ -171,7 +171,7 @@ Zip11 <- zeroinfl(f11, dist = "poisson", data = wpt)
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
 
-AIC(Zip1, Zip3, Zip6, Zip7, Zip8, Zip9, Zip10, Zip11, Zip12) #Zip 3 and 6 are the best
+AIC(Zip1, Zip3, Zip6, Zip7, Zip8, Zip9, Zip10, Zip11, Zip12) #Zip 3, 8, and 9 are the best
 
 summary(Zip3) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
 summary(Zip6)
