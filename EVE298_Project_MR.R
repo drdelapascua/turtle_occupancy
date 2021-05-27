@@ -129,20 +129,21 @@ anova(mod.poisson1, mod.poisson3, mod.poisson4, test = "Chi")
 mod.nb <- glm.nb(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, link = "log", data = wpt)
 plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
+#mod.nb.random <- glmer.nb(number ~ salinity + fhabitat + fmgmt + (1|surveypoint), data = wpt) #doesnt converge
+#plot(mod.nb.random, 1) 
+
 # > ZIP model ----
 
 # we did some exploration of ZIP models
 
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
-#f2 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
-#f3 <- formula(number ~ salinity + fhabitat + fmgmt)
-#f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
+
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 #Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
 #Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 #Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
 
-#AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
+
 
 # trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
@@ -169,24 +170,25 @@ Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
+summary(Zip12)
+AIC(Zip1, Zip6, Zip7, Zip9, Zip10, Zip12) #Zip 1 and 9 are the best
 
-AIC(Zip1, Zip5, Zip6, Zip7, Zip9, Zip10, Zip12) #Zip 3, 8, and 9 are the best
-
-summary(Zip5) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
-
+summary(Zip1) 
+summary(Zip9)
 
 # > ZIP vs. ZINB ----
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
 nb8 <- zeroinfl(f8, dist = "negbin", link = "logit", data = wpt)
-
+nb9 <- zeroinfl(f9, dist = "negbin", link = "logit", data = wpt)
 
 library(lmtest)
 lrtest(Zip8, nb8)
 
 #log-likelihood for nb8 is better than Zip8, showing evidence that the ZINB model is a better fit to the data
 AIC(nb8, Zip8)
-summary(nb8) # I still think this interpretation is problematic, and I don't know why the NaNs are int he output...
+summary(nb8) 
+
 plot(resid(nb8))
 plot(resid(nb8) ~ wpt$salinity)
 plot(resid(nb8) ~wpt$fhabitat)
