@@ -40,7 +40,7 @@ hist(wpt$lognumber,
      xlab="Log Number of Turtles",
      col="green")
 
-# predictor variables - logsalinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
+# predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
 
 plot(salinity ~ number, data = wpt)
 hist(wpt$salinity,
