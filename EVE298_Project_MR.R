@@ -115,7 +115,12 @@ mod.poisson2 <- glmer(number ~ salinity + fmonth + airtemp + maxwind + watertemp
 
 mod.poisson3 <- glmer(number ~ salinity + (1|surveypoint), family = poisson, data = wpt)
 summary(mod.poisson3) #this worked, but the deviance is still really high 
-plot(mod.poisson3) #fitted vs. residuals does not look great
+plot(resid(mod.poisson3)) #fitted vs. residuals does not look great
+
+mod.poisson4 <- glmer(number ~ salinity + fhabitat + (1|surveypoint), family = poisson, data = wpt)
+summary(mod.poisson4) #this worked, but the deviance is still really high 
+plot(resid(mod.poisson4)) #fitted vs. residuals does not look great
+
 
 #maybe the negative bionomial distribution will work out better...
 
@@ -130,18 +135,18 @@ plot(mod.nb, 1) #this plot still looks awful, so something is going on
 
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
 #f2 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
-f3 <- formula(number ~ salinity + fhabitat + fmgmt)
+#f3 <- formula(number ~ salinity + fhabitat + fmgmt)
 #f4 <- formula(lognumber ~ salinity + fhabitat + fmgmt) #log transforming the data doesn't work for these models
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 #Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
-Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
+#Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 #Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
 
-AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
+#AIC(Zip1, Zip3) # salinity should be log transformed - better AIC
 
 # trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
-f5 <- formula(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt)
+f5 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fhabitat + fmgmt)
 Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
 
 f6 <- formula(number ~ salinity + maxwind + watertemp + fhabitat + fmgmt)
@@ -165,9 +170,9 @@ Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
 
-AIC(Zip1, Zip3, Zip6, Zip7, Zip8, Zip9, Zip10, Zip11, Zip12) #Zip 3, 8, and 9 are the best
+AIC(Zip1, Zip5, Zip6, Zip7, Zip9, Zip10, Zip12) #Zip 3, 8, and 9 are the best
 
-summary(Zip8) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
+summary(Zip5) # I'm finding it hard to interpret the summary table...I'm not sure if the result for salinity makes sense
 
 
 # > ZIP vs. ZINB ----
