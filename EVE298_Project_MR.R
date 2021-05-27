@@ -171,19 +171,30 @@ Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
 summary(Zip12)
-AIC(Zip1, Zip6, Zip7, Zip9, Zip10, Zip12) #Zip 1 and 9 are the best
+AIC(Zip1, Zip6, Zip8, Zip7, Zip9, Zip10, Zip13) #Zip 1 and 9 are the best
 
 summary(Zip1) 
 summary(Zip9)
 
+f13 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fmgmt)
+Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
+summary(Zip13)
+
+
+
 # > ZIP vs. ZINB ----
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
-nb8 <- zeroinfl(f8, dist = "negbin", link = "logit", data = wpt)
-nb9 <- zeroinfl(f9, dist = "negbin", link = "logit", data = wpt)
+
+f13 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fmgmt)
+Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
+summary(Zip13)
+nb13 <- zeroinfl(f13, dist = "negbin", link = "logit", data = wpt)
+summary(nb13)
 
 library(lmtest)
-lrtest(Zip8, nb8)
+lrtest(Zip13, nb13)
+AIC(Zip13, nb13)
 
 #log-likelihood for nb8 is better than Zip8, showing evidence that the ZINB model is a better fit to the data
 AIC(nb8, Zip8)
@@ -193,6 +204,15 @@ plot(resid(nb8))
 plot(resid(nb8) ~ wpt$salinity)
 plot(resid(nb8) ~wpt$fhabitat)
 
+# > ZAP and ZANB ----
+
+H1 <- hurdle(f1, dist = "poisson", link = "logit", data = wpt)
+
+H8 <- hurdle(f8, dist = "poisson", link = "logit", data = wpt)
+
+H9 <- hurdle(f9, dist = "poisson", link = "logit", data = wpt)
+
+summary(H8)
 
 ####need to decide what should be reported####
 
