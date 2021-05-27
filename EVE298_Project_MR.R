@@ -119,9 +119,9 @@ plot(resid(mod.poisson3)) #fitted vs. residuals does not look great
 
 mod.poisson4 <- glmer(number ~ salinity + fhabitat + (1|surveypoint), family = poisson, data = wpt)
 summary(mod.poisson4) #this worked, but the deviance is still really high 
-plot(resid(mod.poisson4)) #fitted vs. residuals does not look great
+plot(resid(mod.poisson4)) 
 
-
+anova(mod.poisson1, mod.poisson3, mod.poisson4, test = "Chi")
 #maybe the negative bionomial distribution will work out better...
 
 # > negative binomial ----
