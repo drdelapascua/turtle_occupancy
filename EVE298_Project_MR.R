@@ -77,7 +77,9 @@ plot(watertemp ~ maxwind, data = wpt) #uncorr?
 plot(logsalinity ~ airtemp, data = wpt)#uncorr
 
 boxplot(wpt$number ~ wpt$fhabitat)
-boxplot(wpt$salinity ~ wpt$fhabitat) 
+boxplot(wpt$salinity ~ wpt$fmgmt) 
+
+tally(surveypoint, data = wpt)
 
 # > preliminary linear model, gaussian distribution ----
 
@@ -90,7 +92,7 @@ plot(mod1) # we have a trumpet which is bad
 #summary(mod2)
 #plot(mod2) # it looks worse if you do a sqrt transformation on the number of turtles
 
-mod3 <- lm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, data = wpt)
+mod3 <- lm(number ~ salinity + fmgmt + fhabitat + airtemp + maxwind + fmonth, data = wpt)
 summary(mod3)
 plot(mod3) #the trumpet is still problematic, and adding all the predictors doesn't make the model any better
 
@@ -147,8 +149,9 @@ Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 
 # trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
-f5 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fhabitat + fmgmt)
+f5 <- formula(number ~ salinity + fmonth + maxwind + watertemp + airtemp + fhabitat + fmgmt)
 Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
+summary(Zip5)
 
 f6 <- formula(number ~ salinity + maxwind + watertemp + fhabitat + fmgmt)
 Zip6 <- zeroinfl(f6, dist = "poisson", data = wpt) # taking out month and airtemp fixes the above error????
@@ -176,9 +179,6 @@ AIC(Zip1, Zip6, Zip8, Zip7, Zip9, Zip10, Zip13) #Zip 1 and 9 are the best
 summary(Zip1) 
 summary(Zip9)
 
-f13 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fmgmt)
-Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
-summary(Zip13)
 
 
 
@@ -186,11 +186,16 @@ summary(Zip13)
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
 
-f13 <- formula(number ~ salinity + fmonth + maxwind + watertemp + fmgmt)
+f13 <- formula(number ~ salinity + fmgmt + airtemp + maxwind + watertemp + fmonth)
 Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
 summary(Zip13)
 nb13 <- zeroinfl(f13, dist = "negbin", link = "logit", data = wpt)
 summary(nb13)
+
+f14 <- formula(number ~ salinity + fmgmt + fhabitat + airtemp + maxwind + watertemp + fmonth)
+Zip14 <- zeroinfl(f14, dist = "poisson", data = wpt)
+summary(Zip14)
+
 
 library(lmtest)
 lrtest(Zip13, nb13)
