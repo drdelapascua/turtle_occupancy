@@ -27,30 +27,6 @@ wpt.new <- wpt
 'subsetting management type'
 managed <- subset(wpt.new, wpt.new$fmgmt == "managed")
 
-'glm.nb, all managed data'
-mod.managed.glmnb <- glm.nb(number ~ salinity + fhabitat + fmonth + airtemp + maxwind + watertemp, data = managed)
-summary(mod.managed.glmnb)
-plot(mod.managed.glmnb, 1)
-
-
-'glm, all managed data'
-mod.managed.glm <- glm(number ~ salinity + fhabitat + fmonth + airtemp + maxwind + watertemp, data = managed)
-summary(mod.managed.glm)
-plot(mod.managed.pos2, 1)
-
-
-
-'glm, without zeroes, poisson'
-mod.managed.pos.glmp <- glm(number ~ salinity + fhabitat + fmonth + airtemp + maxwind + watertemp, data = managed.pos, family = poisson)
-summary(mod.managed.pos.p)
-plot(mod.managed.pos.p)
-
-
-
-AIC(mod.managed.pos, mod.managed.glmnb, mod.managed.glm, mod.managed.pos.glmp)
-
-
-
 
 
 'glm, without zeroes' #winner
