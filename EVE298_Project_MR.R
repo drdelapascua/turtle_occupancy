@@ -79,14 +79,12 @@ plot(logsalinity ~ airtemp, data = wpt)#uncorr
 boxplot(wpt$number ~ wpt$fhabitat)
 boxplot(wpt$salinity ~ wpt$fmgmt) 
 
-tally(surveypoint, data = wpt)
-
 # > preliminary linear model, gaussian distribution ----
 
 #we know this is count data, but we can try to use a linear model to investigate our question and see if this type of model explains our data
-mod1 <- lm(number ~ salinity, data = wpt)
-summary(mod1)
-plot(mod1) # we have a trumpet which is bad
+#mod1 <- lm(number ~ salinity, data = wpt)
+#summary(mod1)
+#plot(mod1) # we have a trumpet which is bad
 
 #mod2 <- lm(lognumber ~ salinity, data = wpt) #lognumber doesn't work for some reason
 #summary(mod2)
@@ -106,11 +104,11 @@ summary(mod.random)
 AIC(mod1, mod3, mod.random) # adding in in a random effect improves the model, but the poisson distribution will still be better at fitting this type of data
 
 # > poisson distribution ----
-mod.poisson1 <- glm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
+mod.poisson <- glm(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt, family = poisson, data = wpt)
 
-summary(mod.poisson1) # the residual deviance is way higher than the DF, so our model is over dispersed
+summary(mod.poisson) # the residual deviance is way higher than the DF, so our model is over dispersed
 
-plot(mod.poisson1) #residuals still have a trumpet pattern
+plot(mod.poisson) #residuals still have a trumpet pattern
 
 #can we add in a random effect, while also using the poisson distribution?
 mod.poisson2 <- glmer(number ~ salinity + fmonth + airtemp + maxwind + watertemp + fhabitat + fmgmt + (1|surveypoint), family = poisson, data = wpt) #this model failed to converge
@@ -139,19 +137,15 @@ plot(mod.nb, 1) #this plot still looks awful, so something is going on
 # we did some exploration of ZIP models
 
 f1 <- formula(number ~ salinity + fhabitat + fmgmt) 
-
 Zip1 <- zeroinfl(f1, dist = "poisson", data = wpt)
 #Zip2 <- zeroinfl(f2, dist = "poisson", data = wpt)
 #Zip3 <- zeroinfl(f3, dist = "poisson", data = wpt)
 #Zip4 <- zeroinfl(f4, dist = "poisson", data = wpt)
 
-
-
 # trying a ZIP model with all of our predictor variables, and taking the different predictors out to see which explanatory variables can be dropped
 
 f5 <- formula(number ~ salinity + fmonth + maxwind + watertemp + airtemp + fhabitat + fmgmt)
 Zip5 <- zeroinfl(f5, dist = "poisson", data = wpt) # I get an error
-summary(Zip5)
 
 f6 <- formula(number ~ salinity + maxwind + watertemp + fhabitat + fmgmt)
 Zip6 <- zeroinfl(f6, dist = "poisson", data = wpt) # taking out month and airtemp fixes the above error????
@@ -174,18 +168,13 @@ Zip10 <- zeroinfl(f10, dist = "poisson", data = wpt)
 f12 <- formula(number ~ fmgmt)
 Zip12 <- zeroinfl(f12, dist = "poisson", data = wpt)
 summary(Zip12)
-AIC(Zip1, Zip6, Zip8, Zip7, Zip9, Zip10, Zip13) #Zip 1 and 9 are the best
-
-summary(Zip1) 
-summary(Zip9)
-
-
+AIC(Zip1, Zip6, Zip8, Zip7, Zip9, Zip10, Zip13) #Zip 1 and 9 are the best, but we decided to keep all of our predictors in the model
 
 
 # > ZIP vs. ZINB ----
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
-
+# below are the final models
 f13 <- formula(number ~ salinity + fmgmt + airtemp + maxwind + watertemp + fmonth) # the ZIP after we took out habitat
 Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
 summary(Zip13)
@@ -208,13 +197,9 @@ library(lmtest)
 lrtest(Zip13, nb13)
 AIC(Zip13, nb13)
 
-#log-likelihood for nb8 is better than Zip8, showing evidence that the ZINB model is a better fit to the data
-AIC(nb8, Zip8)
-summary(nb8) 
+#log-likelihood for nb13 is better than Zip13, showing evidence that the ZINB model is a better fit to the data
+####need to decide what should be reported####
 
-plot(resid(nb8))
-plot(resid(nb8) ~ wpt$salinity)
-plot(resid(nb8) ~wpt$fhabitat)
 
 # > ZAP and ZANB ----
 
@@ -224,22 +209,19 @@ H8 <- hurdle(f8, dist = "poisson", link = "logit", data = wpt)
 
 H9 <- hurdle(f9, dist = "poisson", link = "logit", data = wpt)
 
-summary(H8)
-
-####need to decide what should be reported####
 
 # > model validation ----
 
 EP <- residuals(nb13, type = "pearson")
 summary(EP)
-
+#plot the residuals against all of the predictors, looking for patterns
 plot(EP ~ wpt$salinity)
 plot(EP ~ wpt$fmgmt)
 plot(EP ~ wpt$airtemp)
 plot(EP ~ wpt$maxwind)
 plot(EP ~ wpt$fmonth)
 
-
+ 
 
 # > model diagnostics ----
 
@@ -255,8 +237,8 @@ plot(EP ~ wpt$fmonth)
 #hist(resid(mod3)) # ours is skewed in this case
 
 # 3) variance homogeneity
-plot(resid(Zip8) ~ wpt$salinity) 
-boxplot(resid(Zip8) ~ wpt$salinity)
+#plot(resid(Zip8) ~ wpt$salinity) 
+#boxplot(resid(Zip8) ~ wpt$salinity)
 
 # 4) plot predicted values
 
@@ -281,9 +263,6 @@ mod.lmer <- glmer(present ~ salinity + fmonth + airtemp + maxwind + watertemp + 
 
 summary(mod.lmer)
 plot(mod.lmer)
-
-# > logistic regression ----
-
 
 # > Questions and Challenges ----
 
