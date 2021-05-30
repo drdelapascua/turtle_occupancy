@@ -202,7 +202,7 @@ nb15 <- zeroinfl(f15, dist = "negbin", link = "logit", data = wpt)
 summary(Zip15)
 summary(nb15)
 AIC(Zip15, nb15)
-AIC(nb15, nb13)
+AIC(nb15, nb13) # experimenting with different ways of modeling the two parts...this is explained on page 279 of Zurr
 
 library(lmtest)
 lrtest(Zip13, nb13)
