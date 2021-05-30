@@ -230,8 +230,16 @@ summary(H8)
 
 # > model validation ----
 
-EP <- residuals(nb3, type = "pearson")
-plot(EP)
+EP <- residuals(nb13, type = "pearson")
+summary(EP)
+
+plot(EP ~ wpt$salinity)
+plot(EP ~ wpt$fmgmt)
+plot(EP ~ wpt$airtemp)
+plot(EP ~ wpt$maxwind)
+plot(EP ~ wpt$fmonth)
+
+
 
 # > model diagnostics ----
 
