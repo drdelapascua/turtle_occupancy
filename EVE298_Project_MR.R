@@ -186,16 +186,23 @@ summary(Zip9)
 # we need to see if the ZIP model properly took care of the overdispersion, to do this we'll compare it to a ZINB model
 
 
-f13 <- formula(number ~ salinity + fmgmt + airtemp + maxwind + watertemp + fmonth)
+f13 <- formula(number ~ salinity + fmgmt + airtemp + maxwind + watertemp + fmonth) # the ZIP after we took out habitat
 Zip13 <- zeroinfl(f13, dist = "poisson", data = wpt)
 summary(Zip13)
 nb13 <- zeroinfl(f13, dist = "negbin", link = "logit", data = wpt)
 summary(nb13)
 
-f14 <- formula(number ~ salinity + fmgmt + fhabitat + airtemp + maxwind + watertemp + fmonth)
+f14 <- formula(number ~ salinity + fmgmt + fhabitat + airtemp + maxwind + watertemp + fmonth) # the Zip with habitat still
 Zip14 <- zeroinfl(f14, dist = "poisson", data = wpt)
 summary(Zip14)
 
+f15 <- formula(number ~ salinity + fmgmt + airtemp + maxwind + watertemp + fmonth|salinity + fmgmt + airtemp + maxwind + watertemp + fmonth)# testing out a model if we think the same covariates affect both parts of the model - see Zurr
+Zip15 <- zeroinfl(f15, dist = "poisson", data = wpt)
+nb15 <- zeroinfl(f15, dist = "negbin", link = "logit", data = wpt)
+summary(Zip15)
+summary(nb15)
+AIC(Zip15, nb15)
+AIC(nb15, nb13)
 
 library(lmtest)
 lrtest(Zip13, nb13)
