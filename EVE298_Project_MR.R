@@ -213,7 +213,7 @@ H9 <- hurdle(f9, dist = "poisson", link = "logit", data = wpt)
 # > model validation ----
 
 EP <- residuals(nb13, type = "pearson")
-summary(EP)
+plot(EP)
 #plot the residuals against all of the predictors, looking for patterns
 plot(EP ~ wpt$salinity)
 plot(EP ~ wpt$fmgmt)
@@ -221,7 +221,6 @@ plot(EP ~ wpt$airtemp)
 plot(EP ~ wpt$maxwind)
 plot(EP ~ wpt$fmonth)
 
- 
 
 # > model diagnostics ----
 
