@@ -34,15 +34,21 @@ hist(wpt$number,
      col="green")
 dotchart(wpt$number, color = wpt$fhabitat)
 
-wpt$lognumber <- log(wpt$number)
-hist(wpt$lognumber,
-     main="Histogram of Log Western Pond Turtles Observed", 
-     xlab="Log Number of Turtles",
-     col="green")
+#wpt$lognumber <- log(wpt$number)
+#hist(wpt$lognumber,
+     #main="Histogram of Log Western Pond Turtles Observed", 
+     #xlab="Log Number of Turtles",
+     #col="green")
 
 # predictor variables - salinity, habitat type, air temp, water temperature, wind speed, flow status, mgmt, basking
 
-plot(salinity ~ number, data = wpt)
+plot(wpt$number ~ wpt$salinity,
+     main="Salinity and Number of Turtles Observed", 
+     xlab="Salinity (ppt)",
+     ylab = "Number of Turtles",
+     pch = 21,
+     col= "green4",
+     bg = "green")
 hist(wpt$salinity,
      main="Histogram of Salinities", 
      xlab="Salinity (ppt)",
@@ -71,10 +77,10 @@ hist(wpt$baskingarea)
 dotchart(wpt$baskingarea)
 
 # autocorrelation
-plot(watertemp ~ logsalinity, data = wpt) #uncorrelated!
+plot(watertemp ~ salinity, data = wpt) #uncorrelated!
 plot(watertemp ~ airtemp, data = wpt) #correlation, worth a ggplot 
 plot(watertemp ~ maxwind, data = wpt) #uncorr?
-plot(logsalinity ~ airtemp, data = wpt)#uncorr
+plot(salinity ~ airtemp, data = wpt)#uncorr
 
 boxplot(wpt$number ~ wpt$fhabitat)
 boxplot(wpt$salinity ~ wpt$fmgmt) 
