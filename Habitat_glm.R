@@ -26,12 +26,44 @@ wpt.new <- wpt
 
 'subsetting management type'
 managed <- subset(wpt.new, wpt.new$fmgmt == "managed")
+table(managed$fhabitat)
+tidal <- subset(wpt.new, wpt.new$fmgmt == "tidal")
 
 
-
-'glm, without zeroes' #winner
+'glm, negative binomial, without zeroes' #winner
 managed.pos <- subset(managed, managed$number > 0)
-mod.managed.pos.glmnb <- glm.nb(number ~ salinity + fhabitat + fmonth + airtemp + maxwind + watertemp, data = managed.pos)
-summary(mod.managed.pos.glmnb)
-summary(mod.managed.pos)
-plot(mod.managed.pos, 1)
+mod.glmnb <- glm.nb(number ~ salinity + fhabitat + fmonth + airtemp + maxwind + watertemp, data = managed.pos)
+summary(mod.glmnb)
+plot(mod.glmnb)
+
+
+AIC(mod.bd, mod.md, mod.pond)
+plot(resid(mod.glmnb) ~ managed.pos$number) #many zeros, a couple large numbers
+plot(resid(mod.glmnb) ~ managed.pos$salinity) # starry night, skewed left
+plot(resid(mod.glmnb) ~ managed.pos$airtemp) # starry night
+plot(resid(mod.glmnb) ~ managed.pos$maxwind) # starry night
+plot(resid(mod.glmnb) ~ managed.pos$watertemp) # starry night
+boxplot(resid(mod.glmnb) ~ managed.pos$fhabitat) # the 3 habitat types do not center great around the mean
+boxplot(resid(mod.glmnb) ~ managed.pos$fmonth) # June's mean separate from the mean
+
+coplot(number ~ salinity|fhabitat, data = managed.pos) # used in presentation
+coplot(number ~ fmonth|fhabitat, data = managed.pos)
+
+plot(number ~ fmonth, data = managed.pos)
+
+
+
+
+# Following code shows that we really need more samples to be able to compute the models
+bd <- subset(managed.pos, fhabitat == "Borrow Ditch")
+mod.bd <- lme(number ~ salinity + fmonth + airtemp + maxwind + watertemp, data = bd)
+summary(mod.bd)
+
+md <- subset(managed.pos, fhabitat == "Major Ditch")
+mod.md <- lme(number ~ salinity + fmonth + airtemp + maxwind + watertemp, data = md)
+summary(mod.md)
+
+pond <- subset(managed.pos, fhabitat == "Pond")
+mod.pond <- lme(number ~ salinity + fmonth + airtemp + maxwind + watertemp, data = pond)
+summary(mod.pond)
+plot(mod.pond)
